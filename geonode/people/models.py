@@ -133,6 +133,13 @@ class Profile(AbstractUser):
         blank=True,
     )
 
+    iin = models.CharField(
+        _("IIN"),
+        db_index=True,
+        unique=True,
+        max_length=12
+    )
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._previous_active_state = self.is_active

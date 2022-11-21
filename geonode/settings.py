@@ -2226,3 +2226,8 @@ SUPPORTED_DATASET_FILE_TYPES = [
         "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "xml"]
     }
 ]
+
+AUTHENTICATION_BACKENDS += (
+    'geonode.people.auth_backends.SignAuthenticationBackend',
+    'geonode.people.auth_backends.IinAuthenticationBackend',
+)

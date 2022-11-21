@@ -24,6 +24,14 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
 from django.utils.translation import ugettext as _
 
+from datetime import datetime
+import requests
+from allauth.account.forms import SignupForm, LoginForm, PasswordField
+from .utils import filter_users_by_iin
+
+import logging
+
+
 from captcha.fields import ReCaptchaField
 
 # Ported in from django-registration
@@ -92,3 +100,81 @@ class ProfileForm(forms.ModelForm):
             'is_active',
             'date_joined'
         )
+
+class CustomSignupForm(SignupForm):
+    def __init__(self, *args, **kwargs):
+        super(CustomSignupForm, self).__init__(*args, **kwargs)
+        # del self.fields["username"]
+
+    sign = forms.CharField(widget=forms.HiddenInput())
+
+    def clean(self):
+        cleaned_data = super(CustomSignupForm, self).clean()
+        
+        value = cleaned_data.get("sign")
+
+        r = requests.post('http://ncanode:14579', json={'version': '1.0', 'method': 'XML.verify', 'params': {'xml': value}})
+
+        result = r.json()['result']
+        cert_finish_date = datetime.strptime(result['cert']['notAfter'], '%Y-%m-%d %H:%M:%S')
+        iin = result['cert']['subject']['iin']
+        common_name  = result['cert']['subject']['commonName'].split()
+        first_name = common_name[1]
+        last_name = common_name[0]
+
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.info("fucking bitch asdfl;kjasd;fkjasd;fjaskfjsad;fjasfkjdsaklfjas;fljsdf;ljsdkfja;fkjdasfja;klfj")
+
+
+        if filter_users_by_iin(iin).exists():
+            raise forms.ValidationError(_('IIN already taken'))
+        if not result['valid'] or not result['cert']['valid']:
+            raise forms.ValidationError(_('Sign not valid'))
+        if datetime.today() > cert_finish_date:
+            raise forms. ValidationError(_('Sign date expired'))
+        
+        self.cleaned_data['iin'] = iin
+        self.cleaned_data['first_name'] = first_name
+        self.cleaned_data['last_name'] = last_name
+
+        return self.cleaned_data
+
+class CustomLoginForm(LoginForm):
+    def __init__(self, *args, **kwargs):
+        super(CustomLoginForm, self).__init__(*args, **kwargs)
+        iin_widget = forms.TextInput(
+            attrs={"placeholder": _("IIN")}
+        )
+        iin_field = forms.CharField(
+            label=_("IIN"),
+            widget=iin_widget,
+            required=False
+        )
+        self.fields["iin"] = iin_field
+        self.fields["password"] = PasswordField(label=_("Password"), autocomplete="current-password", required=False)
+        del self.fields["login"]
+
+    def user_credentials(self):
+        # credentials = super(CustomLoginForm, self).user_credentials()
+        credentials = {}
+        credentials["iin"] = self.cleaned_data["iin"]
+        credentials["password"] = self.cleaned_data["password"]
+        credentials["sign"] = self.cleaned_data["sign"]
+        return credentials
+
+    def clean(self):
+        if self._errors:
+            return
+        credentials = self.user_credentials()
+        from allauth.account.adapter import get_adapter
+        user = get_adapter(self.request).authenticate(self.request, **credentials)
+        if user:
+            self.user = user
+        else:
+            raise forms.ValidationError(
+                _("User not exists")
+            )
+        return self.cleaned_data
+
+    sign = forms.CharField(widget=forms.HiddenInput(), required=False)

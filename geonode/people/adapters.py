@@ -157,6 +157,12 @@ class LocalAccountAdapter(DefaultAccountAdapter, BaseInvitationsAdapter):
         return enhanced_context
 
     def save_user(self, request, user, form, commit=True):
+        from allauth.account.utils import user_field
+        
+        data = form.cleaned_data
+        iin = data.get("iin")
+        user_field(user, "iin", iin)
+
         user = super().save_user(
             request, user, form, commit=commit)
         if settings.ACCOUNT_APPROVAL_REQUIRED:

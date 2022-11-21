@@ -11,7 +11,8 @@
 		"last_name": "",
 		"password": "pbkdf2_sha256$30000$rjuGt0Obn8on$cxF75frIOSaitNklLZ0IJ/VonUW0fwEFVF96o0M+lGc=",
 		"user_permissions": [],
-		"username": "admin"
+		"username": "admin",
+		"iin": "123412341234"
 	},
 	"model": "people.Profile",
 	"pk": 1000

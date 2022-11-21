@@ -588,7 +588,8 @@ def _prepare_admin_fixture(admin_password, admin_email):
                 "last_name": "",
                 "password": make_password(admin_password),
                 "user_permissions": [],
-                "username": "admin"
+                "username": "admin",
+                "iin": "123412341234"
             },
             "model": "people.Profile",
             "pk": 1000

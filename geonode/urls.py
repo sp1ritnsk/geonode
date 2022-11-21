@@ -41,7 +41,7 @@ from geonode import geoserver
 from geonode.utils import check_ogc_backend
 from geonode.base import register_url_event
 from geonode.messaging.urls import urlpatterns as msg_urls
-from .people.views import CustomSignupView
+from .people.views import CustomSignupView, CustomLoginView
 from oauth2_provider.urls import (
     app_name as oauth2_app_name,
     base_urlpatterns,
@@ -130,6 +130,7 @@ urlpatterns += [
 
     # Social views
     url(r'^account/signup/', CustomSignupView.as_view(), name='account_signup'),
+    url(r'^account/login/', CustomLoginView.as_view(), name='account_login'),
     url(r"^account/", include("allauth.urls")),
     url(r'^invitations/', include(
         'geonode.invitations.urls', namespace='geonode.invitations')),

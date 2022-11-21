@@ -82,8 +82,8 @@
           {# dataset_form|as_bootstrap #}
         </div>
 
-        <div class="row">
-          <div class="col-md-12 grid-spacer">
+        <div class="container">
+          <!-- <div class="col-md-10 grid-spacer"> -->
             <fieldset class="form-controls modal-forms modal hide fade" id="poc_form" >
               <h2>{% trans "Point of Contact" %}</h2>
               {{ poc_form|as_bootstrap }}
@@ -103,9 +103,53 @@
               <input type="button" id="btn_next_dwn" class="btn btn-primary" value="{% trans "Next >>" %}"/>
             </div>
             {% endif %}
-          </div>
+          <!-- </div> -->
         </div>
       </form>
+
+      <style>
+        #md_tabs {
+          display: block;
+          margin-bottom: 1rem;
+        }
+        .msgapi .progress-bar {
+          background-color: #6F7EF2;
+        }
+        .msgapi .progress-bar-danger {
+          background-color: #bb4940;
+        }
+        .msgapi .progress-bar-success {
+          background-color: #398439
+        }
+        .wizard--progress,
+        .wizard--progress > li.is-active {
+          color: #6F7EF2;
+        }
+        .wizard--progress > li.is-active:before {
+          background-color: #6F7EF2;
+        }
+        .wizard--progress > li:before {
+          box-shadow: none;
+        }
+        #md_tabs > li > a > i {
+          margin-right: .5rem;
+        }
+
+        #md_tabs > li > .form-actions > .btn.btn-primary {
+          background-color: #FFD55E;
+          color: black;
+          border: none;
+        }
+
+        .logos {
+          display: none;
+        }
+
+        #regions_multiselect_container .fstChoiceItem {
+          background-color: #6F7EF2;
+          border: none;
+        }
+      </style>
 
 {{ block.super }}
 {% endblock body_outer %}

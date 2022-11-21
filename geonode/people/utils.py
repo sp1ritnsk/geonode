@@ -138,3 +138,15 @@ def get_available_users(user):
         member_ids.extend(users_ids)
 
     return get_user_model().objects.filter(id__in=member_ids)
+
+def filter_users_by_iin(*iin):
+    
+    qlist = [
+        Q(**{"iin__iexact": u})
+        for u in iin
+    ]
+    q = qlist[0]
+    for q2 in qlist[1:]:
+        q = q | q2
+    ret = get_user_model()._default_manager.filter(q)
+    return ret

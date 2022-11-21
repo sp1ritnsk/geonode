@@ -1,4 +1,4 @@
-{% extends "geonode_base.html" %}
+{% extends "base.html" %}
 {% load i18n %}
 {% load base_tags %}
 {% load static %}
@@ -15,14 +15,14 @@
 {{ block.super }}
 {% endblock %}
 
-{% block body_outer %}
+{% block middle %}
 
 <div class="page-header">
   <h2 class="page-title">{% trans "Create an empty dataset" %}</h2>
 </div>
 
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-4">
 
     {% if error %}
     <div id="errors" class="alert alert-danger">
@@ -39,13 +39,75 @@
           <button id="add-attr-button" class="add-attr-button btn btn-primary">{% trans "Add Attribute" %}</button>
         </div>
 
-        <button type="submit" id="layer-create-button" class="btn btn-danger" style="margin-top:20px">{% trans "Create" %}</button>
+        <button type="submit" id="layer-create-button" class="btn btn-danger" style="margin-top:20px">{% trans "Create dataset" %}</button>
 
       </form>
     </section>
 
   </div>
 </div>
+
+<style>
+  #wrap {
+    padding-left: 5rem;
+  }
+  .msgapi .page-header {
+    border: none;
+  }
+
+  .msgapi input.form-control,
+  .msgapi select.form-control {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    height: 3rem;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+
+  select.form-control {
+    background-image: url('/static/img/caret-down-black.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 97% center;
+  }
+
+  .input-attrs-wrap {
+    text-align: right;
+  }
+
+  button {
+    border-radius: 5px !important;
+    border: none !important;
+    color: black !important;
+  }
+
+  #add-attr-button {
+    background: #E2E2E2;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: .8rem 1.5rem !important;
+  }
+
+  #add-attr-button::after {
+    content: '';
+    background-image: url('/static/img/black-plus-icon.svg');
+    width: 24px;
+    height: 24px;
+    margin-left: .7rem;
+  }
+
+  #layer-create-button {
+    background: #FFD55E;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1rem 2rem !important;
+  }
+
+
+</style>
 {% endblock %}
 
 

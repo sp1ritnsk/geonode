@@ -51,7 +51,7 @@ class ProfileAdmin(admin.ModelAdmin):
     change_user_password_template = None
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
-        (_('Personal info'), {'fields': ('first_name', 'last_name', 'email')}),
+        (_('Personal info'), {'fields': ('first_name', 'last_name', 'email', 'iin')}),
         (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser',
                                        'groups')}),
         (_('Important dates'), {'fields': ('last_login', 'date_joined')}),
