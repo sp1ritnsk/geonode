@@ -58,6 +58,8 @@
       <link href="{% static "lib/css/assets.min.css" %}" rel="stylesheet"/>
       {% endif %}
       <link href="{% static "geonode/css/base.css" %}" rel="stylesheet"/>
+      <link href="{% static "geonode/css/adaptive.css" %}" rel="stylesheet"/>
+
       <link rel='stylesheet' id='cookie-law-info-css'  href="{% static "geonode/css/cookie-law-info/cookie-law-info-public.css" %}" type='text/css' media='all' />
       <link rel='stylesheet' id='cookie-law-info-gdpr-css'  href="{% static "geonode/css/cookie-law-info/cookie-law-info-gdpr.css" %}" type='text/css' media='all' />
       <style type="text/css">[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}</style>
@@ -122,6 +124,7 @@
           z-index: 0;
         }
         {% endif %}
+        
       </style>
       {% block extra_head %}
       {% endblock %}

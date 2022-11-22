@@ -1,0 +1,17 @@
+.msgapi .form-control {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 8px 20px;
+}
+.msgapi .form-control:focus {
+    border-color: #6F7EF2;
+    outline: none;
+}
+#id_iin {
+    -moz-appearance: textfield;
+}
+#id_iin::-webkit-outer-spin-button,
+#id_iin::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
