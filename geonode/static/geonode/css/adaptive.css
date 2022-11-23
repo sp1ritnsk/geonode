@@ -15,3 +15,9 @@
 #id_iin::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
+table#resource_table td:nth-child(2), table#resource_table td:nth-child(3){
+    word-break: break-word;
+}
+.fade.show {
+    opacity: 1;
+}
