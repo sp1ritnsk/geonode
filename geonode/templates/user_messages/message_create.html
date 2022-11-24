@@ -46,9 +46,10 @@
 
             </div>
         </table>
-        <div class="form-actions">
+        <div class="form-actions d-flex gap-3 flex-wrap">
             <input id="id_form_submit" type="submit" value="{% trans "Send message" %}" class="btn btn-primary"
                    type="button"/>
+            <a href="{% url "messages_inbox" %}" class="btn btn-primary" type="button">{% trans "Back to Inbox" %}</a>
         </div>
     </form>
     <script src="{% static "geonode/js/messages/message_recipients_autocomplete_es5.js" %}"></script>
@@ -76,10 +77,5 @@
     </script>
 {% endblock %}
 
-
-
-{% block sidebar %}
-    <a href="{% url "messages_inbox" %}" class="btn btn-primary" type="button">{% trans "Back to Inbox" %}</a>
-{% endblock %}
 
 
