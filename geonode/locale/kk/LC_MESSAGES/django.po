@@ -5013,3 +5013,482 @@ msgstr ""
 
 msgid "Permission Denied"
 msgstr ""
+
+msgid "Sign not valid"
+msgstr "Қолтаңба жарамсыз"
+
+msgid "Sign date expired"
+msgstr "Қол қою мерзімі аяқталды"
+
+msgid "IIN already taken"
+msgstr "ЖСН қолданыста"
+
+msgid "IIN"
+msgstr "ЖСН"
+
+msgid "Password"
+msgstr "Құпиясөз"
+
+msgid "Signup"
+msgstr "Тіркелу"
+
+msgid "Forgot password?"
+msgstr "Құпия сөзіңізді ұмыттыңыз ба?"
+
+msgid "Log in"
+msgstr "Кіру"
+
+msgid "or"
+msgstr "немесе"
+
+msgid "Log in by EDS"
+msgstr "ЭЦҚ көмегімен жүйеге кіру"
+
+msgid "First time in portal?"
+msgstr "Порталда бірінші рет?"
+
+msgid "Register"
+msgstr "Тіркеу"
+
+msgid "Project name"
+msgstr "Ұлттық кеңістіктік деректер инфрақұрылымы"
+
+msgid "Project subname"
+msgstr "Қазақстан Республикасының ашық кеңістіктік деректер порталы"
+
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+"Сізде есептік жазба бар ма? Бұл жағдайда <a href=\"%(login_url)s"
+"\">енгізіңіз</a>."
+
+msgid "Sign Up"
+msgstr "Тіркеу"
+
+msgid "Register by EDS"
+msgstr "ЭЦҚ көмегімен жүйеге тіркелу"
+
+msgid "Already registered?"
+msgstr "Тіркелдіңіз бе?"
+
+msgid "Create Dataset"
+msgstr "Деректер жиынын құру"
+
+msgid "Create an empty dataset"
+msgstr "Бос деректер жиынын құру"
+
+msgid "Add Attribute"
+msgstr "Атрибут қосу"
+
+msgid "Create dataset"
+msgstr "Деректер жиынын құру"
+
+msgid "String"
+msgstr "Жол"
+
+msgid "Integer"
+msgstr "Бүтін"
+
+msgid "Float"
+msgstr "Ондық"
+
+msgid "Date"
+msgstr "Күні"
+
+msgid "Append to Dataset"
+msgstr "Деректер жиынына қосу"
+
+msgid "Explore Datasets"
+msgstr "Деректер жиынын көру"
+
+msgid "Return to Dataset"
+msgstr "Деректер жиынына оралу"
+
+msgid "Drop files here"
+msgstr "Файлдарды осы жерге жылжытыңыз"
+
+msgid " or select them one by one:"
+msgstr "немесе оларды бір-бірден таңдаңыз:"
+
+msgid "Choose Files"
+msgstr "Файлдарды таңдаңыз"
+
+msgid "Files to be uploaded"
+msgstr "Жүктеп салынатын файлдар"
+
+msgid "Preserve Metadata XML"
+msgstr "XML метадеректерін сақтау"
+
+msgid "Select the charset or leave default"
+msgstr "Кодтауды таңдаңыз немесе әдепкі параметрді қалдырыңыз"
+
+msgid "Clear"
+msgstr "Тазалау"
+
+msgid "Remove Mosaic Granules"
+msgstr "Мозаикалық ұяшықтарды жою"
+
+#, python-format
+msgid ""
+"\n"
+"          Are you sure you want to remove Granule %(granule_id)s of the "
+"Mosaic <a href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a>?\n"
+"        "
+msgstr ""
+"\n"
+"      Сіз <a href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a> "
+"мозаикасындағы %(granule_id)s ұяшықтарды жоюға сенімдісіз бе?\n"
+"      "
+
+msgid "Yes, I am sure"
+msgstr "Иә, мен сенімдімін"
+
+msgid "No, don't remove it"
+msgstr "Жоқ, жоймаңыз"
+
+msgid "This action affects the following maps:"
+msgstr "Бұл әрекет келесі карталарға әсер етеді:"
+
+msgid "No maps are using this dataset"
+msgstr "Ешбір карта бұл деректер жинағын пайдаланбайды"
+
+msgid "Metadata"
+msgstr "Метадеректер"
+
+#, python-format
+msgid "for %(dataset_title)s"
+msgstr "%(dataset_title)s үшін"
+
+msgid "Completeness"
+msgstr "Толықтық"
+
+msgid "Metadata Schema mandatory fields completed"
+msgstr "Толтыруға міндетті метадеректер жолдары"
+
+msgid "Check Schema mandatory fields"
+msgstr "Міндетті схема жолдарын тексеріңіз"
+
+msgid ""
+"Note: this layer's orginal metadata was populated and preserved by importing "
+"a metadata XML file.\n"
+"          This metadata cannot be edited."
+msgstr ""
+"Ескерту: Осы қабаттың бастапқы метадеректері XML метадеректер файлын "
+"импорттау арқылы толтырылды және сақталды.\n"
+"Бұл метадеректерді өңдеу мүмкін емес."
+
+msgid ""
+"Note: this layer's orginal metadata was populated by importing a metadata "
+"XML file.\n"
+"          GeoNode's metadata import supports a subset of ISO, FGDC, and "
+"Dublin Core metadata elements.\n"
+"          Some of your original metadata may have been lost."
+msgstr ""
+"Ескерту: Бұл қабаттың бастапқы метадеректері XML метадеректер файлын "
+"импорттау арқылы толтырылды.\n"
+"Жүйе метадеректерін импорттау ISO, FGDC және Dublin Core метадеректерінің "
+"элементтерінің жиынын қолдайды.\n"
+"Кейбір бастапқы метадеректеріңіз жоғалған болуы мүмкін."
+
+msgid "Error updating metadata.  Please check the following fields: "
+msgstr "Метадеректерді жаңарту қатесі. Келесі жолдарды тексеріңіз:"
+
+msgid "Metadata Author"
+msgstr "Метадеректер авторы"
+
+msgid "Point of Contact"
+msgstr "Байланыстағы адам"
+
+msgid "Attributes"
+msgstr "Атрибуттар"
+
+msgid "Done"
+msgstr "Орындалды"
+
+msgid "Metadata Provider"
+msgstr "Метадеректер провайдері"
+
+msgid "<< Back"
+msgstr "<< Артқа"
+
+msgid "Update"
+msgstr "Жаңарту"
+
+msgid "Next >>"
+msgstr "Келесі >>"
+
+msgid "Edit Metadata"
+msgstr "Метадеректерді өңдеу"
+
+#, python-format
+msgid ""
+"\n"
+"        Editing details for %(dataset_title)s\n"
+"      "
+msgstr ""
+"\n"
+"        %(dataset_title)s үшін мәліметтерді өңдеу\n"
+"      "
+
+msgid "Category"
+msgstr "Санат"
+
+msgid "Use a custom template?"
+msgstr "Қолданушы  үлгісін пайдалану керек пе?"
+
+msgid "Attribute"
+msgstr "Атрибут"
+
+msgid "Label"
+msgstr "Қолтаңба"
+
+msgid "Description"
+msgstr "Сипаттама"
+
+msgid "Display Order"
+msgstr "Көрсету тәртібі"
+
+msgid "Display Type"
+msgstr "Көрсету типі"
+
+msgid "Visible"
+msgstr "Көрінетін"
+
+msgid "ERROR"
+msgstr "Қате"
+
+msgid "Following items are required:"
+msgstr "Келесі элементтер қажет:"
+
+msgid "Close"
+msgstr "Жабу"
+
+msgid "Upload Dataset Metadata"
+msgstr "Деректер жиынының метадеректерін жүктеп алу"
+
+msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
+msgstr "(XML - ISO, FGDC, ebRIM, Dublin Core)"
+
+msgid "Is Upload Metadata XML Form"
+msgstr "Метадеректер жүктеп салу XML пішіні болып табылады ма"
+
+msgid "Upload files"
+msgstr "Файлдарды жүктеп алу"
+
+msgid "Replace Dataset"
+msgstr "Деректер жиынын ауыстыру"
+
+msgid "Manage Styles"
+msgstr "Стильдерді басқару"
+
+#, python-format
+msgid ""
+"\n"
+"      Manage Available Styles for <a href=\"%(dataset_url)s\">"
+"%(dataset_title)s</a>\n"
+"    "
+msgstr ""
+"\n"
+"      <a href=\"%(dataset_url)s\">%(dataset_title)s</a> үшін қолжетімді "
+"стильдерді басқару\n"
+"    "
+
+msgid "Dataset Default Style"
+msgstr "Әдепкі деректер жиынының стилі"
+
+msgid "Available styles"
+msgstr "Қолжетімді стильдер"
+
+msgid ""
+"Click on an available style in the upper box to assign it to this layer. "
+"Selected styles appear in the lower box."
+msgstr ""
+"Оны осы қабатқа тағайындау үшін жоғарғы жолдағы қол жетімді стильді басыңыз. "
+"Таңдалған стильдер төменгі жолда көрсетіледі."
+
+msgid "Update Available Styles"
+msgstr "Қолжетімді стильдерді жаңарту"
+
+msgid "Upload Dataset Style"
+msgstr "Деректер жиынының стилін жүктеу"
+
+msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
+msgstr "(SLD - Style Layer Descriptor 1.0, 1.1)"
+
+msgid "WARNING"
+msgstr "Ескерту"
+
+msgid "This will most probably overwrite the current default style!"
+msgstr "Бұл ағымдағы әдепкі стильді қайта жазуы мүмкін!"
+
+msgid "apps explore"
+msgstr "қолданбаларға шолу"
+
+msgid "Create New"
+msgstr "Жаңасын жасау"
+
+#, python-format
+msgid "%(GEONODE_APPS_NAME)s"
+msgstr "%(GEONODE_APPS_NAME)s"
+
+#, python-format
+msgid "%(item)s"
+msgstr "%(item)s"
+
+msgid "Explore"
+msgstr "Шолу"
+
+msgid "Main"
+msgstr "Басты"
+
+msgid "Catalog data"
+msgstr "Деректер каталогы"
+
+msgid "Datasets"
+msgstr "Деректер жиыны"
+
+msgid "Documents"
+msgstr "Құжаттар"
+
+msgid "Remove services"
+msgstr "Қызметтерді жою"
+
+msgid "Maps"
+msgstr "Карталар"
+
+msgid "Geostories"
+msgstr "Геотарихтар"
+
+msgid "Dashboards"
+msgstr "Бақылау тақталары"
+
+msgid "Create own map"
+msgstr "Картаңызды жасаңыз"
+
+msgid "Go to catalog data"
+msgstr "Деректер каталогына өту"
+
+msgid "Top of maps and layers"
+msgstr "Жоғарғы карталар мен қабаттар"
+
+msgid "Last of tops"
+msgstr "Жоғарғылардың соңғысы"
+
+msgid "Popular of tops"
+msgstr "Танымал"
+
+msgid "Show all"
+msgstr "Барлығын көрсету"
+
+msgid "No Group"
+msgstr "Топ жоқ"
+
+msgid "All contents"
+msgstr "Барлық мазмүны"
+
+msgid "No Organization Info"
+msgstr "Ұйым туралы ақпарат жоқ"
+
+msgid "Forgot Username"
+msgstr "Пайдаланушы атын ұмыттыңыз"
+
+msgid ""
+"Enter your email address and click the submit button. <br />Your username "
+"will be sent to you."
+msgstr ""
+"Электрондық пошта мекенжайын енгізіп, жіберу түймесін басыңыз. <br / > сізге "
+"пайдаланушы аты жіберіледі."
+
+msgid "Submit"
+msgstr "Жіберу"
+
+msgid "Create Profile"
+msgstr "Профиль құру"
+
+msgid "Profile of "
+msgstr "Профиль"
+
+msgid "Email"
+msgstr "Электрондық пошта"
+
+msgid "Not provided."
+msgstr "Ескерілмеген"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Organization"
+msgstr "Ұйым"
+
+msgid "Location"
+msgstr "Орналасқан жері"
+
+msgid "Voice"
+msgstr "Телефон"
+
+msgid "Not provided"
+msgstr "Ескерілмеген"
+
+msgid "Fax"
+msgstr "Факс"
+
+msgid "Keywords"
+msgstr "Түйінді сөздер"
+
+msgid "User layers WMS GetCapabilities document"
+msgstr "Пайдаланушы деңгейіндегі WMS GetCapabilities құжаты"
+
+msgid "Message User"
+msgstr "Пайдаланушыға хабарлама"
+
+msgid "Edit profile"
+msgstr "Профильді өңдеу"
+
+msgid "Connected social accounts"
+msgstr "Қосылған әлеуметтік аккаунттар"
+
+msgid "Associated e-mails"
+msgstr "Байланысты электрондық пошта мекенжайлары"
+
+msgid "Set/Change password"
+msgstr "Құпия сөзді орнату/өзгерту"
+
+msgid "My Activities"
+msgstr "Менің белсенділігім"
+
+msgid "Notifications"
+msgstr "Хабарламалар"
+
+msgid "Announcements"
+msgstr "Хабарландырулар"
+
+msgid "Invite Users"
+msgstr "Пайдаланушыларды шақыру"
+
+msgid "GeoServer"
+msgstr "ГеоСервер"
+
+msgid "Admin"
+msgstr "Әкімші"
+
+msgid "User Activities"
+msgstr "Пайдаланушы белсенділігі"
+
+msgid "Resources"
+msgstr "Ресурстар"
+
+msgid "Edit Your Profile"
+msgstr "Профиліңізді өңдеңіз"
+
+msgid "Edit Profile for"
+msgstr "үшін профильді өңдеу"
+
+msgid "Change your avatar"
+msgstr "Аватарыңызды өзгертіңіз"
+
+msgid "Update profile"
+msgstr "Профильді жаңарту"
+
+msgid "Explore People"
+msgstr "Пайдаланушылар"

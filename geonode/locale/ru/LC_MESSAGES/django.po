@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-20 14:19+0000\n"
-"PO-Revision-Date: 2016-08-23 13:57+0000\n"
+"PO-Revision-Date: 2022-11-20 21:09+0600\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Russian (http://www.transifex.com/geonode/geonode/language/"
 "ru/)\n"
@@ -38,6 +38,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 3.2.1\n"
 
 msgid "Request to download a resource"
 msgstr "Запрос на скачивание ресурса"
@@ -194,7 +195,7 @@ msgid "Person outside GeoNode (fill form)"
 msgstr ""
 
 msgid "Point of Contact"
-msgstr "Контактная информация"
+msgstr "Контактное лицо"
 
 msgid "Metadata Author"
 msgstr "Автор метаданных"
@@ -371,11 +372,6 @@ msgstr "тип даты"
 msgid "edition"
 msgstr "редакция"
 
-#, fuzzy
-#| msgid "Attribute"
-msgid "Attribution"
-msgstr "Атрибут"
-
 msgid "DOI"
 msgstr ""
 
@@ -429,11 +425,6 @@ msgstr "текст CSW"
 
 msgid "CSW WKT geometry"
 msgstr "геометрия CSW WKT"
-
-#, fuzzy
-#| msgid "Metadata Provider"
-msgid "Metadata uploaded preserve"
-msgstr "Провайдер метаданных"
 
 msgid "Featured"
 msgstr ""
@@ -521,7 +512,7 @@ msgid "Resource Type"
 msgstr "Ресурсы"
 
 msgid "Metadata"
-msgstr ""
+msgstr "Метаданные"
 
 msgid "If true, will be excluded from search"
 msgstr ""
@@ -668,7 +659,7 @@ msgid "Cancel"
 msgstr "Отмена"
 
 msgid "Submit"
-msgstr "Выполнить"
+msgstr "Отправить"
 
 msgid "Discover the available datasets."
 msgstr ""
@@ -1114,34 +1105,36 @@ msgid "for %(document_title)s"
 msgstr ""
 
 msgid "Completeness"
-msgstr ""
+msgstr "Полнота"
 
 msgid "Metadata Schema mandatory fields completed"
-msgstr ""
+msgstr "Поля метаданных обязательных для заполнения"
 
 msgid "Check Schema mandatory fields"
-msgstr ""
+msgstr "Проверьте обязательные поля схемы"
 
+#, fuzzy
 msgid "Error updating metadata.  Please check the following fields: "
 msgstr ""
-"Ошибка при обновлении метаданных. Пожалуйста, проверьте следующие поля:"
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
+"Ошибка при обновлении метаданных. Пожалуйста, проверьте следующие поля:\n"
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
+"Ошибка при обновлении метаданных. Пожалуйста, проверьте следующие поля: "
 
 msgid "Done"
-msgstr ""
+msgstr "Выполнено"
 
 msgid "Metadata Provider"
-msgstr "Провайдер метаданных"
+msgstr "Поставщик метаданных"
 
 msgid "<< Back"
-msgstr ""
+msgstr "<< Назад"
 
 msgid "Update"
 msgstr "Обновить"
 
-#, fuzzy
-#| msgid "Next"
 msgid "Next >>"
-msgstr "Далее"
+msgstr "Далее >>"
 
 #, fuzzy
 #| msgid "Select an attribute"
@@ -1152,7 +1145,7 @@ msgid "Explore Documents"
 msgstr "Посмотреть документы"
 
 msgid "Edit Metadata"
-msgstr "Редактирование метаданных"
+msgstr "Редактировать метаданные"
 
 msgid "Editing details for"
 msgstr "Редактирование деталей для"
@@ -1175,23 +1168,19 @@ msgid "Upload Document's Thumbnail"
 msgstr "Загрузить документы"
 
 msgid "Drop files here"
-msgstr "Перетащите файлы сюда"
+msgstr "Перенесите файлы сюда"
 
 msgid " or select them one by one:"
-msgstr "или выберите их по одному:"
+msgstr " или выберите их один за другим:"
 
-#, fuzzy
-#| msgid "Choose users..."
 msgid "Choose Files"
-msgstr "Выберите пользователей ..."
+msgstr "Выберите файлы"
 
 msgid "Files to be uploaded"
-msgstr "Файлы для загрузки"
+msgstr "Файлы, которые будут загружены"
 
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Is Upload Metadata XML Form"
-msgstr "Скачать метаданные"
+msgstr "Является ли загрузка метаданных XML-формой"
 
 msgid "Upload files"
 msgstr "Загрузить файлы"
@@ -1364,7 +1353,7 @@ msgstr "Имя"
 
 #, python-format
 msgid "%(GEONODE_APPS_NAME)s"
-msgstr ""
+msgstr "%(GEONODE_APPS_NAME)s"
 
 #, python-format
 msgid "for %(map_title)s"
@@ -1492,36 +1481,23 @@ msgstr "Атрибуты"
 msgid "Geometry type"
 msgstr "тип свойства"
 
-#, fuzzy
-#| msgid "feature type"
 msgid "Create Dataset"
-msgstr "тип объекта"
+msgstr "Создать набор данных"
 
-#, fuzzy
-#| msgid "Create a map using this layer"
 msgid "Create an empty dataset"
-msgstr "Создать карту с данным слоем"
+msgstr "Создать пустой набор данных"
 
-#, fuzzy
-#| msgid "Attribute"
 msgid "Add Attribute"
-msgstr "Атрибут"
-
-#, fuzzy
-#| msgid "feature type"
-msgid "Create dataset"
-msgstr "тип объекта"
+msgstr "Добавить атрибут"
 
 msgid "String"
-msgstr ""
+msgstr "Строка"
 
-#, fuzzy
-#| msgid "Intervals"
 msgid "Integer"
-msgstr "Интервалы"
+msgstr "Целое"
 
 msgid "Float"
-msgstr ""
+msgstr "Десятичное"
 
 #, fuzzy
 #| msgid "Not provided"
@@ -1670,10 +1646,8 @@ msgstr "Лента активности для"
 msgid "All"
 msgstr "Все"
 
-#, fuzzy
-#| msgid "dataset"
 msgid "Datasets"
-msgstr "набор данных"
+msgstr "Наборы данных"
 
 msgid "Maps"
 msgstr "Карты"
@@ -1804,9 +1778,6 @@ msgid ""
 msgstr ""
 "\n"
 "Вы уверены, что хотите удалить группу: %(group_title)s?"
-
-msgid "Yes, I am sure"
-msgstr "Да, я уверен"
 
 msgid "No, don't remove it"
 msgstr "Нет, не удалять"
@@ -2214,7 +2185,7 @@ msgstr ""
 "результатов"
 
 msgid "Label"
-msgstr "Метка"
+msgstr "Подпись"
 
 msgid "Image"
 msgstr ""
@@ -2311,38 +2282,25 @@ msgstr "последнее обновление"
 msgid "date when attribute statistics were last updated"
 msgstr "дата последнего обновления статистики атрибута"
 
-#, fuzzy
-#| msgid "Edit Layer"
 msgid "Append to Dataset"
-msgstr "Редактировать слой"
+msgstr "Добавить к набору данных"
 
-#, fuzzy
-#| msgid "Explore Layers"
 msgid "Explore Datasets"
-msgstr "Посмотреть слои"
+msgstr "Посмотреть наборы данных"
 
-#, fuzzy
-#| msgid "Return to"
 msgid "Return to Dataset"
-msgstr "Вернуться к"
+msgstr "Возврат к набору данных"
 
-#, fuzzy
-#| msgid "Edit Service Metadata"
 msgid "Preserve Metadata XML"
-msgstr "Редактировать метаданные сервиса"
+msgstr "Сохранить метаданные XML"
 
 msgid "Select the charset or leave default"
-msgstr "Выберите кодировку или оставьте по умолчанию"
+msgstr "Выберите кодировку или оставьте значение по умолчанию"
 
 msgid "Remove Mosaic Granules"
-msgstr ""
+msgstr "Удалить ячейки мозаики"
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "          Are you sure you want to remove <a href="
-#| "\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
-#| "        "
+#, python-format
 msgid ""
 "\n"
 "          Are you sure you want to remove Granule %(granule_id)s of the "
@@ -2350,28 +2308,30 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Вы уверены, что хотите удалить <a href=\"%(layer.get_absolute_url)s\">"
-"%(layer_title)s</a>?"
+"          Вы уверены, что вы хотите удалить ячейки %(granule_id)s мозаики <a "
+"href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a>?\n"
+"        "
 
 msgid "This action affects the following maps:"
-msgstr "Данное действие повлияет на следующие карты:"
+msgstr "Это действие влияет на следующие карты:"
 
-#, fuzzy
-#| msgid "No maps are using this layer"
 msgid "No maps are using this dataset"
-msgstr "Нет карт с таким слоем"
+msgstr "Ни одна карта не использует этот набор данных"
 
-#, fuzzy, python-format
-#| msgid "Attributes"
+#, python-format
 msgid "for %(dataset_title)s"
-msgstr "Атрибуты"
+msgstr "для %(dataset_title)s"
 
 msgid ""
 "Note: this layer's orginal metadata was populated and preserved by importing "
 "a metadata XML file.\n"
 "          This metadata cannot be edited."
 msgstr ""
+"Примечание: исходные метаданные этого слоя были заполнены и сохранены путем "
+"импорта XML-файла метаданных.\n"
+"Эти метаданные не могут быть отредактированы."
 
+#, fuzzy
 msgid ""
 "Note: this layer's orginal metadata was populated by importing a metadata "
 "XML file.\n"
@@ -2379,28 +2339,31 @@ msgid ""
 "Dublin Core metadata elements.\n"
 "          Some of your original metadata may have been lost."
 msgstr ""
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
 "Примечание: исходные метаданные этой карты была наполнены в результате "
 "импорта метаданных из XML файла.\n"
 "Импорт метаданных GeoNode поддерживает подмножество элементов ISO, FGDC, и "
 "Dublin Core. \n"
-"Некоторые из элементов исходных метаданных могут быть потеряны."
+"Некоторые из элементов исходных метаданных могут быть потеряны.\n"
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
+"Примечание: исходные метаданные этого слоя были заполнены путем импорта XML-"
+"файла метаданных.\n"
+"Импорт метаданных системы поддерживает подмножество элементов метаданных "
+"ISO, FGDC и Dublin Core.\n"
+"Возможно, некоторые из ваших исходных метаданных были утеряны."
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "        Editing details for %(layer_title)s\n"
-#| "      "
+#, python-format
 msgid ""
 "\n"
 "        Editing details for %(dataset_title)s\n"
 "      "
 msgstr ""
 "\n"
-"Редактирование метаданных для %(layer_title)s\n"
+"        Редактирование сведений для %(dataset_title)s\n"
 "      "
 
 msgid "Use a custom template?"
-msgstr ""
+msgstr "Использовать пользовательский шаблон?"
 
 msgid "Attribute"
 msgstr "Атрибут"
@@ -2408,47 +2371,34 @@ msgstr "Атрибут"
 msgid "Display Order"
 msgstr "Порядок отображения"
 
-#, fuzzy
-#| msgid "Display Order"
 msgid "Display Type"
-msgstr "Порядок отображения"
+msgstr "Тип отображения"
 
-#, fuzzy
-#| msgid "visible?"
 msgid "Visible"
-msgstr "видимый?"
+msgstr "Видимый"
 
 msgid "ERROR"
-msgstr ""
+msgstr "Ошибка"
 
 msgid "Following items are required:"
-msgstr ""
+msgstr "Требуются следующие элементы:"
 
 msgid "Close"
 msgstr "Закрыть"
 
-#, fuzzy
-#| msgid "Upload Layer"
 msgid "Upload Dataset Metadata"
-msgstr "Загрузить слой"
+msgstr "Загрузить метаданные набора данных"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
-msgstr ""
+msgstr "(XML - ISO, FGDC, ebRIM, Dublin Core)"
 
-#, fuzzy
-#| msgid "Replace Layer"
 msgid "Replace Dataset"
-msgstr "Заменить слой"
+msgstr "Заменить набор данных"
 
 msgid "Manage Styles"
 msgstr "Управление стилями"
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "      Manage Available Styles for <a href=\"{{ layer_url }}\">"
-#| "%(layer_title)s</a>\n"
-#| "    "
+#, python-format
 msgid ""
 "\n"
 "      Manage Available Styles for <a href=\"%(dataset_url)s\">"
@@ -2456,40 +2406,42 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Управление доступными стилями для <a href=\"{{ layer_url }}\">"
-"%(layer_title)s</a>"
+"      Управление доступными стилями для <a href=\"%(dataset_url)s\">"
+"%(dataset_title)s</a>\n"
+"    "
 
-#, fuzzy
-#| msgid "Layer Default Style"
 msgid "Dataset Default Style"
-msgstr "Стиль слоя по умолчанию"
+msgstr "Стиль набора данных по умолчанию"
 
 msgid "Available styles"
 msgstr "Доступные стили"
 
+#, fuzzy
 msgid ""
 "Click on an available style in the upper box to assign it to this layer. "
 "Selected styles appear in the lower box."
 msgstr ""
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
 "Выберите стиль из доступных в верхнем списке, чтобы применить его к этому "
-"слою. Выбранные стили появляются в нижнем списке."
+"слою. Выбранные стили появляются в нижнем списке.\n"
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
+"Нажмите на доступный стиль в верхнем поле, чтобы назначить его этому слою. "
+"Выбранные стили отображаются в нижнем поле."
 
 msgid "Update Available Styles"
-msgstr "Обновление доступных стилей"
+msgstr "Обновите доступные стили"
 
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Dataset Style"
-msgstr "Загрузка слоя Шаг 2"
+msgstr "Стиль загрузки набора данных"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
-msgstr ""
+msgstr "(SLD - Style Layer Descriptor 1.0, 1.1)"
 
 msgid "WARNING"
-msgstr ""
+msgstr "Предупреждение"
 
 msgid "This will most probably overwrite the current default style!"
-msgstr ""
+msgstr "Это, скорее всего, перезапишет текущий стиль по умолчанию!"
 
 msgid "Preview"
 msgstr "Предварительный просмотр"
@@ -2643,11 +2595,6 @@ msgid ""
 msgstr ""
 "Этот слой является частью группы, Вы должны убрать слой из группы перед его "
 "удалением."
-
-#, fuzzy
-#| msgid "Position Name"
-msgid "Positional Arguments"
-msgstr "Название должности"
 
 msgid "JSON encoded positional arguments (Example: [\"arg1\", \"arg2\"])"
 msgstr ""
@@ -2930,7 +2877,7 @@ msgid "GeoNode"
 msgstr "GeoNode"
 
 msgid "GeoServer"
-msgstr "GeoServer"
+msgstr "ГеоСервер"
 
 #, fuzzy
 #| msgid "GeoServer"
@@ -2974,7 +2921,7 @@ msgid "Style"
 msgstr "Стили"
 
 msgid "Admin"
-msgstr "Админ"
+msgstr "Администратор"
 
 msgid "Other"
 msgstr ""
@@ -3178,13 +3125,11 @@ msgstr "Пароль успешно изменен."
 msgid "Change password: %s"
 msgstr "Измените пароль: %s"
 
-#, fuzzy
-#| msgid "Sign in"
 msgid "Sign not valid"
-msgstr "Подписаться"
+msgstr "Подпись не действительна"
 
 msgid "Sign date expired"
-msgstr ""
+msgstr "Срок действия подписи истек"
 
 msgid "party who authored the resource"
 msgstr "сторона, которая является автором ресурса"
@@ -3237,10 +3182,10 @@ msgid "Email Address"
 msgstr "Почтовый адрес"
 
 msgid "IIN already taken"
-msgstr ""
+msgstr "ИИН уже используется"
 
 msgid "IIN"
-msgstr ""
+msgstr "ИИН"
 
 msgid "Password"
 msgstr "Пароль"
@@ -3269,7 +3214,7 @@ msgid "role or position of the responsible person"
 msgstr "роль или должность ответственного лица"
 
 msgid "Voice"
-msgstr "Голос"
+msgstr "Телефон"
 
 msgid ""
 "telephone number by which individuals can speak to the responsible "
@@ -3370,28 +3315,31 @@ msgid "No Group"
 msgstr "Нет группы"
 
 msgid "All contents"
-msgstr "Все включая"
+msgstr "Все содержимое"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "No Organization Info"
-msgstr "Организация"
+msgstr "Нет информации об организации"
 
 msgid "Forgot Username"
 msgstr "Забыли имя пользователя"
 
+#, fuzzy
 msgid ""
 "Enter your email address and click the submit button. <br />Your username "
 "will be sent to you."
 msgstr ""
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
 "Введите адрес Вашей электронной почты и нажмите на кнопку подтверждения. "
-"<br />Имя пользователя будет отправлено Вам."
+"<br />Имя пользователя будет отправлено Вам.\n"
+"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
+"Введите свой адрес электронной почты и нажмите кнопку отправить. <br />Вам "
+"будет выслано ваше имя пользователя."
 
 msgid "Create Profile"
 msgstr "Создать профиль"
 
 msgid "Profile of "
-msgstr "Профиль"
+msgstr "Профиль "
 
 msgid "Not provided."
 msgstr "Не предусмотрено."
@@ -3409,24 +3357,22 @@ msgid "Fax"
 msgstr "Факс"
 
 msgid "User layers WMS GetCapabilities document"
-msgstr ""
+msgstr "Слои пользователя"
 
 msgid "Message User"
-msgstr "Сообщение пользователя"
+msgstr "Сообщение пользователю"
 
 msgid "Edit profile"
 msgstr "Редактировать профиль"
 
 msgid "Connected social accounts"
-msgstr ""
+msgstr "Подключенные социальные аккаунты"
 
 msgid "Associated e-mails"
-msgstr ""
+msgstr "Связанные электронные адреса"
 
-#, fuzzy
-#| msgid "Change password"
 msgid "Set/Change password"
-msgstr "Изменить пароль"
+msgstr "Установить/изменить пароль"
 
 msgid "My Activities"
 msgstr "Моя деятельность"
@@ -3437,28 +3383,27 @@ msgstr "Уведомления"
 msgid "Announcements"
 msgstr "Объявления"
 
-#, fuzzy
-#| msgid "Invite User"
 msgid "Invite Users"
-msgstr "Пригласить пользователя"
+msgstr "Пригласить пользователей"
 
 msgid "User Activities"
-msgstr "Деятельность пользователей"
+msgstr "Действия пользователя"
 
 msgid "Resources"
 msgstr "Ресурсы"
 
 msgid "Edit Your Profile"
-msgstr "Редактировать Ваш профиль"
+msgstr "Отредактируйте свой профиль"
 
 msgid "Edit Profile for"
-msgstr ""
+msgstr "Редактировать профиль для"
 
 msgid "Change your avatar"
 msgstr "Измените свой аватар"
 
 msgid "Update profile"
 msgstr "Обновить профиль"
+
 
 msgid "Explore People"
 msgstr "Посмотреть участников"
@@ -3527,11 +3472,6 @@ msgstr "удалил"
 #| msgid "Permissions"
 msgid "permissions"
 msgstr "Права доступа"
-
-#, fuzzy
-#| msgid "updated"
-msgid "update"
-msgstr "обновил"
 
 msgid "ingest"
 msgstr ""
@@ -3677,11 +3617,6 @@ msgid "Service unavailable"
 msgstr "Имя сервиса"
 
 #, fuzzy
-#| msgid "Point of Contact"
-msgid "Could not contact"
-msgstr "Контактная информация"
-
-#, fuzzy
 #| msgid "Contact:"
 msgid "Contact"
 msgstr "Контакты:"
@@ -3735,7 +3670,7 @@ msgstr "Сервисы"
 msgid "Add Remote Service"
 msgstr "Удаленные сервисы"
 
-msgid "Remote Services"
+msgid "Remote services"
 msgstr "Удаленные сервисы"
 
 #, fuzzy
@@ -4184,15 +4119,11 @@ msgid ""
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
 
-#, fuzzy
-#| msgid "Sign up"
 msgid "Signup"
-msgstr "Подписаться"
+msgstr "Зарегистрироваться"
 
-#, fuzzy
-#| msgid "Forgot your password?"
 msgid "Forgot password?"
-msgstr "Забыли свой пароль?"
+msgstr "Забыли пароль?"
 
 msgid "Log in"
 msgstr "Войти"
@@ -4204,28 +4135,26 @@ msgid "Log in by EDS"
 msgstr "Войти с помощью ЭЦП"
 
 msgid "First time in portal?"
-msgstr ""
+msgstr "В первый раз на портале?"
 
 msgid "Register"
 msgstr "Регистрация"
 
 msgid "Project name"
-msgstr "Название проекта на русском"
+msgstr "Национальная инфраструктура пространственных данных"
 
-#, fuzzy
-#| msgid "projection"
 msgid "Project subname"
-msgstr "Субтайтл проекта на русском"
+msgstr "Портал открытых пространственных данных Республики Казахстан"
 
 #, python-format
 msgid ""
 "Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
+"У вас уже есть учетная запись? Тогда, пожалуйста <a href=\"%(login_url)s"
+"\">войдите</a>."
 
-#, fuzzy
-#| msgid "Sign up"
 msgid "Sign Up"
-msgstr "Подписаться"
+msgstr "Регистрация"
 
 msgid "Log out"
 msgstr "Выйти из системы"
@@ -4324,15 +4253,11 @@ msgstr "Забыли свой пароль?"
 msgid "Set password"
 msgstr "Сбросить мой пароль"
 
-#, fuzzy
-#| msgid "Register"
 msgid "Register by EDS"
-msgstr "Регистрация"
+msgstr "Регистрация с помощью ЭЦП"
 
-#, fuzzy
-#| msgid "service interfaces"
 msgid "Already registered?"
-msgstr "сервисные интерфейсы"
+msgstr "Уже зарегистрированы?"
 
 msgid "Sign Up Closed"
 msgstr ""
@@ -4399,9 +4324,8 @@ msgstr "Лента активности"
 msgid "Are you sure you want to run the selected"
 msgstr "Вы уверены, что хотите удалить"
 
-#, fuzzy
-#| msgid "Yes, I am sure"
-msgid "Yes, I'm sure"
+
+msgid "Yes, I am sure"
 msgstr "Да, я уверен"
 
 msgid "GeoNode site admin"
@@ -4459,10 +4383,8 @@ msgstr "Справка по GeoNode"
 msgid "Data"
 msgstr ""
 
-#, fuzzy
-#| msgid "GeoExplorer"
 msgid "Explore"
-msgstr "GeoExplorer"
+msgstr "Обзор"
 
 msgid "People"
 msgstr "Люди"
@@ -4507,8 +4429,6 @@ msgstr "Имя пользователя"
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
-#, fuzzy
-#| msgid "Forgot your password?"
 msgid "Forgot Password?"
 msgstr "Забыли свой пароль?"
 
@@ -5006,28 +4926,22 @@ msgid "Remixing a Map"
 msgstr "Смешивание карты"
 
 msgid "Go to catalog data"
-msgstr "Перейти к данным каталога"
+msgstr "Перейти в каталог данных"
 
-#, fuzzy
-#| msgid "Create a new map"
 msgid "Create own map"
-msgstr "Создать новую карту"
+msgstr "Создайте свою карту"
 
-#, fuzzy
-#| msgid "Upload new layers"
 msgid "Top of maps and layers"
-msgstr "Загрузить новые слои"
+msgstr "Топ карт и слоев"
 
 msgid "Last of tops"
-msgstr ""
+msgstr "Последнее"
 
-#, fuzzy
-#| msgid "Location"
 msgid "Popular of tops"
-msgstr "Местоположение"
+msgstr "Популярное"
 
 msgid "Show all"
-msgstr ""
+msgstr "Показать все"
 
 msgid "Dear Sir/Madam,"
 msgstr ""
@@ -6219,7 +6133,6 @@ msgid "error during import: {progress.get('message')}"
 msgstr ""
 
 #, fuzzy
-#| msgid "Could not find any layers in a compatible projection."
 msgid "Could not find any valid Time Regex for the Mosaic files."
 msgstr "Не удалось найти каких-либо слоёв в совместимой проекции."
 
@@ -6245,6 +6158,31 @@ msgstr "Неправильный уровень прав доступа."
 
 msgid "Permission Denied"
 msgstr "Доступ запрещен"
+
+msgid "apps explore"
+msgstr "обзор приложений"
+
+msgid "Create New"
+msgstr "Создать новый"
+
+#, python-format
+msgid "%(item)s"
+msgstr "%(item)s"
+
+msgid "Main"
+msgstr "Главная"
+
+msgid "Catalog data"
+msgstr "Каталог данных"
+
+msgid "Remove services"
+msgstr "Удалить службы"
+
+msgid "Geostories"
+msgstr "Геоистории"
+
+msgid "Dashboards"
+msgstr "Дэшборды"
 
 #, fuzzy
 #~| msgid "Permissions"
@@ -6384,7 +6322,7 @@ msgstr "Доступ запрещен"
 #~ msgid "center Y"
 #~ msgstr "центр Y"
 
-#, fuzzy, python-format
+#, fuzzy
 #~| msgid "Resources"
 #~ msgid "%(resource.type)s"
 #~ msgstr "Ресурсы"
@@ -6413,25 +6351,20 @@ msgstr "Доступ запрещен"
 #~ msgstr "Изменить права доступа для данной карты"
 
 #, fuzzy
-#~| msgid "Create a New Map"
-#~ msgid "Create New"
-#~ msgstr "Создать новую карту"
-
-#, fuzzy
 #~| msgid "Return to"
 #~ msgid "Return to GeoApp"
 #~ msgstr "Вернуться к"
 
-#, fuzzy, python-format
+#, fuzzy
 #~| msgid ""
 #~| "\n"
-#~| "          Are you sure you want to remove <a href="
-#~| "\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+#~| "          Are you sure you want to remove <a href=\"%(layer."
+#~| "get_absolute_url)s\">%(layer_title)s</a>?\n"
 #~| "        "
 #~ msgid ""
 #~ "\n"
-#~ "          Are you sure you want to remove <a href="
-#~ "\"%(resource.get_absolute_url)s\">%(resource_title)s</a>?\n"
+#~ "          Are you sure you want to remove <a href=\"%(resource."
+#~ "get_absolute_url)s\">%(resource_title)s</a>?\n"
 #~ "        "
 #~ msgstr ""
 #~ "\n"
@@ -6688,7 +6621,7 @@ msgstr "Доступ запрещен"
 #~ msgid "Upload Dataset Step: Time"
 #~ msgstr "Загрузка слоя Шаг 2"
 
-#, fuzzy, python-format
+#, fuzzy
 #~| msgid "Remote Thumbnail"
 #~ msgid "couldn't generate thumbnail: %s"
 #~ msgstr "Remote Thumbnail"
@@ -6891,7 +6824,6 @@ msgstr "Доступ запрещен"
 #~ msgid "Choose groups..."
 #~ msgstr "Выберите группы ..."
 
-#, python-format
 #~ msgid "[%(site_name)s] Password reset"
 #~ msgstr "[%(site_name)s] Пароль сброшен"
 
@@ -6932,7 +6864,6 @@ msgstr "Доступ запрещен"
 #~ msgid "Please select the avatars that you would like to delete."
 #~ msgstr "Пожалуйста, выберите аватары, которые Вы хотели бы удалить."
 
-#, python-format
 #~ msgid ""
 #~ "You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
 #~ "\">upload one</a> now."
@@ -6994,9 +6925,6 @@ msgstr "Доступ запрещен"
 
 #~ msgid "Create maps"
 #~ msgstr "Создать карту"
-
-#~ msgid "Main"
-#~ msgstr "Главная"
 
 #~ msgid "Explore maps"
 #~ msgstr "Изучить карты"
@@ -7095,7 +7023,6 @@ msgstr "Доступ запрещен"
 #~ msgid "No longer"
 #~ msgstr "Не больше"
 
-#, python-format
 #~ msgid "You're not %(status_slug)s anyone!"
 #~ msgstr "Вы не с %(status_slug)s !"
 
@@ -7108,7 +7035,6 @@ msgstr "Доступ запрещен"
 #~ msgid "no longer"
 #~ msgstr "не больше"
 
-#, python-format
 #~ msgid "%(to_user_username)s's profile"
 #~ msgstr "%(to_user_username)s's профиль"
 
@@ -7224,11 +7150,6 @@ msgstr "Доступ запрещен"
 #~ msgstr "набор данных"
 
 #, fuzzy
-#~| msgid "GeoExplorer"
-#~ msgid "apps explore"
-#~ msgstr "GeoExplorer"
-
-#, fuzzy
 #~| msgid "Categories"
 #~ msgid "groups explore"
 #~ msgstr "Категории"
@@ -7322,483 +7243,3 @@ msgstr "Доступ запрещен"
 #~| msgid "Thumbnail"
 #~ msgid "Thumbnail saved"
 #~ msgstr "Thumbnail"
-
-msgid "Sign not valid"
-msgstr "Подпись не действительна"
-
-msgid "Sign date expired"
-msgstr "Срок действия подписи истек"
-
-msgid "IIN already taken"
-msgstr "ИИН уже используется"
-
-msgid "IIN"
-msgstr "ИИН"
-
-msgid "Password"
-msgstr "Пароль"
-
-msgid "Signup"
-msgstr "Зарегистрироваться"
-
-msgid "Forgot password?"
-msgstr "Забыли пароль?"
-
-msgid "Log in"
-msgstr "Войти"
-
-msgid "or"
-msgstr "или"
-
-msgid "Log in by EDS"
-msgstr "Вход в систему с помощью ЭЦП"
-
-msgid "First time in portal?"
-msgstr "В первый раз на портале?"
-
-msgid "Register"
-msgstr "Регистрация"
-
-msgid "Project name"
-msgstr "Национальная инфраструктура пространственных данных"
-
-msgid "Project subname"
-msgstr "Портал открытых пространственных данных Республики Казахстан"
-
-#, python-format
-msgid ""
-"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
-"У вас уже есть учетная запись? Тогда, пожалуйста <a href=\"%(login_url)s"
-"\">войдите</a>."
-
-msgid "Sign Up"
-msgstr "Регистрация"
-
-msgid "Register by EDS"
-msgstr "Регистрация с помощью ЭЦП"
-
-msgid "Already registered?"
-msgstr "Уже зарегистрированы?"
-
-msgid "Create Dataset"
-msgstr "Создать набор данных"
-
-msgid "Create an empty dataset"
-msgstr "Создать пустой набор данных"
-
-msgid "Add Attribute"
-msgstr "Добавить атрибут"
-
-msgid "Create dataset"
-msgstr "Создать набор данных"
-
-msgid "String"
-msgstr "Строка"
-
-msgid "Integer"
-msgstr "Целое"
-
-msgid "Float"
-msgstr "Десятичное"
-
-msgid "Date"
-msgstr "Дата"
-
-msgid "Append to Dataset"
-msgstr "Добавить к набору данных"
-
-msgid "Explore Datasets"
-msgstr "Посмотреть наборы данных"
-
-msgid "Return to Dataset"
-msgstr "Возврат к набору данных"
-
-msgid "Drop files here"
-msgstr "Перенесите файлы сюда"
-
-msgid " or select them one by one:"
-msgstr " или выберите их один за другим:"
-
-msgid "Choose Files"
-msgstr "Выберите файлы"
-
-msgid "Files to be uploaded"
-msgstr "Файлы, которые будут загружены"
-
-msgid "Preserve Metadata XML"
-msgstr "Сохранить метаданные XML"
-
-msgid "Select the charset or leave default"
-msgstr "Выберите кодировку или оставьте значение по умолчанию"
-
-msgid "Clear"
-msgstr "Очистить"
-
-msgid "Remove Mosaic Granules"
-msgstr "Удалить ячейки мозаики"
-
-#, python-format
-msgid ""
-"\n"
-"          Are you sure you want to remove Granule %(granule_id)s of the "
-"Mosaic <a href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a>?\n"
-"        "
-msgstr ""
-"\n"
-"          Вы уверены, что вы хотите удалить ячейки %(granule_id)s мозаики <a "
-"href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a>?\n"
-"        "
-
-msgid "Yes, I am sure"
-msgstr "Да, я уверен"
-
-msgid "No, don't remove it"
-msgstr "Нет, не удалять"
-
-msgid "This action affects the following maps:"
-msgstr "Это действие влияет на следующие карты:"
-
-msgid "No maps are using this dataset"
-msgstr "Ни одна карта не использует этот набор данных"
-
-msgid "Metadata"
-msgstr "Метаданные"
-
-#, python-format
-msgid "for %(dataset_title)s"
-msgstr "для %(dataset_title)s"
-
-msgid "Completeness"
-msgstr "Полнота"
-
-msgid "Metadata Schema mandatory fields completed"
-msgstr "Поля метаданных обязательных для заполнения"
-
-msgid "Check Schema mandatory fields"
-msgstr "Проверьте обязательные поля схемы"
-
-msgid ""
-"Note: this layer's orginal metadata was populated and preserved by importing "
-"a metadata XML file.\n"
-"          This metadata cannot be edited."
-msgstr ""
-"Примечание: исходные метаданные этого слоя были заполнены и сохранены путем "
-"импорта XML-файла метаданных.\n"
-"Эти метаданные не могут быть отредактированы."
-
-msgid ""
-"Note: this layer's orginal metadata was populated by importing a metadata "
-"XML file.\n"
-"          GeoNode's metadata import supports a subset of ISO, FGDC, and "
-"Dublin Core metadata elements.\n"
-"          Some of your original metadata may have been lost."
-msgstr ""
-"Примечание: исходные метаданные этого слоя были заполнены путем импорта XML-"
-"файла метаданных.\n"
-"Импорт метаданных системы поддерживает подмножество элементов метаданных "
-"ISO, FGDC и Dublin Core.\n"
-"Возможно, некоторые из ваших исходных метаданных были утеряны."
-
-msgid "Error updating metadata.  Please check the following fields: "
-msgstr ""
-"Ошибка при обновлении метаданных. Пожалуйста, проверьте следующие поля: "
-
-msgid "Metadata Author"
-msgstr "Автор метаданных"
-
-msgid "Point of Contact"
-msgstr "Контактное лицо"
-
-msgid "Attributes"
-msgstr "Атрибуты"
-
-msgid "Done"
-msgstr "Выполнено"
-
-msgid "Metadata Provider"
-msgstr "Поставщик метаданных"
-
-msgid "<< Back"
-msgstr "<< Назад"
-
-msgid "Update"
-msgstr "Обновить"
-
-msgid "Next >>"
-msgstr "Далее >>"
-
-msgid "Edit Metadata"
-msgstr "Редактировать метаданные"
-
-#, python-format
-msgid ""
-"\n"
-"        Editing details for %(dataset_title)s\n"
-"      "
-msgstr ""
-"\n"
-"        Редактирование сведений для %(dataset_title)s\n"
-"      "
-
-msgid "Category"
-msgstr "Категория"
-
-msgid "Use a custom template?"
-msgstr "Использовать пользовательский шаблон?"
-
-msgid "Attribute"
-msgstr "Атрибут"
-
-msgid "Label"
-msgstr "Подпись"
-
-msgid "Description"
-msgstr "Описание"
-
-msgid "Display Order"
-msgstr "Порядок отображения"
-
-msgid "Display Type"
-msgstr "Тип отображения"
-
-msgid "Visible"
-msgstr "Видимый"
-
-msgid "ERROR"
-msgstr "Ошибка"
-
-msgid "Following items are required:"
-msgstr "Требуются следующие элементы:"
-
-msgid "Close"
-msgstr "Закрыть"
-
-msgid "Upload Dataset Metadata"
-msgstr "Загрузить метаданные набора данных"
-
-msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
-msgstr "(XML - ISO, FGDC, ebRIM, Dublin Core)"
-
-msgid "Is Upload Metadata XML Form"
-msgstr "Является ли загрузка метаданных XML-формой"
-
-msgid "Upload files"
-msgstr "Загрузить файлы"
-
-msgid "Replace Dataset"
-msgstr "Заменить набор данных"
-
-msgid "Manage Styles"
-msgstr "Управление стилями"
-
-#, python-format
-msgid ""
-"\n"
-"      Manage Available Styles for <a href=\"%(dataset_url)s\">"
-"%(dataset_title)s</a>\n"
-"    "
-msgstr ""
-"\n"
-"      Управление доступными стилями для <a href=\"%(dataset_url)s\">"
-"%(dataset_title)s</a>\n"
-"    "
-
-msgid "Dataset Default Style"
-msgstr "Стиль набора данных по умолчанию"
-
-msgid "Available styles"
-msgstr "Доступные стили"
-
-msgid ""
-"Click on an available style in the upper box to assign it to this layer. "
-"Selected styles appear in the lower box."
-msgstr ""
-"Нажмите на доступный стиль в верхнем поле, чтобы назначить его этому слою. "
-"Выбранные стили отображаются в нижнем поле."
-
-msgid "Update Available Styles"
-msgstr "Обновите доступные стили"
-
-msgid "Upload Dataset Style"
-msgstr "Стиль загрузки набора данных"
-
-msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
-msgstr "(SLD - Style Layer Descriptor 1.0, 1.1)"
-
-msgid "WARNING"
-msgstr "Предупреждение"
-
-msgid "This will most probably overwrite the current default style!"
-msgstr "Это, скорее всего, перезапишет текущий стиль по умолчанию!"
-
-msgid "apps explore"
-msgstr "обзор приложений"
-
-msgid "Create New"
-msgstr "Создать новый"
-
-#, python-format
-msgid "%(GEONODE_APPS_NAME)s"
-msgstr "%(GEONODE_APPS_NAME)s"
-
-#, python-format
-msgid "%(item)s"
-msgstr "%(item)s"
-
-msgid "Explore"
-msgstr "Обзор"
-
-msgid "Main"
-msgstr "Главная"
-
-msgid "Catalog data"
-msgstr "Каталог данных"
-
-msgid "Datasets"
-msgstr "Наборы данных"
-
-msgid "Documents"
-msgstr "Документы"
-
-msgid "Remove services"
-msgstr "Удалить службы"
-
-msgid "Maps"
-msgstr "Карты"
-
-msgid "Geostories"
-msgstr "Геоистории"
-
-msgid "Dashboards"
-msgstr "Дэшборды"
-
-msgid "Create own map"
-msgstr "Создайте свою карту"
-
-msgid "Go to catalog data"
-msgstr "Перейти в каталог данных"
-
-msgid "Top of maps and layers"
-msgstr "Топ карт и слоев"
-
-msgid "Last of tops"
-msgstr "Последнее"
-
-msgid "Popular of tops"
-msgstr "Популярное"
-
-msgid "Show all"
-msgstr "Показать все"
-
-msgid "No Group"
-msgstr "Нет группы"
-
-msgid "All contents"
-msgstr "Все содержимое"
-
-msgid "No Organization Info"
-msgstr "Нет информации об организации"
-
-msgid "Forgot Username"
-msgstr "Забыл имя пользователя"
-
-msgid ""
-"Enter your email address and click the submit button. <br />Your username "
-"will be sent to you."
-msgstr ""
-"Введите свой адрес электронной почты и нажмите кнопку отправить. <br />Вам "
-"будет выслано ваше имя пользователя."
-
-msgid "Submit"
-msgstr "Отправить"
-
-msgid "Create Profile"
-msgstr "Создать профиль"
-
-msgid "Profile of "
-msgstr "Профиль "
-
-msgid "Email"
-msgstr "Электронная почта"
-
-msgid "Not provided."
-msgstr "Не предусмотрено."
-
-msgid "Position"
-msgstr "Позиция"
-
-msgid "Organization"
-msgstr "Организация"
-
-msgid "Location"
-msgstr "Местоположение"
-
-msgid "Voice"
-msgstr "Телефон"
-
-msgid "Not provided"
-msgstr "Не предусмотрено"
-
-msgid "Fax"
-msgstr "Факс"
-
-msgid "Keywords"
-msgstr "Ключевые слова"
-
-msgid "User layers WMS GetCapabilities document"
-msgstr "Слои пользователя"
-
-msgid "Message User"
-msgstr "Сообщение пользователю"
-
-msgid "Edit profile"
-msgstr "Редактировать профиль"
-
-msgid "Connected social accounts"
-msgstr "Подключенные социальные аккаунты"
-
-msgid "Associated e-mails"
-msgstr "Связанные электронные адреса"
-
-msgid "Set/Change password"
-msgstr "Установить/изменить пароль"
-
-msgid "My Activities"
-msgstr "Моя деятельность"
-
-msgid "Notifications"
-msgstr "Уведомления"
-
-msgid "Announcements"
-msgstr "Объявления"
-
-msgid "Invite Users"
-msgstr "Пригласить пользователей"
-
-msgid "GeoServer"
-msgstr "ГеоСервер"
-
-msgid "Admin"
-msgstr "Администратор"
-
-msgid "User Activities"
-msgstr "Действия пользователя"
-
-msgid "Resources"
-msgstr "Ресурсы"
-
-msgid "Edit Your Profile"
-msgstr "Отредактируйте свой профиль"
-
-msgid "Edit Profile for"
-msgstr "Редактировать профиль для"
-
-msgid "Change your avatar"
-msgstr "Измените свой аватар"
-
-msgid "Update profile"
-msgstr "Обновить профиль"
-
-msgid "Explore People"
-msgstr "Пользователи"
