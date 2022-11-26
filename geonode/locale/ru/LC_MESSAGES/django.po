@@ -3190,10 +3190,8 @@ msgstr "ИИН"
 msgid "Password"
 msgstr "Пароль"
 
-#, fuzzy
-#| msgid "User Activities"
 msgid "User not exists"
-msgstr "Деятельность пользователей"
+msgstr "Пользователя с такими данными не существует"
 
 msgid "Organization Name"
 msgstr "Наименование организации"

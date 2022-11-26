@@ -20,15 +20,7 @@
 <div class="nsdi-signup">
   <div class="nsdi-signup-form">
     <div class="nsdi-signup-form-errors">
-      {{ form.non_field_errors }}
-
-      {% for field in form %}
-          {% if field.errors %}
-          <div class="fieldWrapper">
-            {{ field.label }} {{ field.label_tag }}  {{ field.errors }}
-          </div>
-          {% endif %}
-      {% endfor %}
+      
     </div>
     <div class="nsdi-signup-form-title nsdi-font-size-24 nsdi-font-weight-500">
       Авторизация
@@ -64,6 +56,18 @@
         {% trans "Log in by EDS" %}
       </button>
     </form>
+
+    <div class="pt-4">
+      {{ form.non_field_errors }}
+
+      {% for field in form %}
+          {% if field.errors %}
+          <div class="fieldWrapper">
+            {{ field.label }} {{ field.label_tag }}  {{ field.errors }}
+          </div>
+          {% endif %}
+      {% endfor %}
+    </div>
 
     <div
       class="nsdi-signup-form-already-block nsdi-font-size-18 nsdi-font-weight-400 text-center"

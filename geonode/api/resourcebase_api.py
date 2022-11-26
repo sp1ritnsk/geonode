@@ -676,6 +676,19 @@ class FeaturedResourceBaseResource(CommonModelApi):
         authentication = MultiAuthentication(SessionAuthentication(),
                                              OAuthAuthentication(),
                                              GeonodeApiKeyAuthentication())
+        
+class LatestResourceBaseResource(CommonModelApi):
+
+    """Only the latest resourcebases"""
+
+    class Meta(CommonMetaApi):
+        paginator_class = CrossSiteXHRPaginator
+        queryset = ResourceBase.objects.order_by('-date')
+        resource_name = 'latest'
+        authentication = MultiAuthentication(SessionAuthentication(),
+                                             OAuthAuthentication(),
+                                             GeonodeApiKeyAuthentication())
+
 
 
 class LayerResource(CommonModelApi):
