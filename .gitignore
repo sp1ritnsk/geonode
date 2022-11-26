@@ -97,3 +97,7 @@ scripts/spcgeonode/_volume_*
 
 #sensitive files
 .env
+
+#geoserver archive
+/scripts/docker/geoserver/
+/scripts/docker/geoserver_data/
