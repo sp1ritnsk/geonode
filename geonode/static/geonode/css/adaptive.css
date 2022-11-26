@@ -143,7 +143,6 @@ table#resource_table td:nth-child(3) {
 @media screen and (max-width: 991px) {
     .nsdi-navbar .navbar-toggler {
         display: block;
-        position: fixed;
         z-index: 99;
         top: 20px;
     }

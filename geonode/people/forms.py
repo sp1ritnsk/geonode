@@ -98,7 +98,8 @@ class ProfileForm(forms.ModelForm):
             'is_staff',
             'is_superuser',
             'is_active',
-            'date_joined'
+            'date_joined',
+            'iin'
         )
 
 class CustomSignupForm(SignupForm):
