@@ -144,8 +144,8 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-msgid "Date"
-msgstr ""
+
+
 
 msgid "temporal extent start"
 msgstr ""
@@ -156,11 +156,11 @@ msgstr ""
 msgid "Person outside GeoNode (fill form)"
 msgstr ""
 
-msgid "Point of Contact"
-msgstr ""
 
-msgid "Metadata Author"
-msgstr ""
+
+
+
+
 
 msgid "Free-text Keywords"
 msgstr ""
@@ -182,8 +182,8 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
-msgid "Category"
-msgstr ""
+
+
 
 msgid "License"
 msgstr ""
@@ -431,8 +431,8 @@ msgstr ""
 msgid "Resource Type"
 msgstr ""
 
-msgid "Metadata"
-msgstr ""
+
+
 
 msgid "If true, will be excluded from search"
 msgstr ""
@@ -494,8 +494,8 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-msgid "Keywords"
-msgstr ""
+
+
 
 msgid "More info"
 msgstr ""
@@ -560,8 +560,8 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-msgid "Submit"
-msgstr ""
+
+
 
 msgid "Discover the available datasets."
 msgstr ""
@@ -647,14 +647,14 @@ msgstr ""
 msgid "Spatial Reference System Identifier"
 msgstr ""
 
-msgid "Attributes"
-msgstr ""
+
+
 
 msgid "Attribute name"
 msgstr ""
 
-msgid "Description"
-msgstr ""
+
+
 
 msgid "GeoNode Client Library"
 msgstr ""
@@ -768,8 +768,8 @@ msgid ""
 "control points, postal zones and services, place names."
 msgstr ""
 
-msgid "Location"
-msgstr ""
+
+
 
 msgid ""
 "Features and characteristics of salt water bodies (excluding inland waters). "
@@ -946,32 +946,32 @@ msgstr ""
 msgid "for %(document_title)s"
 msgstr ""
 
-msgid "Completeness"
-msgstr ""
 
-msgid "Metadata Schema mandatory fields completed"
-msgstr ""
 
-msgid "Check Schema mandatory fields"
-msgstr ""
 
-msgid "Error updating metadata.  Please check the following fields: "
-msgstr ""
 
-msgid "Done"
-msgstr ""
 
-msgid "Metadata Provider"
-msgstr ""
 
-msgid "<< Back"
-msgstr ""
 
-msgid "Update"
-msgstr ""
 
-msgid "Next >>"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "Select an option"
 msgstr ""
@@ -979,8 +979,8 @@ msgstr ""
 msgid "Explore Documents"
 msgstr ""
 
-msgid "Edit Metadata"
-msgstr ""
+
+
 
 msgid "Editing details for"
 msgstr ""
@@ -994,29 +994,29 @@ msgstr ""
 msgid "Replace "
 msgstr ""
 
-msgid "Clear"
-msgstr ""
+
+
 
 msgid "Upload Document's Thumbnail"
 msgstr ""
 
-msgid "Drop files here"
-msgstr ""
 
-msgid " or select them one by one:"
-msgstr ""
 
-msgid "Choose Files"
-msgstr ""
 
-msgid "Files to be uploaded"
-msgstr ""
 
-msgid "Is Upload Metadata XML Form"
-msgstr ""
 
-msgid "Upload files"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "Upload Documents"
 msgstr ""
@@ -1132,9 +1132,9 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#, python-format
-msgid "%(GEONODE_APPS_NAME)s"
-msgstr ""
+
+
+
 
 #, python-format
 msgid "for %(map_title)s"
@@ -1218,26 +1218,26 @@ msgstr ""
 msgid "Geometry type"
 msgstr ""
 
-msgid "Create Dataset"
-msgstr ""
 
-msgid "Create an empty dataset"
-msgstr ""
 
-msgid "Add Attribute"
-msgstr ""
 
-msgid "Create dataset"
-msgstr ""
 
-msgid "String"
-msgstr ""
 
-msgid "Integer"
-msgstr ""
 
-msgid "Float"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "No title provided"
 msgstr ""
@@ -1339,8 +1339,8 @@ msgstr ""
 msgid "Logo"
 msgstr ""
 
-msgid "Email"
-msgstr ""
+
+
 
 msgid "A space or comma-separated list of keywords"
 msgstr ""
@@ -1363,14 +1363,14 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-msgid "Datasets"
-msgstr ""
 
-msgid "Maps"
-msgstr ""
 
-msgid "Documents"
-msgstr ""
+
+
+
+
+
+
 
 msgid "No actions yet"
 msgstr ""
@@ -1479,11 +1479,11 @@ msgid ""
 "        "
 msgstr ""
 
-msgid "Yes, I am sure"
-msgstr ""
 
-msgid "No, don't remove it"
-msgstr ""
+
+
+
+
 
 msgid "Remove Maps/Data from Group"
 msgstr ""
@@ -1826,8 +1826,8 @@ msgid ""
 "results"
 msgstr ""
 
-msgid "Label"
-msgstr ""
+
+
 
 msgid "Image"
 msgstr ""
@@ -1915,132 +1915,132 @@ msgstr ""
 msgid "date when attribute statistics were last updated"
 msgstr ""
 
-msgid "Append to Dataset"
-msgstr ""
 
-msgid "Explore Datasets"
-msgstr ""
 
-msgid "Return to Dataset"
-msgstr ""
 
-msgid "Preserve Metadata XML"
-msgstr ""
 
-msgid "Select the charset or leave default"
-msgstr ""
 
-msgid "Remove Mosaic Granules"
-msgstr ""
 
-#, python-format
-msgid ""
-"\n"
-"          Are you sure you want to remove Granule %(granule_id)s of the "
-"Mosaic <a href=\"%(dataset.get_absolute_url)s\">%(dataset_title)s</a>?\n"
-"        "
-msgstr ""
 
-msgid "This action affects the following maps:"
-msgstr ""
 
-msgid "No maps are using this dataset"
-msgstr ""
 
-#, python-format
-msgid "for %(dataset_title)s"
-msgstr ""
 
-msgid ""
-"Note: this layer's orginal metadata was populated and preserved by importing "
-"a metadata XML file.\n"
-"          This metadata cannot be edited."
-msgstr ""
 
-msgid ""
-"Note: this layer's orginal metadata was populated by importing a metadata "
-"XML file.\n"
-"          GeoNode's metadata import supports a subset of ISO, FGDC, and "
-"Dublin Core metadata elements.\n"
-"          Some of your original metadata may have been lost."
-msgstr ""
 
-#, python-format
-msgid ""
-"\n"
-"        Editing details for %(dataset_title)s\n"
-"      "
-msgstr ""
 
-msgid "Use a custom template?"
-msgstr ""
 
-msgid "Attribute"
-msgstr ""
 
-msgid "Display Order"
-msgstr ""
 
-msgid "Display Type"
-msgstr ""
 
-msgid "Visible"
-msgstr ""
 
-msgid "ERROR"
-msgstr ""
 
-msgid "Following items are required:"
-msgstr ""
 
-msgid "Close"
-msgstr ""
 
-msgid "Upload Dataset Metadata"
-msgstr ""
 
-msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
-msgstr ""
 
-msgid "Replace Dataset"
-msgstr ""
 
-msgid "Manage Styles"
-msgstr ""
 
-#, python-format
-msgid ""
-"\n"
-"      Manage Available Styles for <a href=\"%(dataset_url)s\">"
-"%(dataset_title)s</a>\n"
-"    "
-msgstr ""
 
-msgid "Dataset Default Style"
-msgstr ""
 
-msgid "Available styles"
-msgstr ""
 
-msgid ""
-"Click on an available style in the upper box to assign it to this layer. "
-"Selected styles appear in the lower box."
-msgstr ""
 
-msgid "Update Available Styles"
-msgstr ""
 
-msgid "Upload Dataset Style"
-msgstr ""
 
-msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
-msgstr ""
 
-msgid "WARNING"
-msgstr ""
 
-msgid "This will most probably overwrite the current default style!"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "Preview"
 msgstr ""
@@ -2389,8 +2389,8 @@ msgstr ""
 msgid "GeoNode"
 msgstr ""
 
-msgid "GeoServer"
-msgstr ""
+
+
 
 msgid "Host (GeoServer)"
 msgstr ""
@@ -2416,8 +2416,8 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-msgid "Admin"
-msgstr ""
+
+
 
 msgid "Other"
 msgstr ""
@@ -2601,12 +2601,6 @@ msgstr ""
 msgid "Change password: %s"
 msgstr ""
 
-msgid "Sign not valid"
-msgstr ""
-
-msgid "Sign date expired"
-msgstr ""
-
 msgid "party who authored the resource"
 msgstr ""
 
@@ -2649,21 +2643,6 @@ msgstr ""
 msgid "Email Address"
 msgstr ""
 
-msgid "IIN already taken"
-msgstr ""
-
-msgid "IIN"
-msgstr ""
-
-msgid "Password"
-msgstr ""
-
-msgid "User not exists"
-msgstr ""
-
-msgid "Organization Name"
-msgstr ""
-
 msgid "name of the responsible organization"
 msgstr ""
 
@@ -2679,8 +2658,8 @@ msgstr ""
 msgid "role or position of the responsible person"
 msgstr ""
 
-msgid "Voice"
-msgstr ""
+
+
 
 msgid ""
 "telephone number by which individuals can speak to the responsible "
@@ -2767,94 +2746,94 @@ msgid ""
 "{}+=`:\";'<>?,./."
 msgstr ""
 
-msgid "No Group"
-msgstr ""
 
-msgid "All contents"
-msgstr ""
 
-msgid "No Organization Info"
-msgstr ""
 
-msgid "Forgot Username"
-msgstr ""
 
-msgid ""
-"Enter your email address and click the submit button. <br />Your username "
-"will be sent to you."
-msgstr ""
 
-msgid "Create Profile"
-msgstr ""
 
-msgid "Profile of "
-msgstr ""
 
-msgid "Not provided."
-msgstr ""
 
-msgid "Position"
-msgstr ""
 
-msgid "Organization"
-msgstr ""
 
-msgid "Not provided"
-msgstr ""
 
-msgid "Fax"
-msgstr ""
 
-msgid "User layers WMS GetCapabilities document"
-msgstr ""
 
-msgid "Message User"
-msgstr ""
 
-msgid "Edit profile"
-msgstr ""
 
-msgid "Connected social accounts"
-msgstr ""
 
-msgid "Associated e-mails"
-msgstr ""
 
-msgid "Set/Change password"
-msgstr ""
 
-msgid "My Activities"
-msgstr ""
 
-msgid "Notifications"
-msgstr ""
 
-msgid "Announcements"
-msgstr ""
 
-msgid "Invite Users"
-msgstr ""
 
-msgid "User Activities"
-msgstr ""
 
-msgid "Resources"
-msgstr ""
 
-msgid "Edit Your Profile"
-msgstr ""
 
-msgid "Edit Profile for"
-msgstr ""
 
-msgid "Change your avatar"
-msgstr ""
 
-msgid "Update profile"
-msgstr ""
 
-msgid "Explore People"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #, python-brace-format
 msgid "Your username for {site.name}"
@@ -3428,40 +3407,40 @@ msgid ""
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
 
-msgid "Signup"
-msgstr ""
 
-msgid "Forgot password?"
-msgstr ""
 
-msgid "Log in"
-msgstr ""
 
-msgid "or"
-msgstr ""
 
-msgid "Log in by EDS"
-msgstr ""
 
-msgid "First time in portal?"
-msgstr ""
 
-msgid "Register"
-msgstr ""
 
-msgid "Project name"
-msgstr ""
 
-msgid "Project subname"
-msgstr ""
 
-#, python-format
-msgid ""
-"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
 
-msgid "Sign Up"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "Log out"
 msgstr ""
@@ -3541,11 +3520,11 @@ msgstr ""
 msgid "Set password"
 msgstr ""
 
-msgid "Register by EDS"
-msgstr ""
 
-msgid "Already registered?"
-msgstr ""
+
+
+
+
 
 msgid "Sign Up Closed"
 msgstr ""
@@ -3654,8 +3633,8 @@ msgstr ""
 msgid "Data"
 msgstr ""
 
-msgid "Explore"
-msgstr ""
+
+
 
 msgid "People"
 msgstr ""
@@ -3982,23 +3961,23 @@ msgstr ""
 msgid "Remixing a Map"
 msgstr ""
 
-msgid "Go to catalog data"
-msgstr ""
 
-msgid "Create own map"
-msgstr ""
 
-msgid "Top of maps and layers"
-msgstr ""
 
-msgid "Last of tops"
-msgstr ""
 
-msgid "Popular of tops"
-msgstr ""
 
-msgid "Show all"
-msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
 
 msgid "Dear Sir/Madam,"
 msgstr ""
