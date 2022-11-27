@@ -187,41 +187,12 @@ USE_L10N = ast.literal_eval(os.getenv('USE_I18N', 'True'))
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', "en")
+LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', "ru")
 
 _DEFAULT_LANGUAGES = """(
-    ('af', 'Afrikaans'),
-    ('sq', 'Albanian'),
-    ('am', 'Amharic'),
-    ('ar', 'Arabic'),
-    ('id', 'Bahasa Indonesia'),
-    ('bn', 'Bengali'),
-    ('de', 'Deutsch'),
     ('en', 'English'),
-    ('es', 'Español'),
-    ('fr', 'Français'),
-    ('it', 'Italiano'),
-    ('km', 'Khmer'),
-    ('nl', 'Nederlands'),
-    ('ne', 'Nepali'),
-    ('fa', 'Persian'),
-    ('pl', 'Polish'),
-    ('pt', 'Portuguese'),
-    ('pt-br', 'Portuguese (Brazil)'),
-    ('ru', 'Russian'),
-    ('si', 'Sinhala'),
-    ('sw', 'Swahili'),
-    ('sv', 'Swedish'),
-    ('tl', 'Tagalog'),
-    ('ta', 'Tamil'),
-    ('uk', 'Ukranian'),
-    ('vi', 'Vietnamese'),
-    ('el', 'Ελληνικά'),
-    ('th', 'ไทย'),
-    ('zh-cn', '中文'),
-    ('ja', '日本語'),
-    ('ko', '한국어'),
-    ('sk', 'Slovensky'),
+    ('ru', 'Русский'),
+    ('kk', 'Казакша')
 )"""
 
 LANGUAGES = ast.literal_eval(os.getenv('LANGUAGES', _DEFAULT_LANGUAGES))
@@ -2232,3 +2203,33 @@ AUTHENTICATION_BACKENDS += (
     'geonode.people.auth_backends.SignAuthenticationBackend',
     'geonode.people.auth_backends.IinAuthenticationBackend',
 )
+
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
+                "OPTIONS": {
+                    "min_length": 8,
+                },
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
+    },
+    {
+        "NAME": "geonode.people.password_validators.UppercaseValidator",
+    },
+    {
+        "NAME": "geonode.people.password_validators.NumberValidator",
+                "OPTIONS": {
+                    "min_digits": 1,
+                },
+    },
+    {
+        "NAME": "geonode.people.password_validators.LowercaseValidator",
+    },
+    {
+        "NAME": "geonode.people.password_validators.SpecialCharsValidator",
+    },
+]

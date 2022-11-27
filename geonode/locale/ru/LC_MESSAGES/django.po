@@ -3190,10 +3190,8 @@ msgstr "ИИН"
 msgid "Password"
 msgstr "Пароль"
 
-#, fuzzy
-#| msgid "User Activities"
 msgid "User not exists"
-msgstr "Деятельность пользователей"
+msgstr "Пользователя с такими данными не существует"
 
 msgid "Organization Name"
 msgstr "Наименование организации"
@@ -3277,8 +3275,11 @@ msgstr ""
 msgid "Timezone"
 msgstr ""
 
+msgid "The password must contain at least %d digit(s), 0-9."
+msgstr "Пароль должен содержать как минимум %d цифр(у), 0-9."
+
 msgid "The password must contain at least"
-msgstr ""
+msgstr "Пароль должен содержать как минимум"
 
 #, fuzzy
 #| msgid "Your account is now active"
@@ -3289,27 +3290,35 @@ msgid ""
 "The password must contain at least                     1 uppercase letter, A-"
 "Z."
 msgstr ""
+"Пароль должен содержать как минимум                     1 заглавную букву, А-"
+"Я."
 
 msgid "Your password must contain at least 1 uppercase letter, A-Z."
-msgstr ""
+msgstr "Ваш пароль должен содержать как минимум 1 заглавную букву, А-Я."
 
 msgid ""
 "The password must contain at least                     1 lowercase letter, a-"
 "z."
 msgstr ""
+"Пароль должен содержать как минимум                     1 строчную букву, а-"
+"я."
 
 msgid "Your password must contain at least 1 lowercase letter, a-z."
-msgstr ""
+msgstr "Ваш пароль должен содержать как минимум 1 строчную букву, а-я."
 
 msgid ""
 "The password must contain at least                     1 symbol, @#$%^&*()[]"
 "{}+=`:\";'<>?,./."
 msgstr ""
+"Пароль должен содержать как минимум                     1 специальный символ, @#$%^&*()[]"
+"{}+=`:\";'<>?,./."
 
 msgid ""
 "Your password must contain at least                 1 symbol, @#$%^&*()[]"
 "{}+=`:\";'<>?,./."
 msgstr ""
+"Ваш пароль должен содержать как минимум                 1 специальный символ, @#$%^&*()[]"
+"{}+=`:\";'<>?,./."
 
 msgid "No Group"
 msgstr "Нет группы"
@@ -7243,3 +7252,15 @@ msgstr "Дэшборды"
 #~| msgid "Thumbnail"
 #~ msgid "Thumbnail saved"
 #~ msgstr "Thumbnail"
+
+msgid "created layers"
+msgstr "созданных слоев"
+
+msgid "ready maps"
+msgstr "готовых карт"
+
+msgid "of documents"
+msgstr "документов"
+
+msgid "of users"
+msgstr "пользователей портала"
