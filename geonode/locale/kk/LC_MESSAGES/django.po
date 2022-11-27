@@ -5029,10 +5029,10 @@ msgstr "Порталда бірінші рет?"
 msgid "Register"
 msgstr "Тіркеу"
 
-msgid "Project name"
+msgid "National spatial data infrastructure"
 msgstr "Ұлттық кеңістіктік деректер инфрақұрылымы"
 
-msgid "Project subname"
+msgid "Open data geoportal of Kazakhstan"
 msgstr "Қазақстан Республикасының ашық кеңістіктік деректер порталы"
 
 #, python-format

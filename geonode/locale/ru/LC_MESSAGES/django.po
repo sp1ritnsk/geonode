@@ -4149,10 +4149,10 @@ msgstr "В первый раз на портале?"
 msgid "Register"
 msgstr "Регистрация"
 
-msgid "Project name"
+msgid "National spatial data infrastructure"
 msgstr "Национальная инфраструктура пространственных данных"
 
-msgid "Project subname"
+msgid "Open data geoportal of Kazakhstan"
 msgstr "Портал открытых пространственных данных Республики Казахстан"
 
 #, python-format
