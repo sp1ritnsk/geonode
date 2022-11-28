@@ -66,6 +66,9 @@ table#resource_table td:nth-child(3) {
 .chart-options-form .control-label {
     width: 100% !important;
 }
+.mapstore-switch-panel .col-sm-4 {
+    width: 100%;
+}
 @media screen and (max-width: 1150px) {
     .nsdi-action-login {
         width: auto;
