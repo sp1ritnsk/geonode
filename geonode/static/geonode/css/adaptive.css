@@ -69,6 +69,9 @@ table#resource_table td:nth-child(3) {
 .mapstore-switch-panel .col-sm-4 {
     width: 100%;
 }
+.msgapi .dropdown-menu>li>a {
+    white-space: normal;
+}
 @media screen and (max-width: 1150px) {
     .nsdi-action-login {
         width: auto;
