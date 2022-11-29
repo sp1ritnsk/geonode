@@ -57,7 +57,21 @@ table#resource_table td:nth-child(3) {
     min-height: inherit;
 
 }
-
+.jss5 {
+    z-index: 999 !important;
+}
+.page-title {
+    margin-top: 20px;
+}
+.chart-options-form .control-label {
+    width: 100% !important;
+}
+.mapstore-switch-panel .col-sm-4 {
+    width: 100%;
+}
+.msgapi .dropdown-menu>li>a {
+    white-space: normal;
+}
 @media screen and (max-width: 1150px) {
     .nsdi-action-login {
         width: auto;
@@ -146,7 +160,9 @@ table#resource_table td:nth-child(3) {
         z-index: 99;
         top: 20px;
     } */
-
+    div#user_messages{
+        width:auto;
+    }
     .msgapi .gn-main-header .navbar-collapse.collapse:not(.show),
     .gn-main-header .navbar-collapse.collapse {
         display: none !important;
