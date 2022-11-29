@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-20 14:19+0000\n"
-"PO-Revision-Date: 2022-11-28 00:05+0600\n"
+"PO-Revision-Date: 2022-11-28 18:30+0600\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Russian (http://www.transifex.com/geonode/geonode/language/ru/)\n"
 "Language: ru\n"
@@ -548,8 +548,6 @@ msgstr "Тип пространственного представления"
 msgid "No content created yet."
 msgstr "Нет контента."
 
-#, fuzzy
-#| msgid "Temporal Extent"
 msgid "Temporal Serie"
 msgstr "Временной диапазон"
 
@@ -646,7 +644,7 @@ msgstr "Ресурс успешно скопирован!"
 
 #, python-brace-format
 msgid "Error Occurred while Cloning the Resource: {e}"
-msgstr ""
+msgstr "Возникла ошибка при копировании ресурса: {e}"
 
 msgid "You are not permitted to view this resource"
 msgstr "Вам не разрешено просматривать этот ресурс"
@@ -905,10 +903,10 @@ msgid "Height"
 msgstr "Высота"
 
 msgid "Make"
-msgstr ""
+msgstr "Исполнить"
 
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
 msgid "Latitude"
 msgstr "Широта"
@@ -920,7 +918,7 @@ msgid "Longitude"
 msgstr "Долгота"
 
 msgid "Flash"
-msgstr ""
+msgstr "Подсветка"
 
 msgid "True"
 msgstr "Истина"
@@ -967,8 +965,6 @@ msgstr "Ссылка (URL)"
 msgid "View Metadata"
 msgstr "Просмотр метаданных"
 
-#, fuzzy
-#| msgid "Download"
 msgid "View and Download"
 msgstr "Скачать"
 
@@ -1324,7 +1320,7 @@ msgid "Invalid Projection. Dataset is missing CRS!"
 msgstr "Неверная проекция. Слой не имеет системы координат!"
 
 msgid "GeoTIFF"
-msgstr ""
+msgstr "GeoTIFF"
 
 msgid "Zipped Shapefile"
 msgstr "Сжатый (zip) Shapefile"
@@ -1378,7 +1374,7 @@ msgstr "Укажите роль"
 
 #, python-format
 msgid "The following are not valid usernames: %(errors)s; not added to the group"
-msgstr ""
+msgstr "Указанные имена пользователей не верны: %(errors)s; не добавлены в группу"
 
 msgid "Group Categories"
 msgstr "Категории групп"
@@ -1643,19 +1639,19 @@ msgid "Whether the remote service is known to be available or not"
 msgstr ""
 
 msgid "How often (in minutes) should the remote service be checked for availability?"
-msgstr ""
+msgstr "Как часто (в минутах) сервис должен проверяться на доступность?"
 
 msgid "Last time the remote server was checked for availability"
-msgstr ""
+msgstr "Последняя дата проверки сервиса на доступность"
 
 msgid "Last time the remote server was checked for harvestable resources"
-msgstr ""
+msgstr "Последний раз, когда сервис проверялся на обновления ресурсов"
 
 msgid "Default owner of harvested resources"
 msgstr "Владелец собранных ресурсов по умолчанию"
 
 msgid "Should new resources be harvested automatically without explicit selection?"
-msgstr ""
+msgstr "Должна ли собираться новые ресурсы без явного выбора?"
 
 msgid ""
 "Orphan resources are those that have previously been created by means of a harvesting "
@@ -1666,7 +1662,7 @@ msgid ""
 msgstr ""
 
 msgid "Date of last update to the harvester configuration."
-msgstr ""
+msgstr "Дата последнего обновления конфигурации сборщика."
 
 msgid ""
 "Harvester class used to perform harvesting sessions. New harvester types can be added by "
@@ -1831,7 +1827,7 @@ msgid "Has time?"
 msgstr "Включает время"
 
 msgid "Has elevation?"
-msgstr "Включает высоты"
+msgstr "Включает высоту"
 
 msgid "Time regex"
 msgstr "Регулярное выражения для обработки времени"
@@ -1839,8 +1835,6 @@ msgstr "Регулярное выражения для обработки вре
 msgid "Elevation regex"
 msgstr "Регулярное выражения для обработки времени"
 
-#, fuzzy
-#| msgid "Type"
 msgid "P-Type"
 msgstr "Тип"
 
@@ -1912,13 +1906,13 @@ msgid "Video (webm)"
 msgstr "Видео (webm)"
 
 msgid "Video (3gp)"
-msgstr ""
+msgstr "Видео (3gp)"
 
 msgid "Video (flv)"
-msgstr ""
+msgstr "Видео (flv)"
 
 msgid "Video (YouTube/VIMEO - embedded)"
-msgstr ""
+msgstr "Видео (YouTube/VIMEO - embedded)"
 
 msgid "Audio"
 msgstr "Аудио"
@@ -2195,7 +2189,7 @@ msgid "Please ensure the name is consistent with the file you are trying to {act
 msgstr ""
 
 msgid "Local GeoNode dataset has no geometry type."
-msgstr ""
+msgstr "Локальный набор данных не имеет геометрии."
 
 #, python-brace-format
 msgid ""
@@ -2204,7 +2198,7 @@ msgid ""
 msgstr ""
 
 msgid "The selected Dataset does not exists in the catalog."
-msgstr ""
+msgstr "Выбранный набор данных не существует в каталоге."
 
 msgid "Please ensure that the dataset structure is consistent "
 msgstr ""
@@ -2224,35 +2218,21 @@ msgid ""
 "metadata XML file. This metadata cannot be edited."
 msgstr ""
 
-#, fuzzy
-#| msgid "You are not permitted to delete this layer"
 msgid "You are not permitted to delete this dataset"
 msgstr "Вам не разрешено удалять данный слой"
 
-#, fuzzy
-#| msgid "You do not have permissions for this layer."
 msgid "You do not have permissions for this dataset."
 msgstr "У Вас нет прав доступа к данному слою"
 
-#, fuzzy
-#| msgid "You are not permitted to modify this layer"
 msgid "You are not permitted to modify this dataset"
-msgstr "Вам не разрешено вносить корректировки в данный слой"
+msgstr "Вам не разрешено редактировать данный слой"
 
-#, fuzzy
-#| msgid "You are not permitted to modify this layer's metadata"
 msgid "You are not permitted to modify this dataset's metadata"
-msgstr "Вам не разрешено вносить корректировки в метаданные данного слоя"
+msgstr "Вам не разрешено редактировать метаданные данного слоя"
 
-#, fuzzy
-#| msgid "You are not permitted to view this layer"
 msgid "You are not permitted to view this dataset"
 msgstr "Вам не разрешено просматривать данный слой"
 
-#, fuzzy
-#| msgid ""
-#| "This layer is a member of a layer group, you must remove the layer from the group "
-#| "before deleting."
 msgid ""
 "This dataset is a member of a layer group, you must remove the dataset from the group "
 "before deleting."
@@ -2512,16 +2492,16 @@ msgid "Overwrite file if exists"
 msgstr ""
 
 msgid "GeoNode"
-msgstr "GeoNode"
+msgstr "ИС БПД"
 
 msgid "GeoServer"
-msgstr "ГеоСервер"
+msgstr "Геосервер"
 
 msgid "Host (GeoServer)"
-msgstr "GeoServer"
+msgstr "Хост (Геосервер)"
 
 msgid "Host (GeoNode)"
-msgstr "GeoNode"
+msgstr "Хост (ИС БПД)"
 
 msgid "No resource"
 msgstr "Нет ресурсов"
@@ -2545,7 +2525,7 @@ msgid "Admin"
 msgstr "Администратор"
 
 msgid "Other"
-msgstr ""
+msgstr "Прочее"
 
 msgid "Rate"
 msgstr ""
@@ -2589,13 +2569,11 @@ msgstr ""
 msgid "Percentage"
 msgstr ""
 
-#, fuzzy
-#| msgid "local OWS"
 msgid "Not OWS"
-msgstr "локальные сервисы OWS"
+msgstr "Не OWS"
 
 msgid "Any OWS"
-msgstr ""
+msgstr "Любой OWS"
 
 msgid "Change"
 msgstr "Изменить"
@@ -2604,10 +2582,10 @@ msgid "Change Metadata"
 msgstr "Изменить метаданные"
 
 msgid "Publish"
-msgstr "Публикация"
+msgstr "Опубликовать"
 
 msgid "Geoserver event"
-msgstr "Событие GeoServer"
+msgstr "Событие Геосервера"
 
 msgid "List of resources affected"
 msgstr "Список затронутых ресурсов"
@@ -2683,7 +2661,7 @@ msgid "Monitoring on"
 msgstr ""
 
 msgid "has detected following problems :"
-msgstr "обнаружены проблемы"
+msgstr "обнаружены проблемы:"
 
 msgid "spotted"
 msgstr ""
@@ -2695,10 +2673,10 @@ msgid "emerged"
 msgstr ""
 
 msgid "User following you"
-msgstr "Пользователь следует за Вами"
+msgstr "Пользователь подписан на Вас"
 
 msgid "Another user has started following you"
-msgstr "Другой пользователь начал следовать за Вами"
+msgstr "Другой пользователь подписался на Вас"
 
 msgid "User requested access"
 msgstr "Пользователь запросил доступ"
@@ -2706,8 +2684,6 @@ msgstr "Пользователь запросил доступ"
 msgid "A new user has requested access to the site"
 msgstr "Новый пользователь запросил доступ к сайту"
 
-#, fuzzy
-#| msgid "Account activated"
 msgid "Account activated"
 msgstr "Учётная запись активирована"
 
@@ -2720,10 +2696,8 @@ msgstr "Личная информация"
 msgid "Important dates"
 msgstr "Важные даты"
 
-#, fuzzy
-#| msgid "Edit profile"
 msgid "Extended profile"
-msgstr "Редактировать профиль"
+msgstr "Расширенный профиль"
 
 msgid "Password changed successfully."
 msgstr "Пароль успешно изменен."
@@ -2777,8 +2751,6 @@ msgstr "сторона, владеющая ресурсом"
 msgid "key party responsible for gathering information and conducting research"
 msgstr "ключевая сторона, ответственная за сбор информации и проведение исследований"
 
-#, fuzzy
-#| msgid "Email Address"
 msgid "Email Address"
 msgstr "Почтовый адрес"
 
@@ -2855,10 +2827,8 @@ msgstr "Почтовый индекс"
 msgid "ZIP or other postal code"
 msgstr "ZIP или другой почтовый индекс"
 
-#, fuzzy
-#| msgid "count"
 msgid "Country"
-msgstr "номер"
+msgstr "Страна"
 
 msgid "country of the physical address"
 msgstr "страна действующего адреса"
@@ -2871,7 +2841,7 @@ msgstr ""
 "описания субъекта (через пробел или запятую"
 
 msgid "Timezone"
-msgstr ""
+msgstr "Временная зона"
 
 msgid "The password must contain at least %d digit(s), 0-9."
 msgstr "Пароль должен содержать как минимум %d цифр(у), 0-9."
@@ -2879,22 +2849,20 @@ msgstr "Пароль должен содержать как минимум %d ц
 msgid "The password must contain at least"
 msgstr "Пароль должен содержать как минимум"
 
-#, fuzzy
-#| msgid "Your account is now active"
 msgid "Your password must contain at least"
-msgstr "Ваша учётная запись теперь активна"
+msgstr "Пароль должен содержать как минимум"
 
 msgid "The password must contain at least                     1 uppercase letter, A-Z."
-msgstr "Пароль должен содержать как минимум                     1 заглавную букву, А-Я."
+msgstr "Пароль должен содержать как минимум                     1 заглавную букву, A-Z."
 
 msgid "Your password must contain at least 1 uppercase letter, A-Z."
-msgstr "Ваш пароль должен содержать как минимум 1 заглавную букву, А-Я."
+msgstr "Ваш пароль должен содержать как минимум 1 заглавную букву, A-Z."
 
 msgid "The password must contain at least                     1 lowercase letter, a-z."
-msgstr "Пароль должен содержать как минимум                     1 строчную букву, а-я."
+msgstr "Пароль должен содержать как минимум                     1 строчную букву, a-z."
 
 msgid "Your password must contain at least 1 lowercase letter, a-z."
-msgstr "Ваш пароль должен содержать как минимум 1 строчную букву, а-я."
+msgstr "Ваш пароль должен содержать как минимум 1 строчную букву, a-z."
 
 msgid ""
 "The password must contain at least                     1 symbol, @#$%^&*()[]{}+=`:"
@@ -2922,7 +2890,6 @@ msgstr "Нет информации об организации"
 msgid "Forgot Username"
 msgstr "Забыли имя пользователя"
 
-#, fuzzy
 msgid ""
 "Enter your email address and click the submit button. <br />Your username will be sent "
 "to you."
@@ -2930,9 +2897,7 @@ msgstr ""
 "#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
 "Введите адрес Вашей электронной почты и нажмите на кнопку подтверждения. <br />Имя "
 "пользователя будет отправлено Вам.\n"
-"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
-"Введите свой адрес электронной почты и нажмите кнопку отправить. <br />Вам будет выслано "
-"ваше имя пользователя."
+" "
 
 msgid "Create Profile"
 msgstr "Создать профиль"
@@ -2941,7 +2906,7 @@ msgid "Profile of "
 msgstr "Профиль "
 
 msgid "Not provided."
-msgstr "Не предусмотрено."
+msgstr "Не предоставлено."
 
 msgid "Position"
 msgstr "Позиция"
@@ -2950,7 +2915,7 @@ msgid "Organization"
 msgstr "Организация"
 
 msgid "Not provided"
-msgstr "Не предусмотрено"
+msgstr "Не предоставлено"
 
 msgid "Fax"
 msgstr "Факс"
@@ -3006,10 +2971,9 @@ msgstr "Обновить профиль"
 msgid "Explore People"
 msgstr "Посмотреть участников"
 
-#, fuzzy, python-brace-format
-#| msgid "Your username for "
+#, python-brace-format
 msgid "Your username for {site.name}"
-msgstr "Ваше имя пользователя для "
+msgstr "Ваше имя пользователя для {site.name}"
 
 msgid "Your username has been emailed to you."
 msgstr "Ваше имя пользователя было выслано Вам по электронной почте."
@@ -3017,15 +2981,11 @@ msgstr "Ваше имя пользователя было выслано Вам 
 msgid "No user could be found with that email address."
 msgstr "Не найден пользователь с таким почтовым адресом."
 
-#, fuzzy
-#| msgid "You are not permitted to save or edit this map."
 msgid "You are not permitted to save or edit this resource."
-msgstr "Вам не разрешается сохранение или создание этой карты."
+msgstr "Вам не разрешается сохранение или создание этого ресурса."
 
-#, fuzzy
-#| msgid "requested you to download this resource"
 msgid "You are not authorized to download this resource."
-msgstr "запрашивает Вашего разрешения на скачивание этого ресурса"
+msgstr "Вам не разрешается скачивать этот ресурс."
 
 msgid "No files have been found for this resource. Please, contact a system administrator."
 msgstr ""
@@ -3454,6 +3414,9 @@ msgid ""
 "issue tracker</a>\n"
 "  "
 msgstr ""
+"\n"
+"Пожалуйста, попробуйте еще раз или обратитесь к администратору если ошибка повторяется.\n"
+" "
 
 msgid "Info"
 msgstr "Информация"
@@ -3808,35 +3771,23 @@ msgid ""
 "request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
 msgstr ""
 
-#, fuzzy
-#| msgid "Change password"
 msgid "change password"
-msgstr "Изменить пароль"
+msgstr "изменить пароль"
 
-#, fuzzy
-#| msgid "Your account is now active"
 msgid "Your password is now changed."
-msgstr "Ваша учётная запись теперь активна"
+msgstr "Ваш пароль был изменен."
 
-#, fuzzy
-#| msgid "Password"
 msgid "Set Password"
-msgstr "Пароль"
+msgstr "Установить пароль"
 
-#, fuzzy
-#| msgid "Password reset"
 msgid "Password Set"
-msgstr "Восстановление пароля"
+msgstr "Пароль установлен"
 
-#, fuzzy
-#| msgid "Forgot your password?"
 msgid "Set your password here"
-msgstr "Забыли свой пароль?"
+msgstr "Установите пароль"
 
-#, fuzzy
-#| msgid "Reset my password"
 msgid "Set password"
-msgstr "Сбросить мой пароль"
+msgstr "Установить пароль"
 
 msgid "Register by EDS"
 msgstr "Регистрация с помощью ЭЦП"
@@ -3857,27 +3808,19 @@ msgstr "Note"
 msgid "you are already logged in as %(user_display)s."
 msgstr ""
 
-#, fuzzy
-#| msgid "Confirm your email address"
 msgid "Verify your email address"
 msgstr "Подтвердите адрес Вашей электронной почты"
 
-#, fuzzy
-#| msgid ""
-#| "We have sent you an email to <b>%(email)s</b> for verification. Follow the link "
-#| "provided to finalize the signup process."
 msgid ""
 "We have sent an email to you for verification. Follow the\n"
 "    link provided to finalize the signup process. Please contact us if you do\n"
 "    not receive it within a few minutes"
 msgstr ""
 "Мы отправили Вам письмо на <b>%(email)s</b> для подтверждения. Следуйте по ссылке в "
-"письме для завершения процесса регистрации."
+"письме для завершения процесса регистрации"
 
-#, fuzzy
-#| msgid "Email Address"
 msgid "Verify Your E-mail Address"
-msgstr "Почтовый адрес"
+msgstr "Подтвердите почтовый адрес"
 
 msgid ""
 "This part of the site requires us to verify that\n"
@@ -3903,37 +3846,35 @@ msgstr "Моя лента активности"
 msgid "Activity Feed"
 msgstr "Лента активности"
 
-#, fuzzy
-#| msgid "Are you sure you want to remove"
 msgid "Are you sure you want to run the selected"
-msgstr "Вы уверены, что хотите удалить"
+msgstr "Вы уверены, что хотите выполнить операцию"
 
 msgid "Yes, I am sure"
 msgstr "Да, я уверен"
 
 msgid "GeoNode site admin"
-msgstr "Администратор сайта GeoNode"
+msgstr "Администратор системы"
 
 msgid "GeoNode administration"
-msgstr "Администрирование GeoNode"
+msgstr "Администрирование системы"
 
 msgid "Delete Announcement?"
-msgstr ""
+msgstr "Удалить объявление?"
 
 msgid "Are you sure you want to delete this announcement?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить объявление?"
 
 msgid "Delete"
 msgstr "Удалить"
 
 msgid "Edit Announcement"
-msgstr "Редактировать Объявление"
+msgstr "Редактировать объявление"
 
 msgid "Create Announcement"
-msgstr "Создать Объявление"
+msgstr "Создать объявление"
 
 msgid "New Announcement"
-msgstr "Новый анонс"
+msgstr "Новое объявление"
 
 msgid "Level"
 msgstr "Уровень"
@@ -3951,19 +3892,18 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Опубликовано с <b>%(publish_start)s</b> до <b>%(publish_end)s</b>."
+"Опубликовано с <b>%(publish_start)s</b> до <b>%(publish_end)s</b>.\n"
+" "
 
 #, python-format
 msgid "Announcements : %(announcement)s"
 msgstr "Объявления: %(announcement)s"
 
-#, fuzzy
-#| msgid "GeoNode Help"
 msgid "GeoNode Search"
-msgstr "Справка по GeoNode"
+msgstr "Поиск в системе"
 
 msgid "Data"
-msgstr ""
+msgstr "Данные"
 
 msgid "Explore"
 msgstr "Обзор"
@@ -3971,10 +3911,8 @@ msgstr "Обзор"
 msgid "People"
 msgstr "Люди"
 
-#, fuzzy
-#| msgid "Add layers"
 msgid "Add User"
-msgstr "Добавить слои"
+msgstr "Добавить пользователя"
 
 msgid "Recent Activity"
 msgstr "Последняя активность"
@@ -4014,50 +3952,38 @@ msgstr "Запомнить меня"
 msgid "Forgot Password?"
 msgstr "Забыли свой пароль?"
 
-#, fuzzy
-#| msgid "uploaded"
 msgid "Uploading..."
-msgstr "загрузил"
+msgstr "Загрузка..."
 
-#, fuzzy
-#| msgid "Upload files"
 msgid "Upload in progress..."
-msgstr "Загрузить файлы"
+msgstr "Идет процесс загрузки..."
 
 msgid "Processing..."
-msgstr ""
+msgstr "Обработка..."
 
-#, fuzzy
-#| msgid "Thumbnail"
 msgid "Updating Thumbnail..."
-msgstr "Thumbnail"
+msgstr "Обновление миниатюры..."
 
-#, fuzzy
-#| msgid "Message Inbox"
 msgid "Message box"
-msgstr "Ящик входящих сообщений"
+msgstr "Входящие сообщения"
 
 msgid "OK"
-msgstr ""
+msgstr "Хорошо"
 
-#, fuzzy
-#| msgid "Are you sure you want to remove"
 msgid "Message. Do you want to proceed?"
-msgstr "Вы уверены, что хотите удалить"
+msgstr "Вы уверены, что хотите продолжить?"
 
 msgid "Some text in the modal"
-msgstr ""
+msgstr "Текст в модальном окне"
 
-#, fuzzy
-#| msgid "Resources"
 msgid "Processing Resource..."
-msgstr "Ресурсы"
+msgstr "Обработка ресурса..."
 
 msgid "Information for Developers"
 msgstr "Информация для разработчиков"
 
 msgid "Useful information for developers interested in GeoNode."
-msgstr "Полезная информация для разработчиков, интересующихся GeoNode."
+msgstr "Полезная информация для разработчиков."
 
 #, python-format
 msgid ""
@@ -4151,10 +4077,10 @@ msgid ""
 msgstr ""
 
 msgid "GeoNode's Web Services"
-msgstr "Веб-сервисы GeoNode"
+msgstr "Веб-сервисы ИС БПД"
 
 msgid "GeoNode's Web Services are available from the following URLs:"
-msgstr "Веб-сервисы GeoNode доступны по следующим URL:"
+msgstr "Веб-сервисы ИС БПД доступны по следующим URL:"
 
 msgid "Dynamic tiles via WMS:"
 msgstr "Динамические тайлы через WMS:"
@@ -4169,10 +4095,10 @@ msgid "Metadata search via CSW:"
 msgstr "Поиск метаданных через CSW:"
 
 msgid "Metadata search via OpenSearch:"
-msgstr ""
+msgstr "Поиск метаданных через OpenSearch:"
 
 msgid "Metadata search via OAI-PMH:"
-msgstr ""
+msgstr "Metadata search via OAI-PMH:"
 
 msgid "Cached tiles via WMTS:"
 msgstr "Кешированные тайлы через WMTS:"
@@ -4181,14 +4107,14 @@ msgid "User Guide"
 msgstr "Руководство пользователя"
 
 msgid "GeoNode Help"
-msgstr "Справка по GeoNode"
+msgstr "Справка по системе"
 
 msgid ""
 "This page provides helpful information about how to use the GeoNode. You can use the "
 "sidebar links to navigate to what you want to know."
 msgstr ""
-"Данная страница содержит полезную информацию о способах использования GeoNode. Вы можете "
-"использовать боковые ссылки для навигации к нужному разделу."
+"Данная страница содержит полезную информацию о способах использования системы. Вы можете "
+"использовать ссылки для навигации к нужному разделу."
 
 #, fuzzy, python-format
 #| msgid ""
@@ -4521,10 +4447,8 @@ msgstr ""
 msgid "We look forward to seeing you on the platform,"
 msgstr ""
 
-#, fuzzy
-#| msgid "GeoNode site admin"
 msgid "The GeoNode team."
-msgstr "Администратор сайта GeoNode"
+msgstr "Администраторы системы."
 
 msgid "is inviting you to join"
 msgstr ""
@@ -4540,49 +4464,41 @@ msgstr ""
 msgid "is a member of the following group(s)"
 msgstr "Следующие группы:"
 
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Updating Metadata..."
-msgstr "Скачать метаданные"
+msgstr "Обновление метаданных..."
 
 msgid "Topic Category is mandatory and cannot be empty!"
-msgstr ""
+msgstr "Пункт Категория является обязательным и не может быть пустым."
 
 msgid "Group is mandatory and cannot be empty!"
-msgstr ""
+msgstr "Группа является обязательным полем и не может быть пустым!"
 
 msgid "Identification"
-msgstr ""
+msgstr "Идентификация"
 
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 msgid "No"
 msgstr "Нет"
 
 msgid "Published"
-msgstr ""
+msgstr "Опубликован"
 
 msgid "email"
 msgstr "по электронной почте"
 
-#, fuzzy
-#| msgid "format"
 msgid "Information"
-msgstr "формат"
+msgstr "Информация"
 
 msgid "Identification Image"
-msgstr ""
+msgstr "Изображение"
 
-#, fuzzy
-#| msgid "Temporal Extent"
 msgid "Spatial Extent"
-msgstr "Временной диапазон"
+msgstr "Пространственный охват"
 
-#, fuzzy
-#| msgid "projection"
 msgid "Projection System"
-msgstr "проекция"
+msgstr "Проекция"
 
 msgid "Extension x0"
 msgstr ""
@@ -4597,46 +4513,40 @@ msgid "Extension y1"
 msgstr ""
 
 msgid "Features"
-msgstr ""
+msgstr "Объекты"
 
 msgid "Contact Points"
-msgstr ""
+msgstr "Контактное лицо"
 
 msgid "References"
-msgstr ""
+msgstr "Ссылки"
 
 msgid "Link Online"
 msgstr ""
 
 msgid "Metadata Page"
-msgstr ""
+msgstr "Страница метаданных"
 
 msgid "Online Link"
-msgstr ""
+msgstr "Онлайн ссылка"
 
 msgid "* Field declared Mandatory by the Metadata Schema"
-msgstr ""
+msgstr "* Обязательное поле для заполнения метаданных"
 
 msgid "Please, fill the following items before clicking on preview:"
-msgstr ""
+msgstr "Пожалуйста, заполнителе следующие поля перед просмотром:"
 
-#, fuzzy
-#| msgid "Set permissions"
 msgid "Request perission"
-msgstr "Задать разрешения"
+msgstr "Запросить разрешения"
 
-#, fuzzy
-#| msgid "Request to download a resource"
 msgid "Request editing for resource: "
-msgstr "Запрос на скачивание ресурса"
+msgstr "Запрос на редактирование ресурса:"
 
-#, fuzzy
-#| msgid "Resources"
 msgid "Back to resource"
-msgstr "Ресурсы"
+msgstr "Вернуться к ресурсу"
 
 msgid "Send request"
-msgstr ""
+msgstr "Отправить запрос"
 
 msgid "Your account has been approved and is now active."
 msgstr "Ваша учётная запись подтверждена и теперь активна."
@@ -4644,19 +4554,12 @@ msgstr "Ваша учётная запись подтверждена и теп�
 msgid "You can use the login form at"
 msgstr "Вы можете использовать форму входа в"
 
-#, fuzzy
-#| msgid "Welcome"
 msgid "Welcome at"
 msgstr "Добро пожаловать"
 
-#, fuzzy
-#| msgid "Your account is now active"
 msgid "Your account is now active"
 msgstr "Ваша учётная запись теперь активна"
 
-#, fuzzy
-#| msgid "User"
-#| msgid_plural "Users"
 msgid "User"
 msgstr "Пользователь"
 
@@ -4664,20 +4567,16 @@ msgid "has requested access to the site."
 msgstr "запросил доступ к сайту."
 
 msgid "You can enable access by setting the user as active on the admin section"
-msgstr "Вы включили доступ, активировав пользователя в секции администрирования"
+msgstr "Вы можете включить доступ, активировав пользователя в секции администрирования"
 
-#, fuzzy
-#| msgid "has requested access to the site."
 msgid "has created an account and has access to the site."
-msgstr "запросил доступ к сайту."
+msgstr "создал аккаунт и имеет доступ к системе"
 
 msgid "A user has requested access to the site"
-msgstr "Пользователь запросил доступ к сайту"
+msgstr "Пользователь запросил доступ к системе"
 
-#, fuzzy
-#| msgid "The following document was updated"
 msgid "The following document was approved"
-msgstr "Следующий документ был обновлён"
+msgstr "Следующий документ был одобрен"
 
 msgid "owned by"
 msgstr "принадлежит"
@@ -4685,13 +4584,9 @@ msgstr "принадлежит"
 msgid "You can visit the document's detail page here"
 msgstr "Вы можете посетить страницу сведений документа здесь"
 
-#, fuzzy
-#| msgid "A document has been rated"
 msgid "A document has been approved"
-msgstr "Документ был оценен"
+msgstr "Документ был одобрен"
 
-#, fuzzy
-#| msgid "The user"
 msgid "The user"
 msgstr "Пользователь"
 
@@ -4707,15 +4602,11 @@ msgstr "Следующий документ был удалён"
 msgid "A document has been deleted"
 msgstr "Документ был удалён"
 
-#, fuzzy
-#| msgid "The following document was deleted"
 msgid "The following document was published"
-msgstr "Следующий документ был удалён"
+msgstr "Следующий документ был опубликован"
 
-#, fuzzy
-#| msgid "A document has been uploaded"
 msgid "A document has been published"
-msgstr "Документ был загружен"
+msgstr "Документ был опубликован"
 
 msgid "rated"
 msgstr "оценено"
@@ -4723,8 +4614,6 @@ msgstr "оценено"
 msgid "the following document"
 msgstr "следующие документы"
 
-#, fuzzy
-#| msgid "You can visit the layer's detail page here"
 msgid "You can visit the dataset's detail page here"
 msgstr "Вы можете посетить страницу сведений слоя здесь"
 
@@ -4737,10 +4626,8 @@ msgstr "Следующий документ был обновлён"
 msgid "A document has been updated"
 msgstr "Документ был обновлён"
 
-#, fuzzy
-#| msgid "You have the following incomplete uploads"
 msgid "You have received the following notice from"
-msgstr "У Вас есть следующие неполные загружки"
+msgstr "Вы получили уведомление"
 
 msgid "To change how you receive notifications, please go to "
 msgstr ""
@@ -4749,10 +4636,9 @@ msgstr ""
 msgid "[%(current_site)s] %(message)s"
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "Notices"
+#, python-format
 msgid "%(notice)s"
-msgstr "Notices"
+msgstr "%(notice)s"
 
 #, fuzzy
 #| msgid "The following layer was updated"
@@ -4822,10 +4708,8 @@ msgstr "Следующая карта была обновлена"
 msgid "You can visit the map's detail page here"
 msgstr "Вы можете посетить страницу сведений карты здесь"
 
-#, fuzzy
-#| msgid "A map has been rated"
 msgid "A map has been approved"
-msgstr "Карта была оценена"
+msgstr "Карта была одобрена"
 
 msgid "created the following map"
 msgstr "создана следующая карта"
@@ -4839,32 +4723,26 @@ msgstr "Следующая карта была удалена"
 msgid "A map has been deleted"
 msgstr "Карта была удалена"
 
-#, fuzzy
-#| msgid "The following map was deleted"
 msgid "The following map was published"
-msgstr "Следующая карта была удалена"
+msgstr "Следующая карта была опубликована"
 
-#, fuzzy
-#| msgid "A map has been deleted"
 msgid "A map has been published"
-msgstr "Карта была удалена"
+msgstr "Карта была опубликована"
 
-#, fuzzy
-#| msgid "the following layer"
 msgid "the following map"
-msgstr "следующий слой"
+msgstr "следующая карта"
 
 msgid "A map has been rated"
 msgstr "Карта была оценена"
 
 msgid "The following map was updated"
-msgstr "Следующая карта была обновлена"
+msgstr "Карта была обновлена"
 
 msgid "A map has been updated"
 msgstr "Карта была обновлена"
 
 msgid "Notification Settings"
-msgstr "Настройки уведомления"
+msgstr "Настройки уведомлений"
 
 #, python-format
 msgid ""
@@ -4894,10 +4772,8 @@ msgstr ""
 "Пожалуйста, перейдите к странице ресурса и назначьте разрешения для скачивания, если "
 "желаете"
 
-#, fuzzy
-#| msgid "A document has been deleted"
 msgid "A resource's download has been requested"
-msgstr "Документ был удалён"
+msgstr "Запрос на скачивание был отправлен"
 
 msgid "Privacy &#038; Cookies Policy"
 msgstr ""
@@ -4914,8 +4790,6 @@ msgstr "из"
 msgid "search"
 msgstr ""
 
-#, fuzzy
-#| msgid "Search"
 msgid "Search by name"
 msgstr "Поиск"
 
@@ -4937,13 +4811,11 @@ msgstr "Я - А"
 msgid "Most popular"
 msgstr "Популярные"
 
-#, fuzzy
-#| msgid "feature type"
 msgid "Share This Dataset"
-msgstr "тип объекта"
+msgstr "Поделиться набором данных"
 
 msgid "Share This"
-msgstr ""
+msgstr "Поделиться"
 
 msgid "Social Network Login Failure"
 msgstr ""
@@ -4954,15 +4826,11 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
-#, fuzzy
-#| msgid "Actions"
 msgid "Exception"
-msgstr "Действия"
+msgstr "Исключение"
 
-#, fuzzy
-#| msgid "Manage Connections"
 msgid "Account Connections"
-msgstr "Управлять подключениями"
+msgstr "Подключения аккаунта"
 
 msgid ""
 "You can sign in to your account using any of the following already connected third party "
@@ -4990,21 +4858,17 @@ msgid ""
 "%(site_name)s. As a final step, please complete the following form:"
 msgstr ""
 
-#, fuzzy
-#| msgid "Sign in"
 msgid "Sign in with"
-msgstr "Подписаться"
+msgstr "Войти с помощью"
 
 msgid "Connect with"
-msgstr ""
+msgstr "Подключиться с помощью"
 
-#, fuzzy
-#| msgid "Sign up"
 msgid "Sign up with"
-msgstr "Подписаться"
+msgstr "Зарегистрироваться с помощью"
 
 msgid "Message Inbox"
-msgstr "Ящик входящих сообщений"
+msgstr "Входящие сообщения"
 
 msgid "Messages"
 msgstr "Сообщения"
@@ -5018,29 +4882,23 @@ msgstr "Отметить выбранным как непрочитанное"
 msgid "Create Message"
 msgstr "Создать сообщение"
 
-#, fuzzy
-#| msgid "The user"
 msgid "To users"
-msgstr "Пользователь"
+msgstr "Пользователям"
 
-#, fuzzy
-#| msgid "group"
 msgid "To groups"
-msgstr "группа"
+msgstr "Группам"
 
 msgid "Subject"
 msgstr "Тема"
 
-#, fuzzy
-#| msgid "Contact:"
 msgid "Content"
-msgstr "Контакты:"
+msgstr "Содержание"
 
 msgid "Send message"
 msgstr "Отправить сообщение"
 
 msgid "Back to Inbox"
-msgstr "Вернуться в ящик входящих сообщений"
+msgstr "Вернуться к входящим"
 
 msgid "Sent to"
 msgstr "Отправить"
@@ -5048,21 +4906,17 @@ msgstr "Отправить"
 msgid "by"
 msgstr ""
 
-#, fuzzy
-#| msgid "Send message"
 msgid "You have no messages"
-msgstr "Отправить сообщение"
+msgstr "У вас нет сообщений"
 
 msgid "Send Reply"
-msgstr "Послать ответ"
+msgstr "Ответить"
 
-#, fuzzy
-#| msgid "GeoNode Help"
 msgid "GeoNode Themes Library"
-msgstr "Справка по GeoNode"
+msgstr "Библиотека тем"
 
 msgid "Fill in this section with markdown"
-msgstr ""
+msgstr "Заполните секцию с разметкой"
 
 msgid "Check this if the jumbotron background image already contains text"
 msgstr ""
@@ -5086,10 +4940,8 @@ msgstr ""
 msgid "The limit `default_max_parallel_uploads` should not be deleted."
 msgstr ""
 
-#, fuzzy
-#| msgid "Could not find any layers in a compatible projection."
 msgid "Could not access to uploaded data."
-msgstr "Не удалось найти каких-либо слоёв в совместимой проекции."
+msgstr "Нет доступа к загруженным данным"
 
 msgid "One or more XML files was provided, but no matching files were found for them."
 msgstr ""
@@ -5097,8 +4949,6 @@ msgstr ""
 msgid "One or more SLD files was provided, but no matching files were found for them."
 msgstr ""
 
-#, fuzzy
-#| msgid "Document must be a file or url."
 msgid "Base file must be a file or url."
 msgstr "Документ должен быть файлом или ссылкой (URL)."
 
@@ -5113,15 +4963,11 @@ msgstr ""
 msgid "The maximum number of parallel uploads (0 to 32767)."
 msgstr ""
 
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Upload Datasets"
-msgstr "Скачать метаданные"
+msgstr "Загрузить наборы данных"
 
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Dataset Step: Set SRS"
-msgstr "Загрузка слоя Шаг 2"
+msgstr "Загрузка данных: система координат"
 
 msgid "Provide CRS for "
 msgstr "Предоставить CRS для "
