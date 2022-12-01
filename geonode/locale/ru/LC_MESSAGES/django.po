@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-20 14:19+0000\n"
-"PO-Revision-Date: 2022-11-28 18:30+0600\n"
+"PO-Revision-Date: 2022-11-30 15:41+0600\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Russian (http://www.transifex.com/geonode/geonode/language/ru/)\n"
 "Language: ru\n"
@@ -450,7 +450,7 @@ msgid "Dirty State"
 msgstr "Плохое состояние"
 
 msgid "Security Rules Are Not Synched with GeoServer!"
-msgstr ""
+msgstr "Правила безопасности не синхронизированы с ГеоСервером!"
 
 msgid "Resource Type"
 msgstr "Тип ресурса"
@@ -564,7 +564,7 @@ msgid "offline"
 msgstr "офлайн"
 
 msgid "SECURITY NOT YET SYNCHRONIZED"
-msgstr ""
+msgstr "БЕЗОПАСНОСТЬ ЕЩЕ НЕ СИНХРОНИЗИРОВАНА"
 
 msgid "Sync permissions immediately"
 msgstr "Синхронизировать разрешения немедленно"
@@ -689,23 +689,28 @@ msgid ""
 "Flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological "
 "sciences, ecology, wilderness, sealife, wetlands, habitat."
 msgstr ""
+"Флора и/или фауна в естественной среде. Примеры: дикая природа, растительность, "
+"биологические науки, экология, дикая природа, жизнь морских котиков, водно-болотные "
+"угодья, среда обитания."
 
 msgid "Biota"
-msgstr ""
+msgstr "Биота"
 
 msgid "Legal land descriptions. Examples: political and administrative boundaries."
-msgstr ""
+msgstr "Юридические описания земель. Примеры: политические и административные границы."
 
 msgid "Boundaries"
-msgstr ""
+msgstr "Границы"
 
 msgid ""
 "Processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, "
 "atmospheric conditions, climate change, precipitation."
 msgstr ""
+"Процессы и явления атмосферы. Примеры: облачный покров, погода, климат, атмосферные "
+"условия, изменение климата, осадки."
 
 msgid "Climatology Meteorology Atmosphere"
-msgstr ""
+msgstr "Климатология Метеорология Атмосфера"
 
 msgid ""
 "Economic activities, conditions and employment. Examples: production, labour, revenue, "
@@ -713,23 +718,32 @@ msgid ""
 "subsistence hunting, exploration and exploitation of resources such as minerals, oil and "
 "gas."
 msgstr ""
+"Экономическая деятельность, условия и занятость. Примеры: производство, рабочая сила, "
+"доходы, торговля, промышленность, туризм и экотуризм, лесное хозяйство, рыболовство, "
+"коммерческая охота или натуральное хозяйство, разведка и эксплуатация ресурсов, таких "
+"как полезные ископаемые, нефть и газ."
 
 msgid "Economy"
-msgstr ""
+msgstr "Экономика"
 
 msgid ""
 "Height above or below sea level. Examples: altitude, bathymetry, digital elevation "
 "models, slope, derived products."
 msgstr ""
+"Высота выше или ниже уровня моря. Примеры: высота, батиметрия, цифровые модели рельефа, "
+"наклон, производные продукты."
 
 msgid "Elevation"
-msgstr ""
+msgstr "Высота"
 
 msgid ""
 "Environmental resources, protection and conservation. Examples: environmental pollution, "
 "waste storage and treatment, environmental impact assessment, monitoring environmental "
 "risk, nature reserves, landscape."
 msgstr ""
+"Экологические ресурсы, защита и сбережение. Примеры: загрязнение окружающей среды, "
+"хранение и переработка отходов, оценка воздействия на окружающую среду, мониторинг "
+"экологического риска, природные заповедники, ландшафт."
 
 msgid "Environment"
 msgstr "Окружающая среда"
@@ -738,9 +752,12 @@ msgid ""
 "Rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, "
 "aquaculture, plantations, herding, pests and diseases affecting crops and livestock."
 msgstr ""
+"Разведение животных и/или выращивание растений. Примеры: сельское хозяйство, ирригация, "
+"аквакультура, плантации, скотоводство, вредители и болезни, поражающие "
+"сельскохозяйственные культуры и домашний скот."
 
 msgid "Farming"
-msgstr ""
+msgstr "Сельское хозяйство"
 
 msgid ""
 "Information pertaining to earth sciences. Examples: geophysical features and processes, "
@@ -748,50 +765,64 @@ msgid ""
 "earth s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, "
 "soils, permafrost, hydrogeology, erosion."
 msgstr ""
+"Информация, относящаяся к наукам о земле. Примеры: геофизические особенности и процессы, "
+"геология, полезные ископаемые, науки, касающиеся состава, структуры и происхождения "
+"горных пород земли, рисков землетрясений, вулканической активности, оползней, "
+"гравитационной информации, почв, вечной мерзлоты, гидрогеологии, эрозии."
 
-#, fuzzy
-#| msgid "Supplemental Information"
 msgid "Geoscientific Information"
-msgstr "Дополнительная информация"
+msgstr "Геонаучная информация"
 
 msgid ""
 "Health, health services, human ecology, and safety. Examples: disease and illness, "
 "factors affecting health, hygiene, substance abuse, mental and physical health, health "
 "services."
 msgstr ""
+"Здоровье, медицинские услуги, экология человека и безопасность. Примеры: болезни и "
+"недомогания, факторы, влияющие на здоровье, гигиена, злоупотребление психоактивными "
+"веществами, психическое и физическое здоровье, медицинские услуги."
 
 msgid "Health"
-msgstr ""
+msgstr "Здоровье"
 
 msgid ""
 "Base maps. Examples: land cover, topographic maps, imagery, unclassified images, "
 "annotations."
 msgstr ""
+"Базовые карты. Примеры: растительный покров, топографические карты, изображения, "
+"неклассифицированные изображения, аннотации."
 
 msgid "Imagery Base Maps Earth Cover"
-msgstr ""
+msgstr "Базовые карты изображений Земной покров"
 
 msgid ""
 "Inland water features, drainage systems and their characteristics. Examples: rivers and "
 "glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, "
 "hydrographic charts."
 msgstr ""
+"Внутренние водные объекты, дренажные системы и их характеристики. Примеры: реки и "
+"ледники, соленые озера, планы использования воды, плотины, течения, наводнения, качество "
+"воды, гидрографические карты."
 
 msgid "Inland Waters"
-msgstr ""
+msgstr "Внутренние воды"
 
 msgid ""
 "Military bases, structures, activities. Examples: barracks, training grounds, military "
 "transportation, information collection."
 msgstr ""
+"Военные базы, сооружения, виды деятельности. Примеры: казармы, тренировочные площадки, "
+"военный транспорт, сбор информации."
 
 msgid "Intelligence Military"
-msgstr ""
+msgstr "Военная разведка"
 
 msgid ""
 "Positional information and services. Examples: addresses, geodetic networks, control "
 "points, postal zones and services, place names."
 msgstr ""
+"Информация о местоположении и услуги. Примеры: адреса, геодезические сети, контрольные "
+"точки, почтовые зоны и службы, названия мест."
 
 msgid "Location"
 msgstr "Местоположение"
@@ -800,28 +831,35 @@ msgid ""
 "Features and characteristics of salt water bodies (excluding inland waters). Examples: "
 "tides, tidal waves, coastal information, reefs."
 msgstr ""
+"Особенности и характеристики соленых водоемов (за исключением внутренних вод). Примеры: "
+"приливы, приливные волны, информация о прибрежных зонах, рифы."
 
 msgid "Oceans"
-msgstr ""
+msgstr "Океаны"
 
 msgid ""
 "Information used for appropriate actions for future use of the land. Examples: land use "
 "maps, zoning maps, cadastral surveys, land ownership."
 msgstr ""
+"Информация, используемая для соответствующих действий по будущему использованию земли. "
+"Примеры: карты землепользования, карты зонирования, кадастровые съемки, право "
+"собственности на землю."
 
 msgid "Planning Cadastre"
-msgstr ""
+msgstr "Планировочный кадастр"
 
 msgid ""
 "Settlements, anthropology, archaeology, education, traditional beliefs, manners and "
 "customs, demographic data, recreational areas and activities, social impact assessments, "
 "crime and justice, census information. Economic activities, conditions and employment."
 msgstr ""
+"Поселения, антропология, археология, образование, традиционные верования, нравы и "
+"обычаи, демографические данные, зоны отдыха и виды деятельности, оценки социального "
+"воздействия, преступность и правосудие, информация переписи. Экономическая деятельность, "
+"условия и занятость."
 
-#, fuzzy
-#| msgid "Location"
 msgid "Population"
-msgstr "Местоположение"
+msgstr "Население"
 
 msgid ""
 "Characteristics of society and cultures. Examples: settlements, anthropology, "
@@ -829,23 +867,33 @@ msgid ""
 "recreational areas and activities, social impact assessments, crime and justice, census "
 "information."
 msgstr ""
+"Характеристики общества и культур. Примеры: поселения, антропология, археология, "
+"образование, традиционные верования, нравы и обычаи, демографические данные, зоны отдыха "
+"и виды деятельности, оценки социального воздействия, преступность и правосудие, "
+"информация переписи."
 
 msgid "Society"
-msgstr ""
+msgstr "Общество"
 
 msgid ""
 "Man-made construction. Examples: buildings, museums, churches, factories, housing, "
 "monuments, shops, towers."
 msgstr ""
+"Искусственная конструкция. Примеры: здания, музеи, церкви, фабрики, жилые дома, "
+"памятники, магазины, башни."
 
 msgid "Structure"
-msgstr ""
+msgstr "Структура"
 
 msgid ""
 "Means and aids for conveying persons and/or goods. Examples: roads, airports/airstrips, "
 "shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical "
 "charts, railways."
 msgstr ""
+"Средства и вспомогательные средства для транспортировки людей и/или товаров. Примеры: "
+"дороги, аэропорты /взлетно-посадочные полосы, судоходные маршруты, туннели, морские "
+"карты, местоположение транспортного средства или судна, аэронавигационные карты, "
+"железные дороги."
 
 msgid "Transportation"
 msgstr "Транспорт"
@@ -856,9 +904,14 @@ msgid ""
 "purification and distribution, sewage collection and disposal, electricity and gas "
 "distribution, data communication, telecommunication, radio, communication networks."
 msgstr ""
+"Системы энергетики, водоснабжения и водоотведения, а также коммуникационная "
+"инфраструктура и услуги. Примеры: гидроэлектроэнергия, геотермальные, солнечные и "
+"ядерные источники энергии, очистка и распределение воды, сбор и утилизация сточных вод, "
+"распределение электроэнергии и газа, передача данных, телекоммуникации, радио, сети "
+"связи."
 
 msgid "Utilities Communication"
-msgstr ""
+msgstr "Инженерные коммуникации"
 
 msgid "Document Created"
 msgstr "Документ создан"
@@ -912,7 +965,7 @@ msgid "Latitude"
 msgstr "Широта"
 
 msgid "Not specified"
-msgstr ""
+msgstr "Не указан"
 
 msgid "Longitude"
 msgstr "Долгота"
@@ -927,7 +980,7 @@ msgid "False"
 msgstr "Ложь"
 
 msgid "Speed Rating"
-msgstr ""
+msgstr "Номинальная скорость"
 
 msgid ""
 "File size size exceeds {filesizeformat(max_size)}. Please try again with a smaller file."
@@ -1119,62 +1172,41 @@ msgstr "Вы должны указать контактное лицо"
 msgid "You must set an author for this resource"
 msgstr "Вы должны указать автора"
 
-#, fuzzy
 msgid "App Created"
-msgstr "Карта создана"
+msgstr "Приложение создано"
 
-#, fuzzy
 msgid "A App was created"
-msgstr "Слой был создан"
+msgstr "Приложение было создано"
 
-#, fuzzy
 msgid "App Updated"
-msgstr "Карта обновлена"
+msgstr "Приложение обновлено"
 
-#, fuzzy
-#| msgid "A Layer was updated"
 msgid "A App was updated"
-msgstr "Слой был обновлён"
+msgstr "Приложение было обновлено"
 
-#, fuzzy
-#| msgid "Not provided"
 msgid "App Approved"
-msgstr "Не предусмотрено"
+msgstr "Приложение одобрено"
 
-#, fuzzy
-#| msgid "A Layer was created"
 msgid "A App was approved by a Manager"
-msgstr "Слой был создан"
+msgstr "Приложение было одобрено менеджером"
 
-#, fuzzy
-#| msgid "Published From"
 msgid "App Published"
-msgstr "Опубликовано с"
+msgstr "Приложение опубликовано"
 
-#, fuzzy
-#| msgid "A Map was deleted"
 msgid "A App was published"
-msgstr "Карта была удалена"
+msgstr "Приложение было опубликовано"
 
-#, fuzzy
-#| msgid "Map Deleted"
 msgid "App Deleted"
-msgstr "Карта удалена"
+msgstr "Приложение удалено"
 
-#, fuzzy
-#| msgid "A Map was deleted"
 msgid "A App was deleted"
-msgstr "Карта была удалена"
+msgstr "Приложение было удалено"
 
-#, fuzzy
-#| msgid "Rating for Map"
 msgid "Rating for App"
-msgstr "Оценка карты"
+msgstr "Рейтинг для приложения"
 
-#, fuzzy
-#| msgid "A rating was given to a map"
 msgid "A rating was given to an App"
-msgstr "Оценка присвоена карте"
+msgstr "Приложению была присвоена оценка"
 
 msgid "Name"
 msgstr "Имя"
@@ -1199,10 +1231,8 @@ msgstr ""
 "Core. \n"
 "Некоторые из элементов исходных метаданных могут быть потеряны."
 
-#, fuzzy
-#| msgid "Explore Maps"
 msgid "Explore GeoApps"
-msgstr "Посмотреть карты"
+msgstr "Посмотреть приложение"
 
 #, python-format
 msgid ""
@@ -1223,35 +1253,23 @@ msgstr "Новая карта"
 msgid "Other Settings"
 msgstr "Другие настройки"
 
-#, fuzzy
-#| msgid "You are not permitted to delete this map."
 msgid "You are not permitted to delete this app."
-msgstr "Вам не разрешено удалять данную карту."
+msgstr "Вам не разрешается удалять это приложение."
 
-#, fuzzy
-#| msgid "You do not have permissions for this map."
 msgid "You do not have permissions for this app."
-msgstr "У Вас нет прав доступа к данной карте."
+msgstr "У вас нет разрешений для этого приложения."
 
-#, fuzzy
-#| msgid "You must be logged in to save this map"
 msgid "You must be logged in to save this app"
-msgstr "Вы должны зарегистрироваться для сохранения данной карты"
+msgstr "Вы должны войти в систему, чтобы сохранить это приложение"
 
-#, fuzzy
-#| msgid "You are not permitted to save or edit this map."
 msgid "You are not permitted to save or edit this app."
-msgstr "Вам не разрешается сохранение или создание этой карты."
+msgstr "Вам не разрешается сохранять или редактировать это приложение."
 
-#, fuzzy
-#| msgid "You are not allowed to modify this map's metadata."
 msgid "You are not allowed to modify this app's metadata."
-msgstr "Вам не разрешено вносить изменения в метаданные этой карты."
+msgstr "Вам не разрешается изменять метаданные этого приложения."
 
-#, fuzzy
-#| msgid "You are not allowed to view this map."
 msgid "You are not allowed to view this app."
-msgstr "Вам не разрешено просматривать данную карту."
+msgstr "Вам не разрешено просматривать это приложение."
 
 msgid "An unknown error has occured."
 msgstr "Неизвестная ошибка."
@@ -1499,7 +1517,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Эта группа является <strong>%(access)s</strong>"
+"            Эта группа является <strong>%(access)s</strong><strong>%(access)s</strong>.\n"
+"          "
 
 msgid "Anyone may join this group."
 msgstr "Любой может присоединиться к этой группе."
@@ -1532,10 +1551,10 @@ msgid "Remove"
 msgstr "Удалить"
 
 msgid "Promote"
-msgstr ""
+msgstr "Продвигать"
 
 msgid "Demote"
-msgstr ""
+msgstr "Понижать"
 
 msgid "Role"
 msgstr "Роль"
@@ -1584,18 +1603,19 @@ msgid "Save"
 msgstr "Сохранить"
 
 msgid "No ready harvesters have been selected, skipping..."
-msgstr ""
+msgstr "Не были выбраны готовые сбощики, пропускаем..."
 
 msgid "No active refresh sessions have been found for the selected harvesters. Skipping..."
-msgstr ""
+msgstr "Для выбранных сборщиков не найдено активных сеансов обновления. Пропуская..."
 
 msgid ""
 "No active harvesting sessions have been found for the selected harvesters. Skipping..."
 msgstr ""
+"No active refresh sessions have been found for the selected harvesters. Skipping..."
 
 #, python-format
 msgid "Resetting status for harvester %(name)s..."
-msgstr ""
+msgstr "Сброс статуса для сборщика %(name)s..."
 
 msgid "Harvestable resources"
 msgstr "Импортируемые ресурсы"
@@ -1630,13 +1650,13 @@ msgid ""
 msgstr "Периодический сбор информации сборщиком"
 
 msgid "How often (in minutes) should new harvesting sessions be automatically scheduled?"
-msgstr "Частота постановки в очередь сессии сборки"
+msgstr "Как часто (в минутах) следует автоматически планировать новые сеансы сборки?"
 
 msgid "How often (in minutes) should new refresh sessions be automatically scheduled?"
-msgstr ""
+msgstr "Как часто (в минутах) следует автоматически планировать новые сеансы обновления?"
 
 msgid "Whether the remote service is known to be available or not"
-msgstr ""
+msgstr "Известно ли, что удаленная служба доступна или нет"
 
 msgid "How often (in minutes) should the remote service be checked for availability?"
 msgstr "Как часто (в минутах) сервис должен проверяться на доступность?"
@@ -1660,6 +1680,11 @@ msgid ""
 "a harvester configuration is deleted, in which case all of the resources that originated "
 "from that harvester are now considered to be orphan."
 msgstr ""
+"Потерянные ресурсы - это те, которые ранее были созданы с помощью операции сбора данных, "
+"но которые GeoNode больше не может найти в удаленной службе, которую собирают. Должны ли "
+"эти ресурсы быть удалены из GeoNode автоматически? Это также относится к удалению "
+"конфигурации комбайна, и в этом случае все ресурсы, созданные из этого комбайна, теперь "
+"считаются потерянными."
 
 msgid "Date of last update to the harvester configuration."
 msgstr "Дата последнего обновления конфигурации сборщика."
@@ -1668,27 +1693,34 @@ msgid ""
 "Harvester class used to perform harvesting sessions. New harvester types can be added by "
 "an admin by changing the main GeoNode `settings.py` file"
 msgstr ""
+"Класс сборщика, используемый для выполнения сеансов уборки урожая. Новые типы комбайнов "
+"могут быть добавлены администратором путем изменения основного геонода `settings.py ` "
+"файл"
 
 msgid ""
 "Configuration specific to each harvester type. Please consult GeoNode documentation on "
 "harvesting for more info. This field is mandatory, so at the very least an empty object "
 "(i.e. {}) must be supplied."
 msgstr ""
+"Конфигурация, специфичная для каждого типа сборщика. Пожалуйста, обратитесь к "
+"документации GeoNode по сбору урожая для получения дополнительной информации. Это поле "
+"является обязательным, поэтому, по крайней мере, должен быть указан пустой объект (т.е. "
+"{})."
 
 msgid "pending"
-msgstr ""
+msgstr "рассматриваемый"
 
 msgid "on-going"
-msgstr ""
+msgstr "продолжающийся"
 
 msgid "finished-all-ok"
-msgstr ""
+msgstr "закончено-все-ок"
 
 msgid "finished-all-failed"
-msgstr ""
+msgstr "закончено-все-провалено"
 
 msgid "finished-some-failed"
-msgstr ""
+msgstr "законченный-какой-то-провален"
 
 msgid "aborting"
 msgstr "идет отмена"
@@ -1703,18 +1735,16 @@ msgid "discover-harvestable-resources"
 msgstr "обнаружить ресурсы"
 
 msgid "Number of records being processed in this session"
-msgstr ""
+msgstr "Количество записей, обрабатываемых в этом сеансе"
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "Number of records that have already been processed"
-msgstr "Запрошено скачивание ресурса"
+msgstr "Количество записей, которые уже были обработаныЗапрошено скачивание ресурса"
 
 msgid "updating-harvestable-resource"
-msgstr ""
+msgstr "обновляемый-собираемый-ресурс"
 
 msgid "harvesting-resource"
-msgstr ""
+msgstr "импортируемый-ресурс"
 
 msgid ""
 "Identifier that allows referencing the resource on its remote service in a unique "
@@ -1723,36 +1753,44 @@ msgid ""
 "order to be able to compare the availability of resources between consecutive harvesting "
 "sessions."
 msgstr ""
+"Идентификатор, который позволяет ссылаться на ресурс в его удаленной службе уникальным "
+"образом. Обычно он автоматически заполняется работником комбайна. Работник сбощика "
+"должен знать, как считывать или генерировать это из каждого удаленного ресурса, чтобы "
+"иметь возможность сравнивать доступность ресурсов между последовательными сеансами "
+"сборки."
 
 msgid ""
 "Type of the resource in the remote service. Each harvester worker knows how to fill this "
 "field, in accordance with the resources for which harvesting is supported"
 msgstr ""
+"Тип ресурса в удаленной службе. Каждый работник сбощика знает, как заполнить это поле в "
+"соответствии с ресурсами, за счет которых поддерживается сборка"
 
 #, python-brace-format
 msgid "The e-mail address '{email}' has already been invited."
-msgstr ""
+msgstr "Адрес электронной почты '{email}' уже был приглашен."
 
 #, python-brace-format
 msgid "The e-mail address '{email}' has already accepted an invite."
-msgstr ""
+msgstr "Адрес электронной почты '{email}' уже принял приглашение."
 
 #, python-brace-format
 msgid "An active user is already using the e-mail address '{email}'"
-msgstr ""
+msgstr "Активный пользователь уже использует адрес электронной почты '{email}'"
 
 msgid "E-mail"
 msgstr "E-mail"
 
 #, python-format
 msgid "Invitations successfully sent to '%(email)s'"
-msgstr ""
+msgstr "Приглашения успешно отправлены на '%(email)s'"
 
 #, python-format
 msgid ""
 "Sorry, it was not possible to invite '%(email)s' due to the following isse: %(error)s "
 "(%(type)s)"
 msgstr ""
+"Извините, не удалось пригласить '%(email)s' из-за следующего isse: %(error)s (%(type)s)"
 
 msgid "Dataset Created"
 msgstr "Набор данных создан"
@@ -1785,7 +1823,7 @@ msgid "A Dataset was deleted"
 msgstr "Набор данных был удален"
 
 msgid "YYYYMMDD"
-msgstr ""
+msgstr "ГГГГММДД"
 
 msgid "YYYYMMDD'T'hhmmss"
 msgstr ""
@@ -1815,19 +1853,19 @@ msgid "Typename"
 msgstr "Тип"
 
 msgid "ows URL"
-msgstr "URL сервиса OWS"
+msgstr "ows URL"
 
 msgid "The URL of the OWS service providing this layer, if any exists."
-msgstr "URL сервиса OWS по которому доступен слой"
+msgstr "URL сервиса OWS по которому доступен слой."
 
 msgid "Is mosaic?"
-msgstr "Является мозаикой"
+msgstr "Является мозаикой?"
 
 msgid "Has time?"
-msgstr "Включает время"
+msgstr "Включает время?"
 
 msgid "Has elevation?"
-msgstr "Включает высоту"
+msgstr "Включает высоту?"
 
 msgid "Time regex"
 msgstr "Регулярное выражения для обработки времени"
@@ -1839,16 +1877,16 @@ msgid "P-Type"
 msgstr "Тип"
 
 msgid "use featureinfo custom template?"
-msgstr "пользовательский шаблон информации об объекте"
+msgstr "использовать пользовательский шаблон featureinfo?"
 
 msgid "specifies wether or not use a custom GetFeatureInfo template."
-msgstr "указывает об использовании пользовательского шаблона информации об объекте"
+msgstr "указывает, следует ли использовать пользовательский шаблон GetFeatureInfo."
 
 msgid "featureinfo custom template"
 msgstr "шаблон информации об объекте"
 
 msgid "the custom GetFeatureInfo template HTML contents."
-msgstr "HTML содержимое шаблона"
+msgstr "пользовательский HTML-контент шаблона GetFeatureInfo."
 
 msgid "File cannot be opened, maybe check the encoding"
 msgstr "Файл не может быть открыт, может быть проверить кодировку"
@@ -1926,7 +1964,9 @@ msgstr "тип инфо об объекте"
 msgid ""
 "specifies if the attribute should be rendered with an HTML widget on GetFeatureInfo "
 "template."
-msgstr "отметить, как атрибут должен отображаться при идентификации результатов"
+msgstr ""
+"указывает, должен ли атрибут отображаться с помощью HTML-виджета в шаблоне "
+"GetFeatureInfo."
 
 msgid "count"
 msgstr "счет"
@@ -2170,11 +2210,11 @@ msgstr "Число, представляющее год"
 
 #, python-brace-format
 msgid "You are attempting to {action_type} a vector dataset with a raster."
-msgstr "Вы пытаетесь {action_type} векторный слой растровым"
+msgstr "Вы пытаетесь {action_type} создать векторный набор данных с помощью растра."
 
 #, python-brace-format
 msgid "You are attempting to {action_type} a raster dataset with a vector."
-msgstr "Вы пытаетесь {action_type} растровый слой векторным"
+msgstr "Вы пытаетесь {action_type} создать набор растровых данных с помощью вектора."
 
 #, python-brace-format
 msgid "You are attempting to {action_type} a vector dataset with an unknown format."
@@ -2182,11 +2222,12 @@ msgstr "Вы пытаетесь {action_type} векторный слой рас
 
 #, python-brace-format
 msgid "Please ensure that the base_file {absolute_base_file} is not empty"
-msgstr ""
+msgstr "Пожалуйста, убедитесь, что базовый файл {absolute_base_file} не пуст"
 
 #, python-brace-format
 msgid "Please ensure the name is consistent with the file you are trying to {action_type}."
 msgstr ""
+"Пожалуйста, убедитесь, что имя соответствует файлу, который вы пытаетесь {action_type}."
 
 msgid "Local GeoNode dataset has no geometry type."
 msgstr "Локальный набор данных не имеет геометрии."
@@ -2196,15 +2237,19 @@ msgid ""
 "Please ensure there is at least one geometry type                             that is "
 "consistent with the file you are trying to {action_type}."
 msgstr ""
+"Пожалуйста, убедитесь, что существует хотя бы один тип "
+"геометрии                             который соответствует файлу, который вы пытаетесь "
+"{action_type}."
 
 msgid "The selected Dataset does not exists in the catalog."
 msgstr "Выбранный набор данных не существует в каталоге."
 
 msgid "Please ensure that the dataset structure is consistent "
-msgstr ""
+msgstr "Пожалуйста, убедитесь, что структура набора данных является согласованной "
 
 msgid "Some error occurred while trying to access the uploaded schema: {str(e)}"
 msgstr ""
+"Произошла некоторая ошибка при попытке получить доступ к загруженной схеме: {str(e)}"
 
 msgid ""
 "There was an error while attempting to upload your data. Please try again, or contact "
@@ -2217,12 +2262,14 @@ msgid ""
 "Note: this dataset's orginal metadata was populated and preserved by importing a "
 "metadata XML file. This metadata cannot be edited."
 msgstr ""
+"Примечание: исходные метаданные этого набора данных были заполнены и сохранены путем "
+"импорта XML-файла метаданных. Эти метаданные не могут быть отредактированы."
 
 msgid "You are not permitted to delete this dataset"
 msgstr "Вам не разрешено удалять данный слой"
 
 msgid "You do not have permissions for this dataset."
-msgstr "У Вас нет прав доступа к данному слою"
+msgstr "У вас нет разрешений для этого набора данных."
 
 msgid "You are not permitted to modify this dataset"
 msgstr "Вам не разрешено редактировать данный слой"
@@ -2240,17 +2287,17 @@ msgstr ""
 "Этот слой является частью группы, Вы должны убрать слой из группы перед его удалением."
 
 msgid "JSON encoded positional arguments (Example: [\"arg1\", \"arg2\"])"
-msgstr ""
+msgstr "Позиционные аргументы в кодировке JSON (пример: [\"arg1\", \"arg2\"])"
 
 msgid "Keyword Arguments"
 msgstr "Ключевые слова"
 
 msgid "JSON encoded keyword arguments (Example: {\"argument\": \"value\"})"
-msgstr ""
+msgstr "Аргументы ключевого слова в кодировке JSON (пример: {\"аргумент\": \"значение\"})"
 
 #, python-brace-format
 msgid "You can not start the job {job.id} because its status is \"{job.status}\"."
-msgstr ""
+msgstr "Вы не можете запустить задание {job.id}, потому что его статус - \"{job.status}\"."
 
 msgid "Map Created"
 msgstr "Карта создана"
@@ -2328,8 +2375,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Здесь Вы можете скачать все слои этой карты, \n"
-"размещенные в этом геопортале."
+"      Здесь Вы можете скачать все слои этой карты, \n"
+"      размещенные в этом геопортале.\n"
+"    "
 
 msgid ""
 "\n"
@@ -2339,7 +2387,7 @@ msgid ""
 msgstr ""
 "\n"
 "<div class=\"alert alert-warning\"> Не удалось найти скачиваемые слои для этой карты. Вы "
-"можете вернуться к"
+"можете вернуться к "
 
 msgid ""
 "\n"
@@ -2400,96 +2448,94 @@ msgid "Message received"
 msgstr "Получено сообщение"
 
 msgid "New message received in one of your threads"
-msgstr ""
+msgstr "Новое сообщение, полученное в одной из ваших тем"
 
 msgid "Monitoring alert"
-msgstr ""
+msgstr "Предупреждение о мониторинге"
 
 msgid "Alert situation reported by monitoring"
-msgstr ""
+msgstr "Тревожная ситуация, о которой сообщает мониторинг"
 
 msgid "GeoNode Monitoring on {base_ctx['host']} "
-msgstr ""
+msgstr "Мониторинг геоузлов на {base_ctx['хост']} "
 
 msgid "Enter valid email addresses."
 msgstr "Введите правильный адрес электронной почты."
 
 msgid "Show list of services"
-msgstr ""
+msgstr "Показать список услуг"
 
 msgid ""
 "Process data since specific timestamp (YYYY-MM-DD HH:MM:SS format). If not provided, "
 "last sync will be used."
 msgstr ""
+"Обрабатывайте данные с определенной временной метки (формат ГГГГ-ММ-ДД ЧЧ:ММ:СС). Если "
+"не указано, будет использоваться последняя синхронизация."
 
 msgid ""
 "Process data until specific timestamp (YYYY-MM-DD HH:MM:SS format). If not provided, now "
 "will be used."
 msgstr ""
+"Обрабатывайте данные до определенной отметки времени (формат ГГГГ-ММ-ДД ЧЧ:ММ:СС). Если "
+"не предусмотрено, то будет использовано now."
 
 msgid "Force check"
-msgstr ""
+msgstr "Проверка силы"
 
 msgid "Format of audit log (xml, json)"
-msgstr ""
+msgstr "Формат журнала аудита (xml, json)"
 
 msgid ""
 "Should old data be preserved (default: no, data older than settings.MONITORING_DATA_TTL "
 "will be removed)"
 msgstr ""
+"Должны ли быть сохранены старые данные (по умолчанию: нет, данные старше настроек."
+"MONITORING_DATA_TTL будет удален)"
 
 msgid "Should stop on first error occured (default: no)"
-msgstr ""
+msgstr "Должен остановиться при первой возникшей ошибке (по умолчанию: нет)"
 
 msgid "Should process and send notifications as well (default: no)"
-msgstr ""
+msgstr "Также следует обрабатывать и отправлять уведомления (по умолчанию: нет)"
 
 msgid "Collect data from this service only"
-msgstr ""
+msgstr "Собирайте данные только из этого сервиса"
 
 msgid "Show list of metrics"
-msgstr ""
+msgstr "Показать список показателей"
 
 msgid "Show list of labels for metric"
-msgstr ""
+msgstr "Показать список меток для метрики"
 
-#, fuzzy
-#| msgid "List of resources using this document:"
 msgid "Show list of resources for metric"
-msgstr "Список ресурсов, использующих этот документ"
+msgstr "Показать список ресурсов для метрики"
 
 msgid "Data aggregation interval in seconds (default: 60)"
-msgstr ""
+msgstr "Интервал агрегирования данных в секундах (по умолчанию: 60)"
 
-#, fuzzy
-#| msgid "attribute name"
 msgid "Metric name"
-msgstr "имя атрибута"
+msgstr "Название метрики"
 
-#, fuzzy
-#| msgid "reference date for the cited resource"
 msgid "Show data for specific resource in resource_type=resource_name format"
-msgstr "базисная дата для приведенного источника"
+msgstr "Показывать данные для конкретного ресурса в формате resource_type=resource_name"
 
-#, fuzzy
-#| msgid "reference date for the cited resource"
 msgid "Show data for specific resource"
-msgstr "базисная дата для приведенного источника"
+msgstr "Показывать данные для конкретного ресурса"
 
-#, fuzzy
-#| msgid "reference date for the cited resource"
 msgid "Show data for specific label"
-msgstr "базисная дата для приведенного источника"
+msgstr "Показать данные для конкретной метки"
 
 #, python-brace-format
 msgid "Write result to file, default GEOIP_PATH: {settings.GEOIP_PATH}"
-msgstr ""
+msgstr "Записать результат в файл, по умолчанию GEOIP_PATH: {settings.GEOIP_PATH}"
 
 msgid "Fetch database from specific url. If nothing provided, default {} will be used"
 msgstr ""
+"Извлеките базу данных с определенного URL. Если ничего не указано, будет использоваться "
+"значение по умолчанию {}"
 
 msgid "Overwrite file if exists"
-msgstr ""
+msgstr "Перезаписать файл, если он существует"
 
 msgid "GeoNode"
 msgstr "ИС БПД"
@@ -2528,46 +2574,46 @@ msgid "Other"
 msgstr "Прочее"
 
 msgid "Rate"
-msgstr ""
+msgstr "Оценить"
 
 msgid "Count"
-msgstr ""
+msgstr "Считать"
 
 msgid "Value"
-msgstr ""
+msgstr "Значение"
 
 msgid "Value numeric"
-msgstr ""
+msgstr "Числовое значение"
 
 msgid "Bytes"
-msgstr ""
+msgstr "Байты"
 
 msgid "Kilobytes"
-msgstr ""
+msgstr "Килобайты"
 
 msgid "Megabytes"
-msgstr ""
+msgstr "Мегабайты"
 
 msgid "Gigabytes"
-msgstr ""
+msgstr "Гигабайты"
 
 msgid "Bytes per second"
-msgstr ""
+msgstr "Байт в секунд"
 
 msgid "Kilobytes per second"
-msgstr ""
+msgstr "Килобайт в секунду"
 
 msgid "Megabytes per second"
-msgstr ""
+msgstr "Мегабайты в секунду"
 
 msgid "Gigabytes per second"
-msgstr ""
+msgstr "Гигабайты в секунду"
 
 msgid "Seconds"
-msgstr ""
+msgstr "Секунды"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Процентаж"
 
 msgid "Not OWS"
 msgstr "Не OWS"
@@ -2594,71 +2640,72 @@ msgid "Response processing time in ms"
 msgstr "Время обработки ответа в мс"
 
 msgid "1 minute"
-msgstr ""
+msgstr "1 минута"
 
 msgid "5 minutes"
-msgstr ""
+msgstr "5 минут"
 
 msgid "10 minutes"
-msgstr ""
+msgstr "10 минут"
 
 msgid "30 minutes"
-msgstr ""
+msgstr "30 минут"
 
 msgid "1 hour"
-msgstr ""
+msgstr "1 час"
 
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 msgid "Fatal"
-msgstr ""
+msgstr "Фатальная"
 
 msgid "Expected min/max values for user configuration"
-msgstr ""
+msgstr "Ожидаемые минимальные/максимальные значения для пользовательской конфигурации"
 
 msgid "Marker of last delivery"
-msgstr ""
+msgstr "Отметка о последней доставке"
 
 msgid "Minimum time between subsequent notifications"
-msgstr ""
+msgstr "Минимальное время между последующими уведомлениями"
 
 msgid "How severe would be error from this notification"
-msgstr ""
+msgstr "Насколько серьезной была бы ошибка в этом уведомлении"
 
 msgid "Is it active"
-msgstr ""
+msgstr "Является ли он активным"
 
 #, python-brace-format
 msgid "{self.severity}: {self.name}"
-msgstr ""
+msgstr "{self.severity}: {self.name}"
 
 msgid "Value must be above"
-msgstr ""
+msgstr "Значение должно быть выше"
 
 msgid "Value must be below"
-msgstr ""
+msgstr "Значение должно быть ниже"
 
 msgid "Last update must not be older than"
-msgstr ""
+msgstr "Последнее обновление не должно быть старше"
 
 msgid "Max timeout for given metric before error should be raised"
 msgstr ""
+"Максимальное время ожидания для данной метрики, прежде чем должна быть вызвана ошибка"
 
 msgid "Monitoring & Analytics"
-msgstr ""
+msgstr "Мониторинг и аналитика"
 
 msgid "Only superusers can monitor performance"
-msgstr ""
+msgstr "Только суперпользователи могут контролировать производительность"
 
 msgid "Hi,"
-msgstr ""
+msgstr "Привет,"
 
 msgid "Monitoring on"
-msgstr ""
+msgstr "Мониторинг на"
 
 msgid "has detected following problems :"
 msgstr "обнаружены проблемы:"
@@ -2670,7 +2717,7 @@ msgid "ago"
 msgstr "назад"
 
 msgid "emerged"
-msgstr ""
+msgstr "всплывший"
 
 msgid "User following you"
 msgstr "Пользователь подписан на Вас"
@@ -2894,10 +2941,8 @@ msgid ""
 "Enter your email address and click the submit button. <br />Your username will be sent "
 "to you."
 msgstr ""
-"#-#-#-#-#  catalog.po (GeoNode)  #-#-#-#-#\n"
-"Введите адрес Вашей электронной почты и нажмите на кнопку подтверждения. <br />Имя "
-"пользователя будет отправлено Вам.\n"
-" "
+"Введите свой адрес электронной почты и нажмите кнопку отправить. <br />Вам будет выслано "
+"ваше имя пользователя."
 
 msgid "Create Profile"
 msgstr "Создать профиль"
@@ -2989,123 +3034,104 @@ msgstr "Вам не разрешается скачивать этот ресу�
 
 msgid "No files have been found for this resource. Please, contact a system administrator."
 msgstr ""
+"Для этого ресурса не найдено никаких файлов. Пожалуйста, обратитесь к системному "
+"администратору."
 
-#, fuzzy
-#| msgid "Documents"
 msgid "No files found."
-msgstr "Документы"
+msgstr "Файлы не найдены."
 
-#, fuzzy
-#| msgid "Not provided"
 msgid "Not Authorized"
-msgstr "Не предусмотрено"
+msgstr "Не авторизован"
 
 #, python-brace-format
 msgid "Error occurred while executin the operation: '{_request.func_name}'"
-msgstr ""
+msgstr "При выполнении операции произошла ошибка: '{_request.func_name}'"
 
 #, python-brace-format
 msgid "Could not find the operation name: '{_request.func_name}'"
-msgstr ""
+msgstr "Не удалось найти имя операции: '{_request.func_name}'"
 
 msgid "import"
-msgstr ""
+msgstr "импортировать"
 
-#, fuzzy
-#| msgid "created"
 msgid "create"
-msgstr "создал"
+msgstr "создать"
 
 msgid "copy"
-msgstr ""
+msgstr "копировать"
 
-#, fuzzy
-#| msgid "deleted"
 msgid "delete"
-msgstr "удалил"
+msgstr "удалить"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "permissions"
-msgstr "Права доступа"
+msgstr "разрешения"
 
 msgid "ingest"
-msgstr ""
+msgstr "внедрить"
 
 msgid "unknown"
-msgstr ""
+msgstr "неизвестный"
 
 msgid "failed"
-msgstr ""
+msgstr "неудачный"
 
 msgid "running"
-msgstr ""
+msgstr "работающий"
 
 msgid "finished"
-msgstr ""
+msgstr "законченный"
 
-#, fuzzy
-#| msgid "GeoNode Help"
 msgid "GeoNode Resource Processing Library"
-msgstr "Справка по GeoNode"
+msgstr "Библиотека обработки ресурсов GeoNode"
 
 msgid "Disabling this Task will make the Processing Workflow to skip it."
 msgstr ""
+"Отключение этой задачи приведет к тому, что рабочий процесс обработки пропустит ее."
 
 msgid "Processing Workflow Tasks"
-msgstr ""
+msgstr "Обработка задач рабочего процесса"
 
 msgid "Session is Expired. Please login again!"
-msgstr ""
+msgstr "Сеанс истек. Пожалуйста, войдите в систему еще раз!"
 
 #, python-brace-format
 msgid "Admin access forbidden from {visitor_ip}"
-msgstr ""
+msgstr "Доступ администратора запрещен от {visitor_ip}"
 
 msgid "Permissions successfully updated!"
-msgstr ""
+msgstr "Разрешения успешно обновлены!"
 
 #, python-brace-format
 msgid ""
 "User {username} has download permissions but cannot access the resource. Please update "
 "permission consistently!"
 msgstr ""
+"Пользователь {username} имеет права на загрузку, но не может получить доступ к ресурсу. "
+"Пожалуйста, постоянно обновляйте разрешение!"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Error updating permissions :("
-msgstr "Права доступа"
+msgstr "Ошибка обновления разрешений :("
 
-#, fuzzy
-#| msgid "You do not have permissions for this layer."
 msgid "You are not allowed to change permissions for this resource"
-msgstr "У Вас нет прав доступа к данному слою"
+msgstr "Вам не разрешено изменять разрешения для этого ресурса"
 
 msgid "Security Rules Cache Refreshed!"
-msgstr ""
+msgstr "Обновлен кэш правил безопасности!"
 
-#, fuzzy
-#| msgid "You are not permitted to save or edit this map."
 msgid "You cannot modify this resource!"
-msgstr "Вам не разрешается сохранение или создание этой карты."
+msgstr "Вы не можете изменить этот ресурс!"
 
-#, fuzzy
-#| msgid "Password changed successfully."
 msgid "Attributes/Stats Refreshed Successfully!"
-msgstr "Пароль успешно изменен."
+msgstr "Атрибуты / Статистика успешно обновлены!"
 
 msgid "GeoWebCache Tiled Layer Emptied!"
-msgstr ""
+msgstr "Плиточный слой GeoWebCache очищен!"
 
-#, fuzzy
-#| msgid "Set permissions"
 msgid "Wrong permissions specification"
-msgstr "Задать разрешения"
+msgstr "Неправильная спецификация разрешений"
 
-#, fuzzy
-#| msgid "Change password: %s"
 msgid "error delivering notification"
-msgstr "Измените пароль: %s"
+msgstr "ошибка доставки уведомления"
 
 msgid "Service URL"
 msgstr "Сервис URL"
@@ -3113,18 +3139,17 @@ msgstr "Сервис URL"
 msgid "Service Type"
 msgstr "Тип сервиса"
 
-#, fuzzy, python-format
-#| msgid "service interfaces"
+#, python-format
 msgid "Service %(url)s is already registered"
-msgstr "сервисные интерфейсы"
+msgstr "Сервис %(url)s уже зарегистрирован"
 
 #, python-format
 msgid "Could not connect to the service at %(url)s"
-msgstr ""
+msgstr "Не удалось подключиться к сервису по адресу %(url)s"
 
 #, python-format
 msgid "Found service of type %(found_type)s instead of %(service_type)s"
-msgstr ""
+msgstr "Найдена служба типа %(found_type)s вместо %(service_type)s"
 
 msgid "Local"
 msgstr "Локальный"
@@ -3147,70 +3172,50 @@ msgstr "OpenGeoPortal"
 msgid "Web Map Service"
 msgstr "Сервис WMS"
 
-#, fuzzy
-#| msgid "GeoNode's Web Services"
 msgid "GeoNode (Web Map Service)"
-msgstr "Веб-сервисы GeoNode"
+msgstr "Геонод (веб-картографический сервис)"
 
-#, fuzzy
-#| msgid "ArcGIS REST Service"
 msgid "ArcGIS REST MapServer"
-msgstr "Сервис ArcGIS REST"
+msgstr "ArcGIS REST MapServer"
 
-#, fuzzy
-#| msgid "ArcGIS REST Service"
 msgid "ArcGIS REST ImageServer"
-msgstr "Сервис ArcGIS REST"
+msgstr "ArcGIS REST ImageServer"
 
-#, fuzzy
-#| msgid "Remote Services"
 msgid "Remote service unavailable"
-msgstr "Удаленные сервисы"
+msgstr "Удаленная служба недоступна"
 
-#, fuzzy
-#| msgid "Service name"
 msgid "Service unavailable"
-msgstr "Имя сервиса"
+msgstr "Услуга недоступна"
 
-#, fuzzy
-#| msgid "Contact:"
 msgid "Contact"
-msgstr "Контакты:"
+msgstr "Контакт"
 
-#, fuzzy
-#| msgid "Resources"
 msgid "Service Resources"
-msgstr "Ресурсы"
+msgstr "Сервисные ресурсы"
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "Resource harvesting in progress..."
-msgstr "Запрошено скачивание ресурса"
+msgstr "Продолжается сбор ресурсов..."
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "No resources have been imported yet."
-msgstr "Запрошено скачивание ресурса"
+msgstr "Никакие ресурсы еще не были импортированы."
 
 msgid "previous"
-msgstr ""
+msgstr "предыдущий"
 
 msgid "Next"
 msgstr "Далее"
 
 msgid "next"
-msgstr ""
+msgstr "далее"
 
 msgid "Connecting to service..."
-msgstr ""
+msgstr "Подключение к сервису..."
 
 msgid "Edit Service Metadata"
 msgstr "Редактировать метаданные сервиса"
 
-#, fuzzy
-#| msgid "Remote Services"
 msgid "Import Service Resources"
-msgstr "Удаленные сервисы"
+msgstr "Импорт сервисных ресурсов"
 
 msgid "Remove Service"
 msgstr "Отключить сервис"
@@ -3221,23 +3226,17 @@ msgstr "Редактировать сервис"
 msgid "Services"
 msgstr "Сервисы"
 
-#, fuzzy
-#| msgid "Remote Services"
 msgid "Add Remote Service"
-msgstr "Удаленные сервисы"
+msgstr "Добавить удаленную службу"
 
 msgid "Remote services"
 msgstr "Удаленные сервисы"
 
-#, fuzzy
-#| msgid "service interfaces"
 msgid "No services registered"
-msgstr "сервисные интерфейсы"
+msgstr "Услуги не зарегистрированы"
 
-#, fuzzy
-#| msgid "Register New Service"
 msgid "Register Service"
-msgstr "Зарегистрировать новый сервис"
+msgstr "Служба регистрации"
 
 msgid "Register New Service"
 msgstr "Зарегистрировать новый сервис"
@@ -3249,95 +3248,69 @@ msgid "Are you sure you want to remove"
 msgstr "Вы уверены, что хотите удалить"
 
 msgid "Deleting service and its associated resources..."
-msgstr ""
+msgstr "Удаление службы и связанных с ней ресурсов..."
 
-#, fuzzy
-#| msgid "Resources"
 msgid "Import resources"
-msgstr "Ресурсы"
+msgstr "Импорт ресурсов"
 
-#, fuzzy
-#| msgid "now"
 msgid "no"
-msgstr "сейчас"
+msgstr "нет"
 
 msgid "resources can be imported"
-msgstr ""
+msgstr "ресурсы могут быть импортированы"
 
 msgid "- These will be cascaded through your local geoserver instance"
-msgstr ""
+msgstr "- Они будут каскадированы через ваш локальный экземпляр геосервера"
 
-#, fuzzy
-#| msgid "Clear all filters"
 msgid "Clear Filter"
-msgstr "Clear all filters"
+msgstr "Очистить фильтр"
 
 msgid "Back to service details"
-msgstr ""
+msgstr "Вернуться к деталям обслуживания"
 
-#, fuzzy
-#| msgid "Resources"
 msgid "Import Resources"
-msgstr "Ресурсы"
+msgstr "Импорт ресурсов"
 
-#, fuzzy
-#| msgid "Preview"
 msgid "Previous"
-msgstr "Предварительный просмотр"
+msgstr "Предыдущий"
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "All resources have already been imported"
-msgstr "Запрошено скачивание ресурса"
+msgstr "Все ресурсы уже импортированы"
 
 msgid "Harvesting resources..."
-msgstr ""
+msgstr "Сбор ресурсов..."
 
 msgid "Re-scan Service for new Resources"
-msgstr ""
+msgstr "Повторное сканирование службы на наличие новых ресурсов"
 
-#, fuzzy
-#| msgid "service interfaces"
 msgid "Service registered successfully"
-msgstr "сервисные интерфейсы"
+msgstr "Служба успешно зарегистрирована"
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "The selected resources are being imported"
-msgstr "Запрошено скачивание ресурса"
+msgstr "Выбранные ресурсы импортируются"
 
-#, fuzzy
-#| msgid "A resource's download has been requested"
 msgid "The selected resources have been imported"
-msgstr "Запрошено скачивание ресурса"
+msgstr "Выбранные ресурсы были импортированы"
 
-#, fuzzy, python-brace-format
-#| msgid "A resource's download has been requested"
+#, python-brace-format
 msgid "Resource {resource_id} is being processed"
-msgstr "Запрошено скачивание ресурса"
+msgstr "Ресурс {resource_id} обрабатывается"
 
-#, fuzzy
-#| msgid "Password changed successfully."
 msgid "Service rescanned successfully"
-msgstr "Пароль успешно изменен."
+msgstr "Повторное сканирование службы успешно выполнено"
 
-#, fuzzy
-#| msgid "You are not permitted to save or edit this map."
 msgid "You dont have enougth rigths to see the resource detail"
-msgstr "Вам не разрешается сохранение или создание этой карты."
+msgstr "У вас недостаточно возможностей, чтобы увидеть подробную информацию о ресурсе"
 
-#, fuzzy
-#| msgid "You are not permitted to remove this service."
 msgid "You are not permitted to change this service."
-msgstr "Вам не разрешается удалять этот сервис."
+msgstr "Вам не разрешается изменять эту услугу."
 
 msgid "You are not permitted to remove this service."
-msgstr "Вам не разрешается удалять этот сервис."
+msgstr "Вам не разрешается удалять эту услугу."
 
-#, fuzzy, python-brace-format
-#| msgid "Service has been created:"
+#, python-brace-format
 msgid "Service {service.name} has been deleted"
-msgstr "Сервис был создан:"
+msgstr "Сервис {service.name} был удален"
 
 msgid "created"
 msgstr "создал"
@@ -3363,19 +3336,13 @@ msgstr "к"
 msgid "Not Permitted"
 msgstr "Не разрешено"
 
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "          You are not allowed to perform this operation.  \n"
-#| "      "
 msgid ""
 "\n"
 "          You are not allowed to perform this operation.\n"
 "      "
 msgstr ""
 "\n"
-"          Вам не разрешено выполнять данную операцию.  \n"
-"      "
+"Вам не разрешено выполнять эту операцию. "
 
 msgid "Please verify that you are logged in as the correct user."
 msgstr "Проверьте, зарегистрированы ли Вы как пользователь."
@@ -3386,12 +3353,6 @@ msgstr "Авторизуйтесь или зарегистрируйтесь и 
 msgid "Page Not Found"
 msgstr "Страница не найдена"
 
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "      The page you requested does not exist.  Perhaps you are using an outdated "
-#| "bookmark?\n"
-#| "  "
 msgid ""
 "\n"
 "          The page you requested does not exist.  Perhaps you are using an outdated "
@@ -3399,8 +3360,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"      Страница не существует. Возможно, Вы используете устаревшую закладку?\n"
-"  "
+"Запрошенная вами страница не существует. Возможно, вы используете устаревшую закладку? "
 
 msgid "There was a problem loading this page"
 msgstr "Была проблема загрузки этой страницы"
@@ -3422,7 +3382,7 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Granules"
-msgstr ""
+msgstr "Гранулы"
 
 msgid "Share"
 msgstr "Поделиться"
@@ -3457,15 +3417,11 @@ msgstr "Кто может скачать?"
 msgid "Who can change metadata for it?"
 msgstr "Кто может изменить метаданные?"
 
-#, fuzzy
-#| msgid "Who can edit data for this layer?"
 msgid "Who can edit data for this dataset?"
-msgstr "Кто может редактировать данные для этого слоя?"
+msgstr "Кто может редактировать данные этого слоя?"
 
-#, fuzzy
-#| msgid "Who can edit styles for this layer?"
 msgid "Who can edit styles for this dataset?"
-msgstr "Кто может редактировать стили для этого слоя?"
+msgstr "Кто может редактировать стили этого слоя?"
 
 msgid "Who can manage it? (update, delete, change permissions, publish/unpublish it)"
 msgstr ""
@@ -3473,13 +3429,13 @@ msgstr ""
 "публикацию)"
 
 msgid "Placeholder for status-message"
-msgstr ""
+msgstr "Заполнитель для сообщения о статусе"
 
 msgid "Placeholder for status-message-body"
-msgstr ""
+msgstr "Заполнитель для тела сообщения о статусе"
 
 msgid "About GeoNode"
-msgstr "О GeoNode"
+msgstr "О системе"
 
 msgid ""
 "GeoNode is a geospatial content management system, a platform for the management and "
@@ -3487,6 +3443,10 @@ msgid ""
 "software projects under a consistent and easy-to-use interface allowing non-specialized "
 "users to share data and create interactive maps."
 msgstr ""
+"GeoNode - это система управления геопространственным контентом, платформа для управления "
+"и публикации геопространственных данных. Он объединяет зрелые и стабильные программные "
+"проекты с открытым исходным кодом в едином и простом в использовании интерфейсе, "
+"позволяющем неспециалистам обмениваться данными и создавать интерактивные карты."
 
 msgid ""
 "Data management tools built into GeoNode allow for integrated creation of data, "
@@ -3496,21 +3456,26 @@ msgid ""
 "facilitate the use, management, and quality control of the data the GeoNode instance "
 "contains."
 msgstr ""
+"Инструменты управления данными, встроенные в GeoNode, позволяют интегрированно создавать "
+"данные, метаданные и визуализации карт. Каждый набор данных в системе может быть "
+"общедоступным или ограниченным, чтобы разрешить доступ только определенным "
+"пользователям. Социальные функции, такие как профили пользователей и рейтинговые "
+"системы, позволяют создавать сообщества вокруг каждой платформы для облегчения "
+"использования, управления и контроля качества данных, содержащихся в экземпляре GeoNode."
 
 msgid ""
 "It is also designed to be a flexible platform that software developers can extend, "
 "modify or integrate against to meet requirements in their own applications."
 msgstr ""
+"Он также разработан как гибкая платформа, которую разработчики программного обеспечения "
+"могут расширять, модифицировать или интегрировать в соответствии с требованиями своих "
+"собственных приложений."
 
-#, fuzzy
-#| msgid "Account activated"
 msgid "Account Inactive"
-msgstr "Учётная запись активирована"
+msgstr "Учётная запись не активна"
 
-#, fuzzy
-#| msgid "Your account is now active"
 msgid "This account is inactive."
-msgstr "Ваша учётная запись теперь активна"
+msgstr "Учетная запись не активна."
 
 msgid "Account Pending Approval"
 msgstr "Учётная запись ожидает одобрения"
@@ -3524,58 +3489,49 @@ msgstr ""
 "<<b>%(email)s</b>. Если учётная запись будет одобрена, Вы получите подтверждающее "
 "уведомление."
 
-#, fuzzy
-#| msgid "count"
 msgid "Account"
-msgstr "номер"
+msgstr "Учетная запись"
 
-#, fuzzy
-#| msgid "Email Address"
 msgid "E-mail Addresses"
-msgstr "Почтовый адрес"
+msgstr "Почтовые адреса"
 
 msgid "The following e-mail addresses are associated with your account:"
-msgstr ""
+msgstr "Данные почтовые адреса связаны с вашей учетной записью:"
 
 msgid "Verified"
-msgstr ""
+msgstr "Подтверждено"
 
 msgid "Unverified"
-msgstr ""
+msgstr "Не подтверждено"
 
-#, fuzzy
-#| msgid "Primary email"
 msgid "Primary"
-msgstr "Primary email"
+msgstr "Основной"
 
 msgid "Make Primary"
-msgstr ""
+msgstr "Сделать основным"
 
-#, fuzzy
-#| msgid "Restrictions"
 msgid "Re-send Verification"
-msgstr "Ограничения"
+msgstr "Отправить подтверждение еще раз"
 
 msgid "Warning:"
-msgstr ""
+msgstr "Внимание:"
 
 msgid ""
 "You currently do not have any e-mail address set up. You should really add an e-mail "
 "address so you can receive notifications, reset your password, etc."
 msgstr ""
+"В настоящее время у вас нет настроенного адреса электронной почты. Вам действительно "
+"следует добавить адрес электронной почты, чтобы вы могли получать уведомления, сбросить "
+"свой пароль и т.д."
 
-#, fuzzy
-#| msgid "Email Address"
 msgid "Add E-mail Address"
-msgstr "Почтовый адрес"
+msgstr "Добавить E-mail"
 
-#, fuzzy
-#| msgid "Email"
 msgid "Add E-mail"
-msgstr "Электронная почта"
+msgstr "Добавить E-mail"
 
 msgid "Do you really want to remove the selected e-mail address?"
-msgstr ""
+msgstr "Вы действительно хотите удалить выбранный адрес электронной почты?"
 
 #, python-format
 msgid ""
@@ -3586,43 +3542,42 @@ msgid ""
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
+"Привет от %(site_name|urlencode)s!\n"
+"\n"
+"Вы получаете это электронное письмо, потому что пользователь %(user_display)s указал ваш "
+"адрес электронной почты для подключения своей учетной записи.\n"
+"\n"
+"Чтобы подтвердить правильность этого, перейдите к %(activate_url)s\n"
 
 #, python-format
 msgid ""
 "Thank you from %(site_name|urlencode)s!\n"
 "%(site_domain)s"
 msgstr ""
+"Спасибо вам от %(site_name|urlencode)s!\n"
+"%(site_domain)s"
 
-#, fuzzy, python-format
-#| msgid "Confirm email address for %(site_name)s"
+#, python-format
 msgid "Please confirm email address for %(site_name|urlencode)s"
-msgstr "Подтвердите адрес электронной почты для %(site_name)s"
+msgstr "Пожалуйста, подтвердите адрес электронной почты для %(site_name|urlencode)s"
 
 #, python-format
 msgid "You have been invited to sign up at %(site_name|urlencode)s."
-msgstr ""
+msgstr "Вам было предложено зарегистрироваться по адресу %(site_name|urlencode)s."
 
-#, fuzzy, python-format
-#| msgid "Confirm email address for %(site_name)s"
+#, python-format
 msgid "Create an account on %(site_name|urlencode)s"
-msgstr "Подтвердите адрес электронной почты для %(site_name)s"
+msgstr "Создайте учетную запись на %(site_name|urlencode)s"
 
 msgid "This is the email notification to confirm your password has been changed on"
 msgstr ""
+"Это уведомление по электронной почте для подтверждения того, что ваш пароль был изменен "
+"на"
 
-#, fuzzy
-#| msgid "Change password: %s"
 msgid "Change password email notification"
-msgstr "Измените пароль: %s"
+msgstr "Уведомление об изменении пароля по электронной почте"
 
-#, fuzzy, python-format
-#| msgid ""
-#| "You're receiving this email because you or someone else has requested a password for "
-#| "your user account at %(site_name)s.\n"
-#| "It can be safely ignored if you did not request a password reset. Click the link "
-#| "below to reset your password.\n"
-#| "\n"
-#| "%(password_reset_url)s\n"
+#, python-format
 msgid ""
 "Hello from %(site_name|urlencode)s!\n"
 "\n"
@@ -3631,30 +3586,28 @@ msgid ""
 "It can be safely ignored if you did not request a password reset. Click the link below "
 "to reset your password."
 msgstr ""
-"Вы получили это письмо, потому что Вы или кто-то еще просил сбросить пароль для учетной "
-"записи пользователя в %(site_name)s \n"
-"Это письмо может быть проигнорировано, если Вы не запрашивали сброса пароля. Нажмите на "
-"ссылку ниже, чтобы сбросить пароль. \n"
+"Привет от %(site_name|urlencode)s!\n"
 "\n"
-"%(password_reset_url)s\n"
+"Вы получаете это электронное письмо, потому что вы или кто-то другой запросил пароль для "
+"вашей учетной записи пользователя.\n"
+"Его можно смело игнорировать, если вы не запрашивали сброс пароля. Нажмите на ссылку "
+"ниже, чтобы сбросить свой пароль."
 
 #, python-format
 msgid "In case you forgot, your username is %(username)s."
-msgstr ""
+msgstr "На случай, если вы забыли, ваше имя пользователя - %(username)s."
 
 #, python-format
 msgid ""
 "Thank you for using %(site_name|urlencode)s!\n"
 "%(site_domain)s"
 msgstr ""
+"Благодарим вас за использование %(site_name|urlencode)s!\n"
+"%(site_domain)s"
 
-#, fuzzy
-#| msgid "Password reset"
 msgid " Password reset"
-msgstr "Восстановление пароля"
+msgstr " Сброс пароля"
 
-#, fuzzy
-#| msgid "Confirm your email address"
 msgid "Confirm E-mail Address"
 msgstr "Подтвердите адрес Вашей электронной почты"
 
@@ -3663,6 +3616,8 @@ msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail address for "
 "user %(user_display)s."
 msgstr ""
+"Пожалуйста, подтвердите, что <a href=\"mailto:%(email)s\">%(email)s</a> - это адрес "
+"электронной почты для настроек пользователя %(user_display)s."
 
 msgid "Confirm"
 msgstr "Подтвердить"
@@ -3672,6 +3627,9 @@ msgid ""
 "This e-mail confirmation link expired or is invalid. Please <a href=\"%(email_url)s"
 "\">issue a new e-mail confirmation request</a>."
 msgstr ""
+"Срок действия этой ссылки для подтверждения по электронной почте истек или она "
+"недействительна. Пожалуйста, <a href=\"%(email_url)s\">отправьте новый запрос на "
+"подтверждение по электронной почте</a>."
 
 msgid "Signup"
 msgstr "Зарегистрироваться"
@@ -3715,16 +3673,16 @@ msgid "Are you sure you want to log out?"
 msgstr "Вы уверены, что хотите выйти?"
 
 msgid "Password change"
-msgstr ""
+msgstr "Смена пароля"
 
 msgid "Password Change"
-msgstr ""
+msgstr "Смена пароля"
 
 msgid "Change your password here"
-msgstr ""
+msgstr "Измените свой пароль здесь"
 
 msgid "Change my password"
-msgstr ""
+msgstr "Измените мой пароль"
 
 msgid "Password reset"
 msgstr "Восстановление пароля"
@@ -3756,20 +3714,23 @@ msgid ""
 "We have sent you an e-mail. Please contact us if you do not receive it within a few "
 "minutes."
 msgstr ""
+"Мы отправили вам электронное письмо. Пожалуйста, свяжитесь с нами, если вы не получите "
+"его в течение нескольких минут."
 
-#, fuzzy
-#| msgid "Change password"
 msgid "Change Password"
 msgstr "Изменить пароль"
 
 msgid "Bad Token"
-msgstr ""
+msgstr "Не верный токен"
 
 #, python-format
 msgid ""
 "The password reset link was invalid, possibly because it has already been used.  Please "
 "request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
 msgstr ""
+"Ссылка для сброса пароля была недействительной, возможно, потому, что она уже "
+"использовалась. Пожалуйста, запросите <a href=\"%(passwd_reset_url)s\">сброс нового "
+"пароля</a>."
 
 msgid "change password"
 msgstr "изменить пароль"
@@ -3796,17 +3757,17 @@ msgid "Already registered?"
 msgstr "Уже зарегистрированы?"
 
 msgid "Sign Up Closed"
-msgstr ""
+msgstr "Регистрация закрыта"
 
 msgid "We are sorry, but the sign up is currently closed."
-msgstr ""
+msgstr "Мы сожалеем, но регистрация в настоящее время закрыта."
 
 msgid "Note"
 msgstr "Note"
 
 #, python-format
 msgid "you are already logged in as %(user_display)s."
-msgstr ""
+msgstr "вы уже вошли в систему с настройками %(user_display)s."
 
 msgid "Verify your email address"
 msgstr "Подтвердите адрес Вашей электронной почты"
@@ -3827,18 +3788,27 @@ msgid ""
 "you are who you claim to be. For this purpose, we require that you\n"
 "verify ownership of your e-mail address. "
 msgstr ""
+"Эта часть сайта требует, чтобы мы подтвердили, что\n"
+"вы тот, за кого себя выдаете. Для этой цели мы требуем, чтобы вы\n"
+"подтвердили право собственности на свой адрес электронной почты. "
 
 msgid ""
 "We have sent an e-mail to you for\n"
 "verification. Please click on the link inside this e-mail. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
+"Мы отправили вам электронное письмо для\n"
+"подтверждения. Пожалуйста, нажмите на ссылку внутри этого электронного письма. "
+"Пожалуйста\n"
+", свяжитесь с нами, если вы не получите его в течение нескольких минут."
 
 #, python-format
 msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail "
 "address</a>."
 msgstr ""
+"<strong>Примечание:</strong> вы все еще можете <a href=\"%(email_url)s\">изменить свой "
+"адрес электронной почты</a>."
 
 msgid "My Activity feed"
 msgstr "Моя лента активности"
@@ -3927,12 +3897,14 @@ msgid "Sign in"
 msgstr "Подписаться"
 
 msgid "You are using an outdated browser that is not supported by GeoNode."
-msgstr ""
+msgstr "Вы используете устаревший браузер, который не поддерживается GeoNode."
 
 msgid ""
 "Please use a <strong>modern browser</strong> like Mozilla Firefox, Google Chrome or "
 "Safari."
 msgstr ""
+"Пожалуйста, используйте <strong> современный браузер</strong>, такой как Mozilla "
+"Firefox, Google Chrome или Safari."
 
 msgid "Powered by"
 msgstr "Работает на"
@@ -4075,6 +4047,96 @@ msgid ""
 "documented on the wiki at <code>http://geotools.org/</code>.</p>\n"
 "    "
 msgstr ""
+"\n"
+"<p><a href=\"http://geonode.org /\">GeoNode</a> - это открытый сервис, построенный на "
+"программном обеспечении с открытым исходным кодом. Мы рекомендуем вам создавать новые "
+"приложения, используя компоненты и ресурсы, которые оно предоставляет. Эта страница "
+"является отправной точкой для разработчиков, заинтересованных в полном использовании "
+"преимуществ GeoNode. Он также содержит ссылки на исходный код проекта, чтобы любой "
+"желающий мог создать и настроить свой собственный GeoNode. < / p>\n"
+"\n"
+"<h3>Программное обеспечение GeoNode</h3>\n"
+"\n"
+"<p>Весь код, который запускает GeoNode, имеет открытый исходный код. Код доступен по "
+"адресу <a href=\"http://github.com/GeoNode/geonode \">http://github.com/GeoNode/geonode /"
+"</a>. Отслеживание проблем для проекта находится по адресу <a href=\"http://github.com/"
+"GeoNode/geonode/issues \">http://github.com/GeoNode/geonode/issues </a>.</p>\n"
+"\n"
+"<p>GeoNode построен с использованием нескольких проектов с открытым исходным кодом, "
+"каждый из которых имеет свое собственное сообщество. Если вы заинтересованы в добавлении "
+"новых функций в GeoNode, мы рекомендуем вам сделать это, внеся свой вклад в один из "
+"проектов, на которых он построен:</p>\n"
+"<ул>\n"
+"<li><a href=\"http://geoserver.org \">ГеоСервер</a> - основанный на стандартах сервер "
+"для геопространственной информации</li>\n"
+"<li><a href=\"http://geowebcache.org \">GeoWebCache</a> - механизм кэширования для "
+"плиток WMS</li><li><a href=\"http://openlayers.org \">OpenLayers</a> - чистая библиотека "
+"JavaScript, работающая с картами GeoExt</li>\n"
+"<li><a href=\"http://pycsw.org \">pycsw</a> - сервер каталога метаданных CSW, OpenSearch "
+"и OAI-PMH</li>\n"
+"</ul>\n"
+"\n"
+"<h3>Что такое услуги OGC?</h3>\n"
+"<p>Данные в этом приложении обрабатываются с использованием открытых стандартов, "
+"одобренных ISO, и <a href=\"http://opengeospatial.org /\">Открытый геопространственный "
+"консорциум</a>; в частности, WMS (Web Map Service) используется для доступа к картам, "
+"WFS (Web Feature Service) используется для доступа векторные данные, а WCS (Web Coverage "
+"Service) используется для доступа к растровым данным. WMC (Контекстные документы веб-"
+"карты) используется для совместного использования карт. Вы можете использовать эти "
+"сервисы в своих собственных приложениях, используя такие библиотеки, как OpenLayers, "
+"GeoTools и OGR (все они являются программным обеспечением с открытым исходным кодом и "
+"доступны по нулевой цене). Кроме того, CSW (Служба каталогов для Интернета) поддерживает "
+"доступ к коллекциям описательной информации (метаданных) о данных и службах.</p>\n"
+"\n"
+"<h3>Что такое GeoWebCache?</h3>\n"
+"<p>GeoWebCache предоставляет картографические плитки, совместимые с рядом "
+"картографических движков, включая Google Maps, Bing Maps и OpenLayers. Все данные, "
+"размещенные на GeoNode, также доступны через GeoWebCache. GeoWebCache улучшает работу "
+"WMS за счет кэширования данных и предоставления более отзывчивых карт.</p>\n"
+"\n"
+"<h3>Пример кода CSW</h3>\n"
+"<p>Для взаимодействия с CSW GeoNode вы можете использовать любой CSW-клиент (QGIS "
+"MetaSearch, GRASS и т.д.). Следующий пример иллюстрирует простой вызов с использованием "
+"пакета OWSLib Python:</p>\n"
+"<p><код>из owslib.csw импортируйте каталог serviceweb</code></p>\n"
+"<p><код>из owslib.fes импортируйте свойство, подобное</code></p>\n"
+"<p><код>csw = CatalogueServiceWeb('%(CATALOGUE_BASE_URL)s')</код></p>\n"
+"<p><код>anytext = PropertyIsLike('csw:AnyText', 'birds')')</код></p>\n"
+"<p><код>csw.getrecords2(ограничения=[anytext])</code></p>\n"
+"<p><код>распечатать csw.результаты</code></p>\n"
+"<p><код>печать csw.записей</code></p>\n"
+"\n"
+"<h3>Пример кода OpenLayers</h3>\n"
+"\n"
+"<p>Чтобы включить слой карты геонод в карту OpenLayers, сначала найдите название этого "
+"слоя. Это находится в поле <код>название слоя</код> (не <код>заголовок</код>) списка "
+"слоев. Для этого примера мы будем использовать фоновый слой политических границ "
+"Никарагуа, имя которого <код>risk:nicaragua_admin</code>. Затем создайте экземпляр "
+"OpenLayers.Layer.WMS:</p>\n"
+"<p><код>var geonodeLayer = новые открытые слои.Layer.WMS(\"Данные о риске геонод\", "
+"\"http://demo.geonode.org/geoserver/wms \",{ слои: \"риск:никарагуанский_админ\" });</"
+"код></p>\n"
+"\n"
+"<h3>Пример кода Google Maps</h3>\n"
+"<p>Чтобы включить слой карты GeoNode в карту Google, включите имя набора данных в шаблон "
+"URL.</p>\n"
+"<p><код>var tilelayer = новый GTileLayer(null, null, null, {tileUrlTemplate: 'http://"
+"demo.geonode.org/geoserver/gwc/service/gmaps ?layers=risk:nicaragua_admin&#38;zoom={Z}"
+"&#38;x={X}&#38;y={Y}', isPng:true, непрозрачность:0,5 } );</код></p>\n"
+"\n"
+"<h3>Вывод шейп-файла/GeoJSON/GML</h3>\n"
+"<p>Для получения данных из веб-служб GeoNode используйте протокол WFS. Например, чтобы "
+"получить полные административные границы Никарагуа, используйте:</p>\n"
+"<p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;typeName=risk:"
+"nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
+"<p>Изменение формата вывода на <code>json</code>, <code>GML2</code>, <code>GML3</code> "
+"или <code>csv</code> приведет к получению данных в этих форматах. Протокол WFS также "
+"может обрабатывать более точные запросы, задавая ограничивающую рамку или различные "
+"пространственные и непрост-ственные фильтры на основе атрибутов данных.</p>\n"
+"\n"
+"<h3>Пример кода GeoTools</h3>\n"
+"<p>Создайте хранилище данных и извлеките из него тип объекта, затем запустите запрос. "
+"Все это задокументировано в wiki по адресу <код>http://geotools.org /</код>.</p> "
 
 msgid "GeoNode's Web Services"
 msgstr "Веб-сервисы ИС БПД"
@@ -4116,91 +4178,7 @@ msgstr ""
 "Данная страница содержит полезную информацию о способах использования системы. Вы можете "
 "использовать ссылки для навигации к нужному разделу."
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "    <p>The GeoNode provides access to data sets and a map editing application allows "
-#| "users to browse existing maps and contribute their own.</p>\n"
-#| "\n"
-#| "    <h4 id=\"browsing-data\">Browsing Layers</h4>\n"
-#| "    <p>The <a href=\"{{ url_layer_browse }}\">Layers</a> tab allows you to browse "
-#| "data uploaded to this GeoNode.</p>\n"
-#| "    <p>All data can be downloaded in a variety of formats, for use in other "
-#| "applications.</p>\n"
-#| "\n"
-#| "    <h4 id=\"developer-access\">Developer Access</h4>\n"
-#| "    <p>The <a href=\"{{ url_developer }}\"> Developer</a> page is the place for "
-#| "developers to get started building applications against the GeoNode. It includes "
-#| "instructions on using the web services, links to the source code of the GeoNode, and "
-#| "information about the open source projects used to create it.</p>\n"
-#| "\n"
-#| "    <h4 id=\"browsing-maps\">Browsing Maps</h4>\n"
-#| "    <p>The GeoNode allows users to create and share maps with one another.</p>\n"
-#| "    <p>The <a href=\"{{ url_maps_browse }}\">Maps</a> tab is a gateway to map "
-#| "exploration on GeoNode.  From here you can <strong>search for a map</strong> or "
-#| "<strong>create a map</strong>, which will open the <a href=\"/maps/new\">Map "
-#| "Composer</a>.</p>\n"
-#| "    <h5>Google Earth Mode</h5>\n"
-#| "    <p>Any map viewed in the interactive map editor can be seen in 3D mode with the "
-#| "Google Earth plugin. To switch to 3D mode select the Google Earth globe logo, the "
-#| "rightmost button on top toolbar. If you do not have the Google Earth plugin installed "
-#| "you will be prompted to install it.</p>\n"
-#| "\n"
-#| "    <h4 id=\"creating-a-map\">Creating a Map</h4>\n"
-#| "    <p>To create a new map go to the <a href=\"{{ url_maps_browse }}\">Contributed "
-#| "Maps</a> tab and click the <a href=\"{{ url_maps_new }}\">create your own map</a> "
-#| "link.</p>\n"
-#| "    <p>This will take you to the <a href=\"{{ url_maps_new }}\">Map Composer</a> with "
-#| "a base layer loaded.</p>\n"
-#| "    <p>To add data layers from the GeoNode click on the green plus button located "
-#| "below the layers tab on the left hand side of the screen. This will open a dialog "
-#| "listing all the layers available on the GeoNode.</p>\n"
-#| "    <p>To add layers to your map select them and hit the <strong>Add Layers</strong> "
-#| "button. When finished you may hit <strong>Done</strong> to close the dialog and go "
-#| "back to the map.</p>\n"
-#| "\n"
-#| "    <h5>Reordering and Removing Layers</h5>\n"
-#| "    <p>Change the display order of the layers listed in the data tab by simply "
-#| "dragging and dropping their names. The order in the map will be updated to reflect "
-#| "that. To turn a layer's visibility off simply uncheck it, and to remove it entirely "
-#| "select it and hit the red minus button.</p>\n"
-#| "\n"
-#| "    <h5>Saving your map</h5>\n"
-#| "    <p>Once a suitable set of layers and zoom level has been found it's time to save "
-#| "it so others can see it.  Click the Save button--the left most icon on the top "
-#| "toolbar, an image of a map with a disk--on the top menu and fill out the title and "
-#| "abstract of the map.</p>\n"
-#| "\n"
-#| "    <h4 id=\"exporting-a-map\">Exporting a Map</h4>\n"
-#| "    <p>Any map from the GeoNode can be embedded for use in another site or blog. To "
-#| "export a map:</p>\n"
-#| "    <ol>\n"
-#| "      <li>Select the from the list of maps on the community or map page and then hit "
-#| "the 'export map' button.</li> \n"
-#| "      <li>Choose your desired height and width for the widget in the wizard.</li> \n"
-#| "      <li>Copy the HTML snippet provided in the wizard to any HTML page or iFrame-"
-#| "supporting blog post.</li>\n"
-#| "    </ol>\n"
-#| "    <p>This will put an interactive widget showing you map in your web page or blog "
-#| "post.</p>\n"
-#| "    <p>Note that the <a href=\"{{ url_maps_new }}\">Map Composer</a> also has a "
-#| "button to export the map. Just be sure to save the map before exporting if there are "
-#| "changes that you want others to see. It exports the last saved version, not the last "
-#| "viewed version.</p>\n"
-#| "\n"
-#| "    <h4 id=\"remixing-a-map\">Remixing a Map</h4>\n"
-#| "    <p>Any map available can serve as a starting point for a new map.</p>\n"
-#| "    <ol>\n"
-#| "      <li>Open the map in the Map Composer.</li>\n"
-#| "      <li>Add and remove layers as you like.</li>\n"
-#| "      <li>Pan and zoom to highlight the area of interest.</li>\n"
-#| "      <li><strong>IMPORTANT:</strong> Update the title, abstract, contact info and "
-#| "tags to reflect the new map.</li>\n"
-#| "      <li>Save the map.</li>\n"
-#| "    </ol>\n"
-#| "    <p>You will be able to see your new map when you search for it from the <a href="
-#| "\"{{ url_maps_browse }}\">Maps</a> tab.</p> \n"
-#| "    "
+#, python-format
 msgid ""
 "\n"
 "    <p>The GeoNode provides access to data sets and a map editing application allows "
@@ -4283,101 +4261,85 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"<p> GeoNode обеспечивает доступ к наборам данных для приложений редактирования карт, "
-"которые позволяют пользователям просматривать существующие карты и создавать свои "
-"собственные. </p>\n"
+"<p> GeoNode предоставляет доступ к наборам данных, а приложение для редактирования карт "
+"позволяет пользователям просматривать существующие карты и вносить свои собственные.</"
+"p>\n"
 "\n"
-"<h4 id=\"browsing-data\"> Просмотр слоёв </h4> \n"
-"<p> Вкладка <a href=\"{{ url_layer_browse }}\"> Слои </a> позволяет просматривать "
-"данные, загруженные в GeoNode. </p> \n"
-"<p> Все данные могут быть загружены в различных форматах для использования в других "
-"приложениях. </p>\n"
+"<идентификатор h4=\"Просмотр-данные\">Просмотр слоев</h4>\n"
+"<p>Вкладка <a href=\"%(url_dataset_browse)s\">Слои</a> позволяет просматривать данные, "
+"загруженные в этот геонод.</p>\n"
+"<p>Все данные могут быть загружены в различных форматах для использования в других "
+"приложениях.< / p>\n"
 "\n"
-"<h4 id=\"developer-access\"> Доступ разработчикам </h4> \n"
-"<p> Страница <a href=\"{{ url_developer }}\"> Разработчикам </a> является местом, где "
-"разработчики могут начать создание приложений с использованием GeoNode. Она содержит "
-"инструкции по использованию веб-сервисов, ссылки на исходный код GeoNode, а также "
-"информацию о проектах с открытым исходным кодом, используемых для его создания.</p> \n"
+"<идентификатор h4=\"доступ разработчика\">Доступ разработчика</h4>\n"
+"<p>Страница <a href=\"%(url_developer)s\"> Разработчик</a> - это место, где разработчики "
+"могут начать создавать приложения на основе GeoNode. Он включает инструкции по "
+"использованию веб-сервисов, ссылки на исходный код GeoNode и информацию о проектах с "
+"открытым исходным кодом, использованных для его создания.</p>\n"
 "\n"
-"<h4 id=\"browsing-maps\"> Просмотр карт </h4> \n"
-"<p> GeoNode позволяет пользователям создавать и делиться картами друг с другом. </p> \n"
-"<p> Вкладка <a href=\"{{ url_maps_browse }}\"> Карты </a> позволяет получить доступ к "
-"картам, размещенным в GeoNode. Здесь можно <strong> найти карту </ strong> или <strong> "
-"начать создание новой карты </ strong> во встроенном <a href=\"/maps/new\">интерактивном "
-"редакторе карт</a>. </p>\n"
-"<h5> Режим Google Earth </h5> \n"
-"<p> Любую карту, открытую в интерактивном редакторе карт можно просмотреть в режиме 3D "
-"при помощи плагина Google Earth. Для переключения в режим 3D, нажмите на верхней панели "
-"инструментов первую кнопку с логотипом Google Earth. Если у Вас не был установлен Google "
-"Earth, Вам будет предложено установить плагин для браузера. </p>\n"
+"<h4 id=\"просмотр-карты\">Просмотр карт</h4>\n"
+"<p>Геонод позволяет пользователям создавать карты и обмениваться ими друг с другом.</p>\n"
+"<p>Вкладка <a href=\"%(url_maps_browse)s\">Карты</a> является шлюзом для изучения карт "
+"на GeoNode. Отсюда вы можете <strong>выполнить поиск карты</strong> или <strong>создать "
+"карту</strong>, которая откроет Map Composer.</p>\n"
+"<h5>Режим Google Планета Земля</h5>\n"
+"<p>Любую карту, просмотренную в интерактивном редакторе карт, можно увидеть в 3D-режиме "
+"с помощью плагина Google Earth. Чтобы переключиться в 3D-режим, выберите логотип Google "
+"Earth globe, крайнюю правую кнопку на верхней панели инструментов. Если у вас не "
+"установлен плагин Google Планета Земля, вам будет предложено установить его.</p>\n"
 "\n"
-"<h4 id=\"creating-a-map\"> Создание карты </h4> \n"
-"<p> Чтобы создать новую карту, перейдите на вкладку <a href=\"{{ url_maps_browse }}\"> "
-"Карты </a> и нажмите кнопку <a href=\"{{ url_maps_new }}\"> Создать новую карту </a>. </"
-"p> \n"
-"<p> Откроется <a href=\"{{ url_maps_new }}\"> интерактивный редактор карт </a> с "
-"загруженной базовой подложкой. </p> \n"
-"<p> Чтобы добавить слои данных из GeoNode, нажмите на зеленую кнопку с плюсом, "
-"расположенную в панели инструментов Слои на левой стороне экрана, выберите пункт < "
-"strong>Добавить слои</ strong> (Add Layers). Откроется диалоговое окно со списком всех "
-"слоёв, доступных в GeoNode. </p>\n"
-"<p> Чтобы добавить слои на карту, выберите их в списке и нажмите кнопку <strong> "
-"Добавить слои</ strong> (Add Layers). После добавления слоёв, нужно нажать кнопку "
-"<strong> Готово </ strong> (Done), чтобы сохранить изменения, закрыть диалоговое окно и "
-"вернуться к карте. </p>\n"
+"<h4 id=\"создание карты\">Создание карты</h4>\n"
+"<p>Чтобы создать новую карту, перейдите на вкладку <a href=\"%(url_maps_browse)s"
+"\">Предоставленные карты</a> и нажмите ссылку создать свою собственную карту.</p>\n"
+"<p>Это приведет вас к составителю карт с загруженным базовым слоем.</p>\n"
+"<p>Чтобы добавить слои данных из GeoNode, нажмите на зеленую кнопку \"плюс\", "
+"расположенную под вкладкой \"Слои\" в левой части экрана. Это откроет диалоговое окно со "
+"списком всех слоев, доступных на ГеоНоде.</p>\n"
+"<p>Чтобы добавить слои на свою карту, выберите их и нажмите кнопку <strong>Добавить "
+"слои</strong>. Когда закончите, вы можете нажать <strong>Готово</strong>, чтобы закрыть "
+"диалоговое окно и вернуться к карте.</p>\n"
 "\n"
-"<h5> Изменение порядка отображения и удаление слоёв </h5>\n"
-"<p> Чтобы изменить порядок отображения слоёв в интерактивном редакторе, просто "
-"перетаскивайте их вверх или вниз в списке слоёв. Порядок отображения слоёв в карте будет "
-"обновляться автоматически при таких операциях. Чтобы выключить видимость слоя, просто "
-"выключите галочку перед названием слоя в списке. Чтобы удалить слой из карты полностью, "
-"выделите его и нажмите красную кнопку с минусом в панели слоёв. </p>\n"
+"<h5>Изменение порядка и удаление слоев</h5>\n"
+"<p>Измените порядок отображения слоев, перечисленных на вкладке данные, простым "
+"перетаскиванием их названий. Порядок на карте будет обновлен, чтобы отразить это. Чтобы "
+"отключить видимость слоя, просто снимите с него флажок, а чтобы удалить его полностью, "
+"выделите его и нажмите красную кнопку минус.</p>\n"
 "\n"
-"<h5> Сохранение Вашей карты </h5> \n"
-"<p> После настройки набора, порядка, стилей и прочих параметров слоёв, установки "
-"подходящего масштаба карты, можно сохранить сделанные изменения для того, чтобы Вы или "
-"другие пользователи смогли видеть настроенную карту в таком-же виде. Кнопка Сохранить "
-"находится в главной панели инструментов окна, с изображением карты с диска (Map). В "
-"открывшемся при нажатии списке выберите пункт для сохранения карты (Save map). В "
-"открывшемся окне введите название и аннотацию карты.</p>.\n"
+"<h5>Сохранение вашей карты</h5>\n"
+"<p>Как только будет найден подходящий набор слоев и уровень масштабирования, пришло "
+"время сохранить его, чтобы другие могли его увидеть. Нажмите кнопку Сохранить - крайний "
+"левый значок на верхней панели инструментов, изображение карты с диском - в верхнем меню "
+"и заполните название и аннотацию карты.</p>\n"
 "\n"
-"<h4 id=\"exporting-a-map\"> Публикация карты на внешних сайтах </h4> \n"
-"<p> Любая карта в GeoNode может быть встроена в страничку другого сайта, например в "
-"блог. Чтобы произвести такую публикацию, нужно сделать следующее: </p>\n"
-"<ol> \n"
-"<li> Найдите и выберите нужную карту на вкладке карт, перейдите к её просмотру в "
-"интерактивном редакторе, а затем нажмите кнопку \"Публикация карты\" в главной панели "
-"инструментов (Map - Export Map). </li>\n"
-"<li> Введите название и аннотацию. Это окно опционально открывается, если были любые "
-"изменения в карте после её открытия, даже при простом сдвиге. Смотрите примечание ниже. "
-"</li> \n"
-"<li> Выберите желаемую высоту и ширину виджета. </li> \n"
-"<li> Скопируйте HTML-фрагмент, представленный в окне и вставьте его в любую HTML-"
-"страницу или в блог, поддерживающий встраивание элементов типа iframe. </li>\n"
-"</ol> \n"
-"<p> Такие действия позволят установить на Вашей странице виджет, показывающий нужную "
-"карту в виде полностью интерактивного объекта, который позволит управлять картой "
-"пользователю - масштабировать, сдвигать и т.д. </p>\n"
-"<p> Обратите внимание, что <a href=\"{{ url_maps_new }}\"> интерактивный редактор карт </"
-"a> также содержит кнопку, чтобы публиковать карту. Не забудьте сохранить карту, прежде "
-"чем её публиковать, если есть изменения, которые вы хотите, чтобы другие видели. </p>\n"
-"<p><strong>ВАЖНО;</strong> Публикуется всегда последняя сохраненная версия, а не "
-"последняя версия просмотра! </p>\n"
+"<идентификатор h4=\"экспорт карты\">Публикация карты</h4>\n"
+"<p>Любая карта из GeoNode может быть встроена для использования на другом сайте или в "
+"блоге. Чтобы опубликовать карту:</p>\n"
+"<пр>\n"
+"<li>Выберите карту из списка на странице сообщества или карты, а затем нажмите кнопку "
+"\"Опубликовать карту\".</li>\n"
+"<li>Выберите желаемую высоту и ширину виджета в мастере.</li>\n"
+"<li>Скопируйте фрагмент HTML, предоставленный в мастере, на любую HTML-страницу или "
+"сообщение в блоге, поддерживающее iFrame.</li>\n"
+"</ol>\n"
+"<p> Это позволит разместить интерактивный виджет, показывающий вашу карту, на вашей веб-"
+"странице или записи в блоге.</p>\n"
+"<p>Обратите внимание, что в Map Composer также есть кнопка для публикации карты. Просто "
+"обязательно сохраните карту перед публикацией, если есть изменения, которые вы хотите, "
+"чтобы другие увидели. Он публикует последнюю сохраненную версию, а не последнюю "
+"просмотренную версию.</p>\n"
 "\n"
-"<h4 id=\"remixing-a-map\"> Изменение карт</h4> \n"
-"<p> Любая доступная карта может служить в качестве отправной точки для создания  новой "
-"карты. </p> \n"
-"<ol> \n"
-"<li> Откройте любую карту в интерактивном редакторе. </li> \n"
-"<li> Добавляйте и удаляйте слои, по своему смотрению. </li> \n"
-"<li> Меняйте масштаб и отображаемую территорию, чтобы выделить ту область, которая Вам "
-"интересна. </li> \n"
-"<li> <strong>. ВАЖНО: </ strong> Обновите название, аннотацию, контактную информацию и "
-"теги для каждой новой карты. </li> \n"
-"<li> Сохраните карту под новым названием. </li> \n"
-"</ol> \n"
-"<p> Теперь Вы сможете увидеть вашу новую карту, когда будете просматривать вкладку <a "
-"href=\"{{ url_maps_browse }}\"> Карты </a>, а также встроить её в другие сайты.</p>"
+"<h4 id=\"remixing-a-map\">Переделка карты</h4>\n"
+"<p>Любая доступная карта может служить отправной точкой для новой карты.</p>\n"
+"<ol>\n"
+"<li>Откройте карту в Map Composer.</li>\n"
+"<li>Добавляйте и удаляйте слои по своему усмотрению.</li>\n"
+"<li> Панорамируйте и масштабируйте, чтобы выделить интересующую область.</li>\n"
+"<li><strong>ВАЖНО:</strong> Обновите название, аннотацию, контактную информацию и теги, "
+"чтобы отразить новую карту.</li>\n"
+"<li>Сохраните карту.</li>\n"
+"</ol>\n"
+"<p>Вы сможете увидеть свою новую карту при поиске на вкладке <a href="
+"\"%(url_maps_browse)s\">Карты</a>.</p> "
 
 msgid "Sections"
 msgstr "Разделы"
@@ -4419,56 +4381,58 @@ msgid "Show all"
 msgstr "Показать все"
 
 msgid "Dear Sir/Madam,"
-msgstr ""
+msgstr "Дорогой сэр/мадам,"
 
 #, python-format
 msgid "is inviting you to join (%(site_name|urlencode)s)."
-msgstr ""
+msgstr "приглашает вас присоединиться (%(site_name|urlencode)s)."
 
 #, python-format
 msgid ""
 "To do so, please register at <a href=\"%(invite_url)s\">%(site_name|urlencode)s "
 "Registration</a>."
 msgstr ""
+"Для этого, пожалуйста, зарегистрируйтесь по адресу <a href=\"%(invite_url)s\">"
+"%(site_name|urlencode)s Registration</a>."
 
 msgid "Once you receive the confirmation that your account is activated, you can notify"
 msgstr ""
+"Как только вы получите подтверждение того, что ваша учетная запись активирована, вы "
+"можете уведомить"
 
 msgid "that you wish to join her/his group(s) through"
-msgstr ""
+msgstr "что вы хотите присоединиться к ее/его группе (группам) через"
 
 msgid "this link"
-msgstr ""
+msgstr "эта ссылка"
 
 #, python-format
 msgid "<strong>%(inviter_name)s</strong> is a member of the following group(s):"
-msgstr ""
+msgstr "<strong>%(inviter_name)s</strong> является членом следующей группы(ов):"
 
 msgid "We look forward to seeing you on the platform,"
-msgstr ""
+msgstr "Мы с нетерпением ждем встречи с вами на платформе,"
 
 msgid "The GeoNode team."
 msgstr "Администраторы системы."
 
 msgid "is inviting you to join"
-msgstr ""
+msgstr "приглашает вас присоединиться"
 
 msgid "To do so, please register at"
-msgstr ""
+msgstr "Для этого, пожалуйста, зарегистрируйтесь на"
 
 msgid "that you wish to join her/his group(s) through this link"
-msgstr ""
+msgstr "что вы хотите присоединиться к ее/его группе (группам) по этой ссылке"
 
-#, fuzzy
-#| msgid "The following groups:"
 msgid "is a member of the following group(s)"
-msgstr "Следующие группы:"
+msgstr "является членом следующей группы (ов)"
 
 msgid "Updating Metadata..."
 msgstr "Обновление метаданных..."
 
 msgid "Topic Category is mandatory and cannot be empty!"
-msgstr "Пункт Категория является обязательным и не может быть пустым."
+msgstr "Категория темы обязательна и не может быть пустой!"
 
 msgid "Group is mandatory and cannot be empty!"
 msgstr "Группа является обязательным полем и не может быть пустым!"
@@ -4501,16 +4465,16 @@ msgid "Projection System"
 msgstr "Проекция"
 
 msgid "Extension x0"
-msgstr ""
+msgstr "Расширение x0"
 
 msgid "Extension x1"
-msgstr ""
+msgstr "Расширение x1"
 
 msgid "Extension y0"
-msgstr ""
+msgstr "Расширение y0"
 
 msgid "Extension y1"
-msgstr ""
+msgstr "Расширение y1"
 
 msgid "Features"
 msgstr "Объекты"
@@ -4522,7 +4486,7 @@ msgid "References"
 msgstr "Ссылки"
 
 msgid "Link Online"
-msgstr ""
+msgstr "Ссылка онлайн"
 
 msgid "Metadata Page"
 msgstr "Страница метаданных"
@@ -4540,7 +4504,7 @@ msgid "Request perission"
 msgstr "Запросить разрешения"
 
 msgid "Request editing for resource: "
-msgstr "Запрос на редактирование ресурса:"
+msgstr "Запросить редактирование ресурса: "
 
 msgid "Back to resource"
 msgstr "Вернуться к ресурсу"
@@ -4570,7 +4534,7 @@ msgid "You can enable access by setting the user as active on the admin section"
 msgstr "Вы можете включить доступ, активировав пользователя в секции администрирования"
 
 msgid "has created an account and has access to the site."
-msgstr "создал аккаунт и имеет доступ к системе"
+msgstr "создал учетную запись и имеет доступ к сайту."
 
 msgid "A user has requested access to the site"
 msgstr "Пользователь запросил доступ к системе"
@@ -4630,80 +4594,54 @@ msgid "You have received the following notice from"
 msgstr "Вы получили уведомление"
 
 msgid "To change how you receive notifications, please go to "
-msgstr ""
+msgstr "Чтобы изменить способ получения уведомлений, пожалуйста, перейдите по "
 
 #, python-format
 msgid "[%(current_site)s] %(message)s"
-msgstr ""
+msgstr "[%(current_site)s] %(message)s"
 
 #, python-format
 msgid "%(notice)s"
 msgstr "%(notice)s"
 
-#, fuzzy
-#| msgid "The following layer was updated"
 msgid "The following dataset was approved"
-msgstr "Следующий слой был обновлён"
+msgstr "Следующий набор данных был утвержден"
 
-#, fuzzy
-#| msgid "A layer has been rated"
 msgid "A dataset has been approved"
-msgstr "Слой был оценен"
+msgstr "Набор данных был утвержден"
 
-#, fuzzy
-#| msgid "uploaded the following layer"
 msgid "uploaded the following dataset"
-msgstr "загружены следующие слои"
+msgstr "следующий набор данных загружен"
 
-#, fuzzy
-#| msgid "A new layer has been uploaded"
 msgid "A new dataset has been uploaded"
-msgstr "Новый слой был загружен"
+msgstr "Новый набор данных был загружен"
 
-#, fuzzy
-#| msgid "The following layer was deleted"
 msgid "The following dataset was deleted"
-msgstr "Следующий слой был удалён"
+msgstr "Следующий набор данных был удален"
 
-#, fuzzy
-#| msgid "A layer has been deleted"
 msgid "A dataset has been deleted"
-msgstr "Слой был удалён"
+msgstr "Набор данных был удален"
 
-#, fuzzy
-#| msgid "The following layer was deleted"
 msgid "The following dataset was published"
-msgstr "Следующий слой был удалён"
+msgstr "Следующий набор данных был опубликован"
 
-#, fuzzy
-#| msgid "A layer has been deleted"
 msgid "A dataset has been published"
-msgstr "Слой был удалён"
+msgstr "Набор данных был опубликован"
 
-#, fuzzy
-#| msgid "the following layer"
 msgid "the following dataset"
-msgstr "следующий слой"
+msgstr "следующий набор данных"
 
-#, fuzzy
-#| msgid "A layer has been rated"
 msgid "A dataset has been rated"
-msgstr "Слой был оценен"
+msgstr "Набор данных был оценен"
 
-#, fuzzy
-#| msgid "The following layer was updated"
 msgid "The following dataset was updated"
-msgstr "Следующий слой был обновлён"
+msgstr "Был обновлен следующий набор данных"
 
-#, fuzzy
-#| msgid "A layer has been updated"
 msgid "A dataset has been updated"
-msgstr "Слой был обновлён"
+msgstr "Набор данных был обновлен"
 
-#, fuzzy
-#| msgid "The following map was updated"
 msgid "The following map was approved"
-msgstr "Следующая карта была обновлена"
+msgstr "Была утверждена следующая карта"
 
 msgid "You can visit the map's detail page here"
 msgstr "Вы можете посетить страницу сведений карты здесь"
@@ -4759,7 +4697,7 @@ msgstr ""
 "<span class=\"warning\">Note</span>:\n"
 "У Вас нет подтверждённых почтовых адресов, на которые могут быть высланы уведомления. <a "
 "href=\"%(email_url)s\">Добавьте один</a> сейчас.\n"
-"</p>"
+"</p> "
 
 msgid "Notification Type"
 msgstr "Тип уведомления"
@@ -4776,25 +4714,25 @@ msgid "A resource's download has been requested"
 msgstr "Запрос на скачивание был отправлен"
 
 msgid "Privacy &#038; Cookies Policy"
-msgstr ""
+msgstr "Политика конфиденциальности &#038; Cookies"
 
 msgid "Privacy &#038; Cookies Policy."
-msgstr ""
+msgstr "Политика конфиденциальности &#038; Cookies."
 
 msgid "page"
-msgstr ""
+msgstr "страница"
 
 msgid "of"
 msgstr "из"
 
 msgid "search"
-msgstr ""
+msgstr "поиск"
 
 msgid "Search by name"
 msgstr "Поиск"
 
 msgid "Total"
-msgstr ""
+msgstr "Весь"
 
 msgid "Most recent"
 msgstr "Новые"
@@ -4818,13 +4756,14 @@ msgid "Share This"
 msgstr "Поделиться"
 
 msgid "Social Network Login Failure"
-msgstr ""
+msgstr "Сбой входа в социальную сеть"
 
 msgid "An error occurred while attempting to login via your social network account."
 msgstr ""
+"Произошла ошибка при попытке входа в систему через вашу учетную запись в социальной сети."
 
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 msgid "Exception"
 msgstr "Исключение"
@@ -4836,27 +4775,36 @@ msgid ""
 "You can sign in to your account using any of the following already connected third party "
 "accounts:"
 msgstr ""
+"Вы можете войти в свою учетную запись, используя любую из следующих уже подключенных "
+"сторонних учетных записей:"
 
 msgid "You currently have no social network accounts connected to this account."
 msgstr ""
+"В настоящее время у вас нет учетных записей в социальных сетях, подключенных к этой "
+"учетной записи."
 
 msgid "Add a 3rd Party Account"
-msgstr ""
+msgstr "Добавьте учетную запись третьей стороны"
 
 msgid "Login Cancelled"
-msgstr ""
+msgstr "Вход в систему отменен"
 
 #, python-format
 msgid ""
 "You decided to cancel logging in to our site using one of your existing accounts. If "
 "this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
+"Вы решили отменить вход на наш сайт, используя одну из ваших существующих учетных "
+"записей. Если это была ошибка, пожалуйста, перейдите к <a href=\"%(login_url)s\">войдите "
+"в систему</a>."
 
 #, python-format
 msgid ""
 "You are about to use your %(provider_name)s account to login to\n"
 "%(site_name)s. As a final step, please complete the following form:"
 msgstr ""
+"Вы собираетесь использовать свою учетную запись %(provider_name)s для входа в\n"
+"%(site_name)s. В качестве последнего шага, пожалуйста, заполните следующую форму:"
 
 msgid "Sign in with"
 msgstr "Войти с помощью"
@@ -4904,7 +4852,7 @@ msgid "Sent to"
 msgstr "Отправить"
 
 msgid "by"
-msgstr ""
+msgstr "от"
 
 msgid "You have no messages"
 msgstr "У вас нет сообщений"
@@ -4919,35 +4867,43 @@ msgid "Fill in this section with markdown"
 msgstr "Заполните секцию с разметкой"
 
 msgid "Check this if the jumbotron background image already contains text"
-msgstr ""
+msgstr "Проверьте это, если фоновое изображение jumbotron уже содержит текст"
 
 msgid "Disabling this slide will hide it from the slide show"
-msgstr ""
+msgstr "Отключение этого слайда скроет его из слайд-шоу"
 
 msgid "Choose between using jumbotron background and slide show"
-msgstr ""
+msgstr "Выбирайте между использованием фона jumbotron и слайд-шоу"
 
 msgid "Total upload size exceeded. Please try again with smaller files."
 msgstr ""
+"Превышен общий размер загрузки. Пожалуйста, попробуйте еще раз с файлами меньшего "
+"размера."
 
 msgid "The number of active parallel uploads exceeds. Wait for the pending ones to finish."
 msgstr ""
+"Количество активных параллельных загрузок превышает. Подождите, пока завершатся "
+"отложенные."
 
 #, python-brace-format
 msgid "The limit `{instance.slug}` should not be deleted."
-msgstr ""
+msgstr "Ограничение `{instance.slug}` не должно быть удалено."
 
 msgid "The limit `default_max_parallel_uploads` should not be deleted."
-msgstr ""
+msgstr "Ограничение `default_max_parallel_uploads` не должно быть удалено."
 
 msgid "Could not access to uploaded data."
-msgstr "Нет доступа к загруженным данным"
+msgstr "Не удалось получить доступ к загруженным данным."
 
 msgid "One or more XML files was provided, but no matching files were found for them."
 msgstr ""
+"Был предоставлен один или несколько XML-файлов, но для них не было найдено подходящих "
+"файлов."
 
 msgid "One or more SLD files was provided, but no matching files were found for them."
 msgstr ""
+"Был предоставлен один или несколько файлов SLD, но для них не было найдено подходящих "
+"файлов."
 
 msgid "Base file must be a file or url."
 msgstr "Документ должен быть файлом или ссылкой (URL)."
@@ -4956,12 +4912,14 @@ msgstr "Документ должен быть файлом или ссылко�
 msgid ""
 "`{field_name}` field cannot have both a file and a path. Please choose one and try again."
 msgstr ""
+"Поле `{field_name}` не может содержать одновременно файл и путь. Пожалуйста, выберите "
+"один из них и попробуйте еще раз."
 
 msgid "The maximum file size allowed for upload (bytes)."
-msgstr ""
+msgstr "Максимальный размер файла, разрешенный для загрузки (байты)."
 
 msgid "The maximum number of parallel uploads (0 to 32767)."
-msgstr ""
+msgstr "Максимальное количество параллельных загрузок (от 0 до 32767)."
 
 msgid "Upload Datasets"
 msgstr "Загрузить наборы данных"
@@ -4975,15 +4933,6 @@ msgstr "Предоставить CRS для "
 msgid "Coordinate Reference System"
 msgstr "Система координат"
 
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "        A coordinate reference system for this layer could not be determined.\n"
-#| "        Locate or enter the appropriate ESPG code for this layer below.\n"
-#| "        One way to do this is do visit:\n"
-#| "        <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a>\n"
-#| "        and enter the following:\n"
-#| "    "
 msgid ""
 "\n"
 "                A coordinate reference system for this dataset could not be determined.\n"
@@ -4994,23 +4943,23 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Система координат для этого слоя не может быть определена.\n"
-"Выберите или введите соответствующий слою код ESPG ниже.\n"
-"Один из способов это сделать - посетить сайт: \n"
-"<a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a> \n"
-"и ввести следующее:"
+"Не удалось определить систему отсчета координат для этого набора данных.\n"
+"Найдите или введите соответствующий код ESPG для этого набора данных ниже.\n"
+"Один из способов сделать это - посетить:\n"
+"<a href=\"http://prj2epsg.org/search \" target=\"_\">prj2epsg</a>\n"
+"и введите следующее: "
 
 msgid "Native CRS could not be found!"
-msgstr ""
+msgstr "Родной CRS не удалось найти!"
 
 msgid "Provide EPSG code for Source SRS"
-msgstr ""
+msgstr "Предоставьте код EPSG для исходных SRS"
 
 msgid "EPSG Code (Source SRS)"
-msgstr ""
+msgstr "Код EPSG (исходный SRS)"
 
 msgid "Select a Source SRS"
-msgstr ""
+msgstr "Выберите источник SRS"
 
 msgid ""
 "Source SRS EPSG Code is mandatory and represents the native data Spatial Reference "
@@ -5026,30 +4975,35 @@ msgid ""
 "\"Additional Help\" sections.\n"
 "                    "
 msgstr ""
+"Исходный код SRS EPSG является обязательным и представляет собственную систему "
+"пространственной привязки данных.\n"
+"<br><br>\n"
+"Это должно согласовываться со значениями геометрии (например, координаты lon/lat), "
+"хранящимися в геопространственном наборе данных.\n"
+"<br><br>\n"
+"Если это не указано в самих геопространственных данных, они должны быть объявлены "
+"оператором вручную.\n"
+"<br><br>\n"
+"Более подробная информация приведена внизу страницы в разделах \"Дополнительная справка"
+"\". "
 
-#, fuzzy
-#| msgid "Time Options"
 msgid "Advanced Options"
-msgstr "Настройки времени"
+msgstr "Дополнительные параметры"
 
 msgid "Target SRS"
-msgstr ""
+msgstr "Целевые SRS"
 
 msgid "EPSG Code (Target SRS)"
-msgstr ""
+msgstr "Код EPSG (целевой SRS)"
 
-#, fuzzy
-#| msgid "Select an attribute"
 msgid "Select a Target SRS"
-msgstr "Выберите атрибут"
+msgstr "Выберите целевой SRS"
 
 msgid "leave it empty to use only Source SRS"
-msgstr ""
+msgstr "оставьте его пустым, чтобы использовать только исходные SRS"
 
-#, fuzzy
-#| msgid "Coordinate Reference System"
 msgid "Spatial Reference System"
-msgstr "Система координат"
+msgstr "Пространственная система отсчета"
 
 msgid ""
 "A spatial reference system (SRS) or coordinate reference system (CRS) is a coordinate-"
@@ -5069,9 +5023,23 @@ msgid ""
 "                            OGC Abstract Specification, Topic 2: Spatial referencing by "
 "coordinate."
 msgstr ""
+"Система пространственной привязки (SRS) или система отсчета координат (CRS) - это "
+"основанная на координатах локальная,\n"
+"региональная или глобальная система, используемая для определения местоположения "
+"географических объектов. Система пространственной привязки определяет конкретную карту\n"
+"проекция, а также преобразования между различными пространственными системами отсчета. "
+"Системы пространственной привязки\n"
+"определяются простым доступом к функциям OGC с использованием хорошо известного текста, "
+"и поддержка была реализована несколькими\n"
+"основанные на стандартах географические информационные системы. На системы "
+"пространственной привязки можно ссылаться с помощью целого числа SRID,\n"
+"включая коды EPSG, определенные Международной ассоциацией производителей нефти и газа.\n"
+"Это указано в стандарте ISO 19111:2007 \"Географическая информация — пространственная "
+"привязка по координатам\", также опубликованном как\n"
+"спецификация OGC Abstract, тема 2: Пространственная привязка по координатам."
 
 msgid "Identifiers"
-msgstr ""
+msgstr "Идентификаторы"
 
 msgid ""
 "\n"
@@ -5085,12 +5053,24 @@ msgid ""
 "                        such as the European Petroleum Survey Group (EPSG).\n"
 "                        "
 msgstr ""
+"\n"
+"Идентификатор пространственной системы отсчета (SRID) - это уникальное значение, "
+"используемое для однозначной идентификации проектируемых, непроецируемых\n"
+"и локальных определений пространственной системы координат. Эти системы координат лежат "
+"в основе всех приложений ГИС.\n"
+"\n"
+"Практически все крупные поставщики пространственных данных создали свою собственную "
+"реализацию SRID или ссылаются на решения авторитетных организаций,\n"
+"таких как Европейская исследовательская группа по нефти (EPSG). "
 
 msgid ""
 "NOTE: As of 2005 the EPSG SRID values are now maintained by the International\n"
 "                            Association of Oil & Gas Producers (OGP) Surveying & "
 "Positioning Committee"
 msgstr ""
+"ПРИМЕЧАНИЕ: По состоянию на 2005 год значения EPSG SRID теперь поддерживаются "
+"Международным\n"
+"Комитет Ассоциации производителей нефти и газа (OGP) по геодезии и позиционированию"
 
 msgid ""
 "\n"
@@ -5100,6 +5080,10 @@ msgid ""
 "defined as follows:\n"
 "                        "
 msgstr ""
+"\n"
+"SRID являются первичным ключом для таблицы метаданных Открытого геопространственного "
+"консорциума (OGC) spatial_ref_sys для простого\n"
+"Особенности спецификации SQL версий 1.1 и 1.2, которая определяется следующим образом: "
 
 msgid ""
 "\n"
@@ -5113,12 +5097,24 @@ msgid ""
 "above). From the Well Known Text Wikipedia page\n"
 "                        "
 msgstr ""
+"\n"
+"В базах данных с поддержкой пространства (таких как IBM DB2, IBM Informix, Microsoft SQL "
+"Server, MySQL, Oracle RDBMS, Teradata, PostGIS и\n"
+"SQL Anywhere) SRID используются для уникальной идентификации систем координат, "
+"используемых для определения столбцов пространственных данных или отдельных\n"
+"пространственные объекты в пространственном столбце (в зависимости от пространственной "
+"реализации). SRID обычно ассоциируются с хорошо известным\n"
+"текстовое (WKT) строковое определение системы координат (текст SR, выше). Со страницы "
+"известного текста в Википедии "
 
 msgid ""
 "“A WKT string for a spatial reference system describes the datum, geoid, coordinate "
 "system,\n"
 "                            and map projection of the spatial objects”."
 msgstr ""
+"“Строка WKT для пространственной системы отсчета описывает базовую точку, геоид, систему "
+"координат\n"
+"и картографическую проекцию пространственных объектов”."
 
 msgid ""
 "\n"
@@ -5126,18 +5122,25 @@ msgid ""
 "value followed by their well known text:\n"
 "                        "
 msgstr ""
+"\n"
+"Вот две общие системы координат с их значением EPSG SRID, за которым следует их хорошо "
+"известный текст: "
 
 msgid ""
 "\n"
 "                        UTM, Zone 17N, NAD27 — SRID 2029\n"
 "                        "
 msgstr ""
+"\n"
+"UTM, зона 17N, NAD27 — SRID 2029 "
 
 msgid ""
 "\n"
 "                        WGS84 — SRID 4326\n"
 "                        "
 msgstr ""
+"\n"
+"WGS84 — SRID 4326 "
 
 msgid ""
 "\n"
@@ -5147,6 +5150,12 @@ msgid ""
 "trigger coordinate system transformations between spatial objects in others.\n"
 "                        "
 msgstr ""
+"\n"
+"Значения SRID, связанные с пространственными данными, могут использоваться для "
+"ограничения пространственных операций — например, пространственные операции не могут "
+"быть выполнены\n"
+"между пространственными объектами с разными SRID в одних системах или инициировать "
+"преобразования системы координат между пространственными объектами в других. "
 
 msgid ""
 "Source SRS EPSG Code is mandatory and represents the native data Spatial Reference "
@@ -5155,17 +5164,22 @@ msgid ""
 "on the geospatial dataset. If not specified on the geospatial data itself, it\n"
 "                            must be manually declared by the operator."
 msgstr ""
+"Исходный код SRS EPSG является обязательным и представляет собственную систему "
+"пространственной привязки данных. Это должно согласовываться со значениями\n"
+"геометрии (например, координаты lon/lat), хранящимися в геопространственном наборе "
+"данных. Если это не указано в самих геопространственных данных, они\n"
+"должны быть объявлены оператором вручную."
 
 msgid ""
 "Target SRS EPSG Code is optional. This must be used only if we need to re-project the "
 "coordinates from Source SRS to another one.\n"
 "                        "
 msgstr ""
+"Целевой код SRS EPSG необязателен. Это должно использоваться только в том случае, если "
+"нам нужно повторно спроецировать координаты из исходного SRS в другой. "
 
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Dataset Step: CSV Field Mapping"
-msgstr "Загрузка слоя Шаг 2"
+msgstr "Шаг загрузки набора данных: Сопоставление полей CSV"
 
 msgid "Geospatial Data"
 msgstr "Геопространственные данные"
@@ -5177,35 +5191,27 @@ msgstr ""
 "Пожалуйста укажите, какие колонки таблицы содержат координаты широты и долготы в файле "
 "CSV."
 
-#, fuzzy
-#| msgid ""
-#| "With this data, GeoNode was able to guess which attributes contain the\n"
-#| "latitude and longitude coordinates, but please confirm that the correct\n"
-#| "attributes are selected below."
 msgid ""
 "With this data, GeoNode was able to guess which attributes contain the\n"
 "                latitude and longitude coordinates, but please confirm that the correct\n"
 "                attributes are selected below."
 msgstr ""
-"С помощью этих данных, GeoNode определил, какие колонки содержат координаты широты и "
-"долготы, но, пожалуйста, убедитесь, что правильные колонки выбраны ниже."
+"С помощью этих данных GeoNode смог угадать, какие атрибуты содержат\n"
+"координаты широты и долготы, но, пожалуйста, подтвердите, что правильные\n"
+"атрибуты выбраны ниже."
 
 msgid "Select an attribute"
 msgstr "Выберите атрибут"
 
-#, fuzzy
-#| msgid ""
-#| "We did not detect columns that could be used for the latitude and longitude.\n"
-#| "Please verify that you have two columns in your csv file that can be used for\n"
-#| "the latitude and longitude."
 msgid ""
 "We did not detect columns that could be used for the latitude and longitude.\n"
 "        Please verify that you have two columns in your csv file that can be used for\n"
 "        the latitude and longitude."
 msgstr ""
-"Мы не обнаружили столбцы, которые могли бы быть использованы для широты и долготы. "
-"Пожалуйста, убедитесь, что у Вас есть две колонки в вашем CSV файле, которые могут быть "
-"использован в качестве широты и долготы."
+"Мы не обнаружили столбцов, которые можно было бы использовать для широты и долготы.\n"
+"Пожалуйста, убедитесь, что в вашем csv-файле есть два столбца, которые можно "
+"использовать для\n"
+"широта и долгота."
 
 msgid "Your upload is either complete or you haven't resumed an earlier one."
 msgstr "Ваша загрузка является либо полной, либо вы не возобновили её раньше."
@@ -5214,13 +5220,13 @@ msgid "Upload Form"
 msgstr "Форма загрузки"
 
 msgid "Time series configuration"
-msgstr ""
+msgstr "Конфигурация временных рядов"
 
 msgid "Date time fields were detected inside"
-msgstr ""
+msgstr "Поля даты и времени были обнаружены внутри"
 
 msgid "Do you want to configure it as a time series dataset?"
-msgstr ""
+msgstr "Вы хотите настроить его как набор данных временных рядов?"
 
 msgid ""
 "Toggling this selector allows you to configure (or not) this data as a time series; in "
@@ -5234,53 +5240,56 @@ msgid ""
 "\" sections.\n"
 "        "
 msgstr ""
+"Переключение этого селектора позволяет вам настраивать (или нет) эти данные как "
+"временные ряды; в этом случае вам также придется выбрать атрибут\n"
+"чтобы управлять измерением времени.\n"
+"<br><br>\n"
+"Если GeoNode не может проанализировать ни одно из значений для выбранного атрибута, "
+"появятся красные маркеры, выделяющие проблемы.\n"
+"<br><br>\n"
+"Более подробная информация приведена внизу страницы в разделах \"Дополнительная справка"
+"\". "
 
 msgid "Configure as Time-Series"
-msgstr ""
+msgstr "Настроить как временные ряды"
 
 msgid "Use an existing timestamp attribute in the data"
-msgstr ""
+msgstr "Используйте существующий атрибут метки времени в данных"
 
-#, fuzzy
-#| msgid "Existing Time Attribute"
 msgid "Yes: with an existing Time-Attribute"
-msgstr "Существующий временной атрибут"
+msgstr "Да: с существующим атрибутом времени"
 
 msgid "Yes: by converting data to a timestamp using standard date/time representation"
 msgstr ""
+"Да: путем преобразования данных во временную метку с использованием стандартного "
+"представления даты/времени"
 
-#, fuzzy
-#| msgid "Convert Number (As Year)"
 msgid "Convert a number field into a year"
-msgstr "Конвертировать число (как год)"
+msgstr "Преобразуйте числовое поле в год"
 
-#, fuzzy
-#| msgid "Convert Number (As Year)"
 msgid "Yes: by converting a number as Year"
-msgstr "Конвертировать число (как год)"
+msgstr "Да: путем преобразования числа в год"
 
 msgid ""
 "Convert data to a timestamp using standard date/time representation or a custom format"
 msgstr ""
+"Преобразуйте данные во временную метку, используя стандартное представление даты / "
+"времени или пользовательский формат"
 
 msgid "Date Format"
 msgstr "Формат даты"
 
-#, fuzzy
-#| msgid "Attribute Name"
 msgid "Text Attribute Date Format"
-msgstr "Имя атрибута"
+msgstr "Формат даты текстового атрибута"
 
 msgid "Best Guess"
-msgstr ""
+msgstr "Лучшее предположение"
 
 msgid "Custom"
-msgstr ""
+msgstr "Пользовательский"
 
-#, fuzzy
-#| msgid "Choose optional end time attribute"
 msgid "Optional End-Time attribute"
-msgstr "Выберите необязательный атрибут окончания времени"
+msgstr "Необязательный атрибут конечного времени"
 
 msgid "Existing Time Attribute"
 msgstr "Существующий временной атрибут"
@@ -5291,10 +5300,8 @@ msgstr "Конвертировать текстовой атрибут"
 msgid "Convert Number (As Year)"
 msgstr "Конвертировать число (как год)"
 
-#, fuzzy
-#| msgid "attribute description"
 msgid "Time attribute Presentation"
-msgstr "описание атрибутов"
+msgstr "Представление атрибута времени"
 
 msgid "List"
 msgstr "Список"
@@ -5317,14 +5324,6 @@ msgstr "для данных, которые часто обновляются, �
 msgid "Resolution of time attribute"
 msgstr "Разрешение атрибута времени"
 
-#, fuzzy
-#| msgid ""
-#| "A feature can currently support one or two time attributes. If a single\n"
-#| "    attribute is used, the feature is considered relevant at that single point in "
-#| "time. If two\n"
-#| "    attributes are used, the second attribute represents the end of a valid period "
-#| "for the\n"
-#| "    feature."
 msgid ""
 "A dataset can support one or two time attributes. If a single\n"
 "                            attribute is used, the dataset is considered to contain data "
@@ -5333,11 +5332,12 @@ msgid ""
 "of a valid period  hence the dataset is considered\n"
 "                            to contain data that is valid at certain periods in time."
 msgstr ""
-"Объект может сейчас поддерживать один или два атрибута времени. \n"
-"Если используется один атрибут, объект считается актуальным в момент \n"
-"времени, определенный атрибутом времени . Если используются два атрибута, \n"
-"второй атрибут представляет конец периода действия для объекта, в течении \n"
-"заданного интервала он считается актуальным."
+"Набор данных может поддерживать один или два атрибута времени. Если один\n"
+"используется атрибут, считается, что набор данных содержит данные, которые действительны "
+"в отдельные моменты времени. Если два\n"
+"используются атрибуты, второй атрибут представляет конец действительного периода, "
+"следовательно, рассматривается набор данных\n"
+"содержать данные, которые действительны в определенные периоды времени."
 
 msgid ""
 "\n"
@@ -5347,6 +5347,11 @@ msgid ""
 "valid times.\n"
 "                            "
 msgstr ""
+"\n"
+"Для текстовых атрибутов можно указать пользовательский формат (как часть "
+"\"Дополнительных опций\") или использовать подход \"наилучшего предположения\", который "
+"попытается\n"
+"автоматически перевести хорошо известные распознанные шаблоны в действительное время. "
 
 msgid "The 'best guess' will handle date and optional time variants of"
 msgstr "«Лучшее предположение» будет обрабатывать варианты дат и опционально времени"
@@ -5355,30 +5360,28 @@ msgid "In terms of the formatting flags noted above, these are"
 msgstr "С точки зрения флагов форматирования, отмеченных выше, это"
 
 msgid "Modal Header"
-msgstr ""
+msgstr "Модальный заголовок"
 
 msgid " does NOT match any valid ISO-8601 Date-Time string!"
-msgstr ""
+msgstr " не соответствует ни одной допустимой строке даты и времени ISO-8601!"
 
 msgid "Valid ISO-8601 for"
-msgstr ""
+msgstr "Действительный стандарт ISO-8601 для"
 
 msgid "matches a valid ISO-8601 Date-Time string!"
-msgstr ""
+msgstr "соответствует действительной строке даты и времени ISO-8601!"
 
 msgid "Not Valid ISO-8601 for"
-msgstr ""
+msgstr "Недопустимый стандарт ISO-8601 для"
 
 msgid "does NOT match any valid ISO-8601 Date-Time string!"
-msgstr ""
+msgstr "does NOT match any valid ISO-8601 Date-Time string!"
 
-#, fuzzy
-#| msgid "Your selections"
 msgid "Wrong Selection"
-msgstr "Your selections"
+msgstr "Неправильный выбор"
 
 msgid "Please, select one Time Attribute to test!"
-msgstr ""
+msgstr "Пожалуйста, выберите один временной атрибут для тестирования!"
 
 msgid "Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
 msgstr ""
@@ -5390,117 +5393,117 @@ msgstr " Или просто перейдите "
 msgid "now"
 msgstr "сейчас"
 
-#, fuzzy
-#| msgid "Layer Created"
 msgid "Dataset already exists"
-msgstr "Слой создан"
+msgstr "Набор данных уже существует"
 
 msgid "Name already in use and overwrite is False"
-msgstr ""
+msgstr "Имя уже используется, и перезапись является ложной"
 
 msgid "Error configuring time: "
-msgstr ""
+msgstr "Ошибка настройки времени: "
 
 msgid "The GeoServer Import Session is no more available "
-msgstr ""
+msgstr "Сеанс импорта геосервера больше не доступен "
 
 msgid "The Upload Session is no more available "
-msgstr ""
+msgstr "Сеанс загрузки больше не доступен "
 
 #, python-brace-format
 msgid "Expected to find layer named '{name}' in geoserver"
-msgstr ""
+msgstr "Ожидалось найти слой с именем '{name}' на геосервере"
 
 msgid "Exception occurred while parsing the provided Metadata file."
-msgstr ""
+msgstr "Исключение возникло при разборе предоставленного файла метаданных."
 
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Error uploading Dataset"
-msgstr "Скачать метаданные"
+msgstr "Ошибка при загрузке набора данных"
 
 msgid "The UUID identifier from the XML Metadata is already in use in this system."
-msgstr ""
+msgstr "Идентификатор UUID из метаданных XML уже используется в этой системе."
 
 msgid "Invalid zip file detected"
-msgstr ""
+msgstr "Обнаружен недопустимый zip-файл"
 
-#, fuzzy
-#| msgid "Could not find any layers in a compatible projection."
 msgid "Could not find any valid spatial file inside the uploaded zip"
-msgstr "Не удалось найти каких-либо слоёв в совместимой проекции."
+msgstr ""
+"Не удалось найти ни одного допустимого пространственного файла внутри загруженного zip-"
+"файла"
 
 msgid "Invalid kmz file detected"
-msgstr ""
+msgstr "Обнаружен недопустимый файл kmz"
 
-#, fuzzy
-#| msgid "Could not find any layers in a compatible projection."
 msgid "Could not find any kml files inside the uploaded kmz"
-msgstr "Не удалось найти каких-либо слоёв в совместимой проекции."
+msgstr "Не удалось найти никаких файлов kml внутри загруженного kmz"
 
 msgid "Only one shapefile per zip is allowed"
-msgstr ""
+msgstr "Допускается только один шейп-файл на zip-файл"
 
 msgid "kml files with more than one GroundOverlay are not supported"
-msgstr ""
+msgstr "файлы kml с более чем одним GroundOverlay не поддерживаются"
 
 msgid "Ground overlay image declared in kml file cannot be found"
-msgstr ""
+msgstr "Изображение наложения грунта, объявленное в файле kml, не может быть найдено"
 
 msgid "Only one kml file per ZIP is allowed"
-msgstr ""
+msgstr "Допускается только один файл kml на ZIP-файл"
 
 msgid "Only one kml file per kmz is allowed"
-msgstr ""
+msgstr "Разрешен только один файл kml на kmz"
 
 msgid ""
 "You are trying to upload multiple GeoTIFFs without a valid 'indexer.properties' file."
 msgstr ""
+"Вы пытаетесь загрузить несколько Geotiff без действительного файла 'indexer.properties'."
 
 msgid "Only one raster file per ZIP is allowed"
-msgstr ""
+msgstr "Допускается только один растровый файл на ZIP-файл"
 
 msgid "No multiple rasters allowed"
-msgstr ""
+msgstr "Не допускается использование нескольких растров"
 
 msgid "To support the time step, you must enable the OGC_SERVER DATASTORE option"
 msgstr ""
+"Чтобы поддерживать временной шаг, вы должны включить опцию хранилища данных OGC_SERVER"
 
 #, python-brace-format
 msgid "Unsupported file type: {e.message}"
-msgstr ""
+msgstr "Неподдерживаемый тип файла: {e.message}"
 
 #, python-brace-format
 msgid "File does not exist: {absolute_base_file}"
-msgstr ""
+msgstr "Файл не существует: {absolute_base_file}"
 
 #, python-brace-format
 msgid "unknown item state: {task.state}"
-msgstr ""
+msgstr "неизвестное состояние элемента: {task.state}"
 
 msgid "error during import: {progress.get('message')}"
-msgstr ""
+msgstr "ошибка во время импорта: {progress.get('message')}"
 
-#, fuzzy
 msgid "Could not find any valid Time Regex for the Mosaic files."
-msgstr "Не удалось найти каких-либо слоёв в совместимой проекции."
+msgstr ""
+"Не удалось найти ни одного допустимого регулярного выражения времени для файлов мозаики."
 
 msgid "Unsupported DataBase for Mosaics!"
-msgstr ""
+msgstr "Неподдерживаемая база данных для мозаик!"
 
 #, python-brace-format
 msgid ""
 "The number of active parallel uploads exceeds {max_parallel_uploads}. Wait for the "
 "pending ones to finish."
 msgstr ""
+"Количество активных параллельных загрузок превышает {max_parallel_uploads}. Подождите, "
+"пока завершатся отложенные."
 
 msgid ""
 "Total upload size exceeds {filesizeformat(max_size)}. Please try again with smaller "
 "files."
 msgstr ""
+"Общий размер загрузки превышает {file size format (max_size)}. Пожалуйста, попробуйте "
+"еще раз с файлами меньшего размера."
 
 msgid "Upload Session invalid or no more accessible!"
-msgstr ""
+msgstr "Сеанс загрузки недействителен или больше не доступен!"
 
 msgid "Invalid permission level."
 msgstr "Неправильный уровень прав доступа."
