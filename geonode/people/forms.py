@@ -18,6 +18,9 @@
 #########################################################################
 
 import taggit
+import hashlib
+from django.utils.crypto import pbkdf2
+import base64
 
 from django import forms
 from django.contrib.auth import get_user_model
@@ -28,6 +31,8 @@ from datetime import datetime
 import requests
 from allauth.account.forms import SignupForm, LoginForm, PasswordField
 from .utils import filter_users_by_iin
+
+
 
 import logging
 
@@ -123,19 +128,18 @@ class CustomSignupForm(SignupForm):
         first_name = common_name[1]
         last_name = common_name[0]
 
-        import logging
-        logger = logging.getLogger(__name__)
-        logger.info("fucking bitch asdfl;kjasd;fkjasd;fjaskfjsad;fjasfkjdsaklfjas;fljsdf;ljsdkfja;fkjdasfja;klfj")
+        # iin_hash = hashlib.sha1(force_bytes(iin)).hexdigest()
+        iin_hash_base64 = pbkdf2(iin, '1234', 20000, digest=hashlib.sha256)
+        iin_hash = base64.b64encode(iin_hash_base64).decode('ascii').strip()
 
-
-        if filter_users_by_iin(iin).exists():
+        if filter_users_by_iin(iin_hash).exists():
             raise forms.ValidationError(_('IIN already taken'))
         if not result['valid'] or not result['cert']['valid']:
             raise forms.ValidationError(_('Sign not valid'))
         if datetime.today() > cert_finish_date:
             raise forms. ValidationError(_('Sign date expired'))
         
-        self.cleaned_data['iin'] = iin
+        self.cleaned_data['iin'] = iin_hash
         self.cleaned_data['first_name'] = first_name
         self.cleaned_data['last_name'] = last_name
 
@@ -165,6 +169,10 @@ class CustomLoginForm(LoginForm):
         return credentials
 
     def clean(self):
+        if self.cleaned_data["iin"]:
+            iin_hash_base64 = pbkdf2(self.cleaned_data["iin"], '1234', 20000, digest=hashlib.sha256)
+            iin_hash = base64.b64encode(iin_hash_base64).decode('ascii').strip()
+            self.cleaned_data["iin"] = iin_hash
         if self._errors:
             return
         credentials = self.user_credentials()

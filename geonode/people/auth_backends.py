@@ -1,3 +1,6 @@
+import hashlib
+from django.utils.crypto import pbkdf2
+import base64
 from datetime import datetime
 from threading import local
 from django import forms
@@ -31,12 +34,15 @@ class SignAuthenticationBackend(ModelBackend):
             cert_finish_date = datetime.strptime(result['cert']['notAfter'], '%Y-%m-%d %H:%M:%S')
             iin = result['cert']['subject']['iin']
 
+            iin_hash_base64 = pbkdf2(iin, '1234', 20000, digest=hashlib.sha256)
+            iin_hash = base64.b64encode(iin_hash_base64).decode('ascii').strip()
+
             if not result['valid'] or not result['cert']['valid']:
                 raise forms.ValidationError(_('Sign not valid'))
             if datetime.today() > cert_finish_date:
                 raise forms. ValidationError(_('Sign date expired'))
 
-            user = filter_users_by_iin(iin).get()
+            user = filter_users_by_iin(iin_hash).get()
 
             ret = self.user_can_authenticate(user)
             if not ret:

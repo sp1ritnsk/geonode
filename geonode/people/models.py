@@ -137,7 +137,7 @@ class Profile(AbstractUser):
         _("IIN"),
         db_index=True,
         unique=True,
-        max_length=12
+        max_length=255
     )
 
     def __init__(self, *args, **kwargs):

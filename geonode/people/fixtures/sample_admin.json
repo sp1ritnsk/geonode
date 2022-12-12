@@ -12,7 +12,7 @@
 		"password": "pbkdf2_sha256$30000$rjuGt0Obn8on$cxF75frIOSaitNklLZ0IJ/VonUW0fwEFVF96o0M+lGc=",
 		"user_permissions": [],
 		"username": "admin",
-		"iin": "123412341234"
+		"iin": "nQAaHoDWSsZIN7Q3Uzw0qtdXc+g2UWrf+TztunBfdyE="
 	},
 	"model": "people.Profile",
 	"pk": 1000

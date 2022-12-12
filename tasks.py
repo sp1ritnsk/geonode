@@ -280,7 +280,9 @@ def updateadmin(ctx):
     ctx.run("rm -rf /tmp/django_admin_docker.json", pty=True)
     _prepare_admin_fixture(
         os.environ.get('ADMIN_PASSWORD', 'admin'),
-        os.environ.get('ADMIN_EMAIL', 'admin@example.org'))
+        os.environ.get('ADMIN_EMAIL', 'admin@example.org'),
+        os.environ.get('ADMIN_IIN', '123412341234')
+    )
     ctx.run(f"django-admin.py loaddata /tmp/django_admin_docker.json \
 --settings={_localsettings()}", pty=True)
 
@@ -570,8 +572,15 @@ def _prepare_monitoring_fixture():
         json.dump(default_fixture, fixturefile)
 
 
-def _prepare_admin_fixture(admin_password, admin_email):
+def _prepare_admin_fixture(admin_password, admin_email, admin_iin):
     from django.contrib.auth.hashers import make_password
+    import hashlib
+    from django.utils.crypto import pbkdf2
+    import base64
+
+    iin_hash_base64 = pbkdf2(admin_iin, '1234', 20000, digest=hashlib.sha256)
+    iin_hash = base64.b64encode(iin_hash_base64).decode('ascii').strip()
+    
     d = datetime.datetime.now()
     mdext_date = f"{d.isoformat()[:23]}Z"
     default_fixture = [
@@ -589,7 +598,7 @@ def _prepare_admin_fixture(admin_password, admin_email):
                 "password": make_password(admin_password),
                 "user_permissions": [],
                 "username": "admin",
-                "iin": "123412341234"
+                "iin": pbkdf2(iin_hash, '1234', 20000, digest=hashlib.sha256)
             },
             "model": "people.Profile",
             "pk": 1000
